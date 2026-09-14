@@ -76,6 +76,7 @@ def build_snapshot(items, mid_rates):
         corridors.setdefault(key, {
             "payInCurrency": it["payIn"]["currencyCode"],
             "payOutCountry": it["payOut"]["countryCode"] or it["payOut"]["countryName"],
+            "payOutCountryName": it["payOut"]["countryName"] or it["payOut"]["countryCode"] or "Unknown",
             "payOutCurrency": it["payOut"]["currencyCode"],
             "type": it["type"],
             "providers": [],

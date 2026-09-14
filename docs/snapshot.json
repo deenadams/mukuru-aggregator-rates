@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:22:46.296543+00:00",
+  "generatedAt": "2026-09-14T19:45:13.592601+00:00",
   "environment": "staging",
   "totalCorridors": 223,
   "corridors": [
@@ -7,6 +7,7 @@
       "key": "BWP->BW:BWP:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
       "providers": [
@@ -48,6 +49,7 @@
       "key": "BWP->BW:BWP:mukuru-payin",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-payin",
       "providers": [
@@ -79,6 +81,7 @@
       "key": "BWP->BW:BWP:mukuru-wallet-topup",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -110,6 +113,7 @@
       "key": "BWP->BW:BWP:mukuru-wallet-withdrawal",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-withdrawal",
       "providers": [
@@ -132,6 +136,7 @@
       "key": "BWP->CD:USD:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -163,6 +168,7 @@
       "key": "BWP->CN:CNY:bank-top-up",
       "payInCurrency": "BWP",
       "payOutCountry": "CN",
+      "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "bank-top-up",
       "providers": [
@@ -185,6 +191,7 @@
       "key": "BWP->MZ:MZN:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
       "providers": [
@@ -216,6 +223,7 @@
       "key": "BWP->PK:PKR:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -238,6 +246,7 @@
       "key": "BWP->US:USD:bank-top-up",
       "payInCurrency": "BWP",
       "payOutCountry": "US",
+      "payOutCountryName": "United States",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
       "providers": [
@@ -260,6 +269,7 @@
       "key": "BWP->ZA:ZAR:card-top-up",
       "payInCurrency": "BWP",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
       "providers": [
@@ -291,6 +301,7 @@
       "key": "BWP->ZA:ZAR:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -322,6 +333,7 @@
       "key": "BWP->ZM:ZMW:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
       "providers": [
@@ -353,6 +365,7 @@
       "key": "BWP->ZW:USD:cash-collection",
       "payInCurrency": "BWP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -384,6 +397,7 @@
       "key": "GBP->AT:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "AT",
+      "payOutCountryName": "Austria",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -415,6 +429,7 @@
       "key": "GBP->AU:AUD:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "AU",
+      "payOutCountryName": "Australia",
       "payOutCurrency": "AUD",
       "type": "bank-top-up",
       "providers": [
@@ -446,6 +461,7 @@
       "key": "GBP->BD:BDT:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "bank-top-up",
       "providers": [
@@ -477,6 +493,7 @@
       "key": "GBP->BD:BDT:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "cash-collection",
       "providers": [
@@ -508,6 +525,7 @@
       "key": "GBP->BD:BDT:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "mobile-wallet",
       "providers": [
@@ -539,6 +557,7 @@
       "key": "GBP->BE:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "BE",
+      "payOutCountryName": "Belgium",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -570,6 +589,7 @@
       "key": "GBP->BF:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BF",
+      "payOutCountryName": "Burkina Faso",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -592,6 +612,7 @@
       "key": "GBP->BJ:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BJ",
+      "payOutCountryName": "Benin",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -614,6 +635,7 @@
       "key": "GBP->BO:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BO",
+      "payOutCountryName": "Bolivia",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -636,6 +658,7 @@
       "key": "GBP->BW:BWP:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
       "providers": [
@@ -658,6 +681,7 @@
       "key": "GBP->BW:BWP:old-cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "old-cash-collection",
       "providers": [
@@ -689,6 +713,7 @@
       "key": "GBP->CD:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -720,6 +745,7 @@
       "key": "GBP->CD:USD:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
       "providers": [
@@ -742,6 +768,7 @@
       "key": "GBP->CD:XAF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
       "providers": [
@@ -764,6 +791,7 @@
       "key": "GBP->CI:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "CI",
+      "payOutCountryName": "Cote d'Ivoire",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -786,6 +814,7 @@
       "key": "GBP->CM:XAF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "CM",
+      "payOutCountryName": "Cameroon",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
       "providers": [
@@ -808,6 +837,7 @@
       "key": "GBP->CO:COP:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "CO",
+      "payOutCountryName": "Colombia",
       "payOutCurrency": "COP",
       "type": "bank-top-up",
       "providers": [
@@ -839,6 +869,7 @@
       "key": "GBP->CR:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "CR",
+      "payOutCountryName": "Costa Rica",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -861,6 +892,7 @@
       "key": "GBP->DE:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "DE",
+      "payOutCountryName": "Germany",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -892,6 +924,7 @@
       "key": "GBP->DO:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "DO",
+      "payOutCountryName": "Dominican Rep",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -914,6 +947,7 @@
       "key": "GBP->EC:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "EC",
+      "payOutCountryName": "Ecuador",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -936,6 +970,7 @@
       "key": "GBP->ET:ETB:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ET",
+      "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
       "providers": [
@@ -977,6 +1012,7 @@
       "key": "GBP->FI:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "FI",
+      "payOutCountryName": "Finland",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -1008,6 +1044,7 @@
       "key": "GBP->FR:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "FR",
+      "payOutCountryName": "France",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -1039,6 +1076,7 @@
       "key": "GBP->GB:GBP:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
       "payOutCurrency": "GBP",
       "type": "bank-top-up",
       "providers": [
@@ -1070,6 +1108,7 @@
       "key": "GBP->GN:XAF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "GN",
+      "payOutCountryName": "Guinea",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
       "providers": [
@@ -1092,6 +1131,7 @@
       "key": "GBP->GT:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "GT",
+      "payOutCountryName": "Guatemala",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -1114,6 +1154,7 @@
       "key": "GBP->HN:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "HN",
+      "payOutCountryName": "Honduras",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -1136,6 +1177,7 @@
       "key": "GBP->IE:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "IE",
+      "payOutCountryName": "Ireland",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -1167,6 +1209,7 @@
       "key": "GBP->IT:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "IT",
+      "payOutCountryName": "Italy",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -1198,6 +1241,7 @@
       "key": "GBP->KE:KES:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "bank-top-up",
       "providers": [
@@ -1229,6 +1273,7 @@
       "key": "GBP->KE:KES:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "cash-collection",
       "providers": [
@@ -1279,6 +1324,7 @@
       "key": "GBP->KE:KES:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
       "providers": [
@@ -1320,6 +1366,7 @@
       "key": "GBP->ML:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ML",
+      "payOutCountryName": "Mali",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -1342,6 +1389,7 @@
       "key": "GBP->MW:MWK:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
       "providers": [
@@ -1364,6 +1412,7 @@
       "key": "GBP->MW:MWK:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -1395,6 +1444,7 @@
       "key": "GBP->MW:MWK:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
       "providers": [
@@ -1436,6 +1486,7 @@
       "key": "GBP->MZ:MZN:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
       "providers": [
@@ -1467,6 +1518,7 @@
       "key": "GBP->MZ:MZN:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
       "providers": [
@@ -1498,6 +1550,7 @@
       "key": "GBP->NA:NAD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "NA",
+      "payOutCountryName": "Namibia",
       "payOutCurrency": "NAD",
       "type": "cash-collection",
       "providers": [
@@ -1529,6 +1582,7 @@
       "key": "GBP->NE:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "NE",
+      "payOutCountryName": "Niger",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -1551,6 +1605,7 @@
       "key": "GBP->NG:NGN:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
       "providers": [
@@ -1582,6 +1637,7 @@
       "key": "GBP->NG:NGN:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "cash-collection",
       "providers": [
@@ -1613,6 +1669,7 @@
       "key": "GBP->NI:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "NI",
+      "payOutCountryName": "Nicaragua",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -1635,6 +1692,7 @@
       "key": "GBP->NL:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "NL",
+      "payOutCountryName": "Netherlands",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -1666,6 +1724,7 @@
       "key": "GBP->NZ:NZD:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "NZ",
+      "payOutCountryName": "New Zealand",
       "payOutCurrency": "NZD",
       "type": "bank-top-up",
       "providers": [
@@ -1697,6 +1756,7 @@
       "key": "GBP->PA:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "PA",
+      "payOutCountryName": "Panama",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -1719,6 +1779,7 @@
       "key": "GBP->PE:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "PE",
+      "payOutCountryName": "Peru",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -1741,6 +1802,7 @@
       "key": "GBP->PH:PHP:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
+      "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "bank-top-up",
       "providers": [
@@ -1772,6 +1834,7 @@
       "key": "GBP->PH:PHP:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
+      "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "cash-collection",
       "providers": [
@@ -1813,6 +1876,7 @@
       "key": "GBP->PH:PHP:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
+      "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "mobile-wallet",
       "providers": [
@@ -1844,6 +1908,7 @@
       "key": "GBP->PK:PKR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "bank-top-up",
       "providers": [
@@ -1894,6 +1959,7 @@
       "key": "GBP->PK:PKR:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -1925,6 +1991,7 @@
       "key": "GBP->PK:PKR:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "mobile-wallet",
       "providers": [
@@ -1956,6 +2023,7 @@
       "key": "GBP->PL:PLN:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "PL",
+      "payOutCountryName": "Poland",
       "payOutCurrency": "PLN",
       "type": "bank-top-up",
       "providers": [
@@ -1997,6 +2065,7 @@
       "key": "GBP->SK:EUR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "SK",
+      "payOutCountryName": "Slovakia",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -2028,6 +2097,7 @@
       "key": "GBP->SN:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "SN",
+      "payOutCountryName": "Senegal",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -2050,6 +2120,7 @@
       "key": "GBP->SN:XOF:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "SN",
+      "payOutCountryName": "Senegal",
       "payOutCurrency": "XOF",
       "type": "mobile-wallet",
       "providers": [
@@ -2081,6 +2152,7 @@
       "key": "GBP->SV:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "SV",
+      "payOutCountryName": "El Salvador",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -2103,6 +2175,7 @@
       "key": "GBP->TD:XAF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "TD",
+      "payOutCountryName": "Chad",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
       "providers": [
@@ -2125,6 +2198,7 @@
       "key": "GBP->TG:XOF:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "TG",
+      "payOutCountryName": "Togo",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -2147,6 +2221,7 @@
       "key": "GBP->TZ:TZS:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
       "providers": [
@@ -2188,6 +2263,7 @@
       "key": "GBP->ZA:ZAR:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
       "providers": [
@@ -2229,6 +2305,7 @@
       "key": "GBP->ZA:ZAR:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -2290,6 +2367,7 @@
       "key": "GBP->ZM:ZMW:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
       "providers": [
@@ -2312,6 +2390,7 @@
       "key": "GBP->ZM:ZMW:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
       "providers": [
@@ -2343,6 +2422,7 @@
       "key": "GBP->ZW:USD:bank-top-up",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
       "providers": [
@@ -2374,6 +2454,7 @@
       "key": "GBP->ZW:USD:bill-payment",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bill-payment",
       "providers": [
@@ -2464,6 +2545,7 @@
       "key": "GBP->ZW:USD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -2544,6 +2626,7 @@
       "key": "GBP->ZW:USD:mobile-wallet",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
       "providers": [
@@ -2575,6 +2658,7 @@
       "key": "GBP->ZW:USD:old-cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "old-cash-collection",
       "providers": [
@@ -2597,6 +2681,7 @@
       "key": "GBP->ZW:ZAR:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -2628,6 +2713,7 @@
       "key": "GBP->ZW:ZWD:cash-collection",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWD",
       "type": "cash-collection",
       "providers": [
@@ -2650,6 +2736,7 @@
       "key": "MMK->MW:MWK:cash-collection",
       "payInCurrency": "MMK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -2681,6 +2768,7 @@
       "key": "MWK->MW:MWK:cash-collection",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -2742,6 +2830,7 @@
       "key": "MWK->MW:MWK:mukuru-payin",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-payin",
       "providers": [
@@ -2773,6 +2862,7 @@
       "key": "MWK->MW:MWK:mukuru-wallet-topup",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -2804,6 +2894,7 @@
       "key": "MWK->MW:MWK:mukuru-wallet-withdrawal",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-withdrawal",
       "providers": [
@@ -2826,6 +2917,7 @@
       "key": "MWK->MW:MWK:zuku",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "zuku",
       "providers": [
@@ -2857,6 +2949,7 @@
       "key": "MWK->PK:PKR:cash-collection",
       "payInCurrency": "MWK",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -2888,6 +2981,7 @@
       "key": "MWK->ZA:ZAR:cash-collection",
       "payInCurrency": "MWK",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -2919,6 +3013,7 @@
       "key": "SZL->SZ:SZL:cash-collection",
       "payInCurrency": "SZL",
       "payOutCountry": "SZ",
+      "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
       "providers": [
@@ -2950,6 +3045,7 @@
       "key": "UGX->ZW:USD:cash-collection",
       "payInCurrency": "UGX",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -2981,6 +3077,7 @@
       "key": "USD->AO:AOA:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "AO",
+      "payOutCountryName": "Angola",
       "payOutCurrency": "AOA",
       "type": "mobile-wallet",
       "providers": [
@@ -3012,6 +3109,7 @@
       "key": "USD->BW:BWP:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
       "providers": [
@@ -3102,6 +3200,7 @@
       "key": "USD->BW:BWP:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mobile-wallet",
       "providers": [
@@ -3163,6 +3262,7 @@
       "key": "USD->BW:BWP:mukuru-wallet-topup",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -3234,6 +3334,7 @@
       "key": "USD->CD:USD:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -3275,6 +3376,7 @@
       "key": "USD->ET:ETB:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ET",
+      "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
       "providers": [
@@ -3345,6 +3447,7 @@
       "key": "USD->ET:ETB:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "ET",
+      "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "mobile-wallet",
       "providers": [
@@ -3386,6 +3489,7 @@
       "key": "USD->GB:USD:bill-payment",
       "payInCurrency": "USD",
       "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
       "payOutCurrency": "USD",
       "type": "bill-payment",
       "providers": [
@@ -3417,6 +3521,7 @@
       "key": "USD->GH:GHS:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "GH",
+      "payOutCountryName": "Ghana",
       "payOutCurrency": "GHS",
       "type": "bank-top-up",
       "providers": [
@@ -3448,6 +3553,7 @@
       "key": "USD->KE:KES:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
       "providers": [
@@ -3479,6 +3585,7 @@
       "key": "USD->LS:LSL:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "LS",
+      "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "cash-collection",
       "providers": [
@@ -3530,6 +3637,7 @@
       "key": "USD->LS:LSL:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "LS",
+      "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "mobile-wallet",
       "providers": [
@@ -3571,6 +3679,7 @@
       "key": "USD->MW:MWK:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
       "providers": [
@@ -3642,6 +3751,7 @@
       "key": "USD->MW:MWK:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -3803,6 +3913,7 @@
       "key": "USD->MW:MWK:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
       "providers": [
@@ -3934,6 +4045,7 @@
       "key": "USD->MW:MWK:mukuru-wallet-topup",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -4065,6 +4177,7 @@
       "key": "USD->MZ:MZN:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
       "providers": [
@@ -4116,6 +4229,7 @@
       "key": "USD->MZ:MZN:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
       "providers": [
@@ -4177,6 +4291,7 @@
       "key": "USD->NG:NGN:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
       "providers": [
@@ -4218,6 +4333,7 @@
       "key": "USD->PK:PKR:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -4240,6 +4356,7 @@
       "key": "USD->SZ:SZL:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "SZ",
+      "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
       "providers": [
@@ -4271,6 +4388,7 @@
       "key": "USD->SZ:SZL:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "SZ",
+      "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "mobile-wallet",
       "providers": [
@@ -4293,6 +4411,7 @@
       "key": "USD->TZ:TZS:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
       "providers": [
@@ -4324,6 +4443,7 @@
       "key": "USD->UG:UGX:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "UG",
+      "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "cash-collection",
       "providers": [
@@ -4355,6 +4475,7 @@
       "key": "USD->UG:UGX:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "UG",
+      "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "mobile-wallet",
       "providers": [
@@ -4405,6 +4526,7 @@
       "key": "USD->ZA:ZAR:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
       "providers": [
@@ -4566,6 +4688,7 @@
       "key": "USD->ZA:ZAR:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -4717,6 +4840,7 @@
       "key": "USD->ZM:ZMW:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
       "providers": [
@@ -4768,6 +4892,7 @@
       "key": "USD->ZM:ZMW:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
       "providers": [
@@ -4869,6 +4994,7 @@
       "key": "USD->ZM:ZMW:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mobile-wallet",
       "providers": [
@@ -5009,6 +5135,7 @@
       "key": "USD->ZM:ZMW:mukuru-wallet-topup",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -5090,6 +5217,7 @@
       "key": "USD->ZW:RTG:card-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "card-top-up",
       "providers": [
@@ -5112,6 +5240,7 @@
       "key": "USD->ZW:RTG:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "cash-collection",
       "providers": [
@@ -5134,6 +5263,7 @@
       "key": "USD->ZW:USD:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -5524,6 +5654,7 @@
       "key": "USD->ZW:USD:mobile-wallet",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
       "providers": [
@@ -5565,6 +5696,7 @@
       "key": "USD->ZW:USD:mukuru-payin",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-payin",
       "providers": [
@@ -5587,6 +5719,7 @@
       "key": "USD->ZW:USD:mukuru-wallet-topup",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -5877,6 +6010,7 @@
       "key": "USD->ZW:USD:mukuru-wallet-withdrawal",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-withdrawal",
       "providers": [
@@ -5909,6 +6043,7 @@
       "key": "USD->ZW:USD:mukuru_groceries",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru_groceries",
       "providers": [
@@ -5960,6 +6095,7 @@
       "key": "USD->ZW:ZAR:cash-collection",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -5982,6 +6118,7 @@
       "key": "USD->ZW:ZWG:bank-top-up",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "bank-top-up",
       "providers": [
@@ -6023,6 +6160,7 @@
       "key": "ZAR->AA:USD:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "AA",
+      "payOutCountryName": "International",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -6064,6 +6202,7 @@
       "key": "ZAR->AA:ZAR:card-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "AA",
+      "payOutCountryName": "International",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
       "providers": [
@@ -6095,6 +6234,7 @@
       "key": "ZAR->AO:AOA:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "AO",
+      "payOutCountryName": "Angola",
       "payOutCurrency": "AOA",
       "type": "cash-collection",
       "providers": [
@@ -6126,6 +6266,7 @@
       "key": "ZAR->BD:BDT:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "bank-top-up",
       "providers": [
@@ -6157,6 +6298,7 @@
       "key": "ZAR->BD:BDT:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "cash-collection",
       "providers": [
@@ -6188,6 +6330,7 @@
       "key": "ZAR->BD:BDT:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
+      "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "mobile-wallet",
       "providers": [
@@ -6219,6 +6362,7 @@
       "key": "ZAR->BW:BWP:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
       "providers": [
@@ -6250,6 +6394,7 @@
       "key": "ZAR->BW:BWP:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mobile-wallet",
       "providers": [
@@ -6291,6 +6436,7 @@
       "key": "ZAR->BW:BWP:mukuru-wallet-topup",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -6322,6 +6468,7 @@
       "key": "ZAR->CD:USD:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -6353,6 +6500,7 @@
       "key": "ZAR->CD:USD:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
       "providers": [
@@ -6403,6 +6551,7 @@
       "key": "ZAR->CG:XAF:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "CG",
+      "payOutCountryName": "Congo",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
       "providers": [
@@ -6434,6 +6583,7 @@
       "key": "ZAR->CI:XOF:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "CI",
+      "payOutCountryName": "Cote d'Ivoire",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
       "providers": [
@@ -6465,6 +6615,7 @@
       "key": "ZAR->CN:CNY:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "CN",
+      "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "bank-top-up",
       "providers": [
@@ -6516,6 +6667,7 @@
       "key": "ZAR->CN:CNY:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "CN",
+      "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "mobile-wallet",
       "providers": [
@@ -6547,6 +6699,7 @@
       "key": "ZAR->DE:EUR:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "DE",
+      "payOutCountryName": "Germany",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -6578,6 +6731,7 @@
       "key": "ZAR->ET:ETB:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ET",
+      "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
       "providers": [
@@ -6609,6 +6763,7 @@
       "key": "ZAR->FR:EUR:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "FR",
+      "payOutCountryName": "France",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -6640,6 +6795,7 @@
       "key": "ZAR->GB:GBP:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
       "payOutCurrency": "GBP",
       "type": "bank-top-up",
       "providers": [
@@ -6691,6 +6847,7 @@
       "key": "ZAR->GB:USD:bill-payment",
       "payInCurrency": "ZAR",
       "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
       "payOutCurrency": "USD",
       "type": "bill-payment",
       "providers": [
@@ -6713,6 +6870,7 @@
       "key": "ZAR->GH:GHS:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "GH",
+      "payOutCountryName": "Ghana",
       "payOutCurrency": "GHS",
       "type": "bank-top-up",
       "providers": [
@@ -6744,6 +6902,7 @@
       "key": "ZAR->HR:EUR:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "HR",
+      "payOutCountryName": "Croatia",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
       "providers": [
@@ -6775,6 +6934,7 @@
       "key": "ZAR->KE:KES:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "bank-top-up",
       "providers": [
@@ -6816,6 +6976,7 @@
       "key": "ZAR->KE:KES:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "cash-collection",
       "providers": [
@@ -6838,6 +6999,7 @@
       "key": "ZAR->KE:KES:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
       "providers": [
@@ -6889,6 +7051,7 @@
       "key": "ZAR->LS:LSL:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
+      "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "bank-top-up",
       "providers": [
@@ -6911,6 +7074,7 @@
       "key": "ZAR->LS:LSL:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
+      "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "cash-collection",
       "providers": [
@@ -6942,6 +7106,7 @@
       "key": "ZAR->LS:LSL:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
+      "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "mobile-wallet",
       "providers": [
@@ -6973,6 +7138,7 @@
       "key": "ZAR->MW:MWK:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
       "providers": [
@@ -7004,6 +7170,7 @@
       "key": "ZAR->MW:MWK:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -7035,6 +7202,7 @@
       "key": "ZAR->MW:MWK:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
       "providers": [
@@ -7076,6 +7244,7 @@
       "key": "ZAR->MW:MWK:mukuru-wallet-topup",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -7107,6 +7276,7 @@
       "key": "ZAR->MW:MWK:mukuru_groceries",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru_groceries",
       "providers": [
@@ -7139,6 +7309,7 @@
       "key": "ZAR->MZ:MZN:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
       "providers": [
@@ -7170,6 +7341,7 @@
       "key": "ZAR->MZ:MZN:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
       "providers": [
@@ -7230,6 +7402,7 @@
       "key": "ZAR->NA:NAD:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "NA",
+      "payOutCountryName": "Namibia",
       "payOutCurrency": "NAD",
       "type": "cash-collection",
       "providers": [
@@ -7261,6 +7434,7 @@
       "key": "ZAR->NG:NGN:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
       "providers": [
@@ -7292,6 +7466,7 @@
       "key": "ZAR->NG:NGN:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "cash-collection",
       "providers": [
@@ -7323,6 +7498,7 @@
       "key": "ZAR->NG:USD:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
+      "payOutCountryName": "Nigeria",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -7364,6 +7540,7 @@
       "key": "ZAR->NZ:NZD:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "NZ",
+      "payOutCountryName": "New Zealand",
       "payOutCurrency": "NZD",
       "type": "bank-top-up",
       "providers": [
@@ -7386,6 +7563,7 @@
       "key": "ZAR->PH:PHP:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "PH",
+      "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "bank-top-up",
       "providers": [
@@ -7408,6 +7586,7 @@
       "key": "ZAR->PK:PKR:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "bank-top-up",
       "providers": [
@@ -7449,6 +7628,7 @@
       "key": "ZAR->PK:PKR:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -7480,6 +7660,7 @@
       "key": "ZAR->SZ:SZL:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "SZ",
+      "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "bank-top-up",
       "providers": [
@@ -7502,6 +7683,7 @@
       "key": "ZAR->SZ:SZL:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "SZ",
+      "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
       "providers": [
@@ -7524,6 +7706,7 @@
       "key": "ZAR->TZ:TZS:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "cash-collection",
       "providers": [
@@ -7555,6 +7738,7 @@
       "key": "ZAR->TZ:TZS:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
       "providers": [
@@ -7616,6 +7800,7 @@
       "key": "ZAR->UG:UGX:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "UG",
+      "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "cash-collection",
       "providers": [
@@ -7647,6 +7832,7 @@
       "key": "ZAR->UG:UGX:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "UG",
+      "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "mobile-wallet",
       "providers": [
@@ -7678,6 +7864,7 @@
       "key": "ZAR->ZA:ZAR:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
       "providers": [
@@ -7729,6 +7916,7 @@
       "key": "ZAR->ZA:ZAR:card-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
       "providers": [
@@ -7760,6 +7948,7 @@
       "key": "ZAR->ZA:ZAR:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -7821,6 +8010,7 @@
       "key": "ZAR->ZA:ZAR:mpay-non-integration",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "mpay-non-integration",
       "providers": [
@@ -7853,6 +8043,7 @@
       "key": "ZAR->ZA:ZAR:mukuru-payin",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "mukuru-payin",
       "providers": [
@@ -7904,6 +8095,7 @@
       "key": "ZAR->ZM:ZMW:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
       "providers": [
@@ -7935,6 +8127,7 @@
       "key": "ZAR->ZM:ZMW:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
       "providers": [
@@ -7966,6 +8159,7 @@
       "key": "ZAR->ZM:ZMW:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mobile-wallet",
       "providers": [
@@ -7998,6 +8192,7 @@
       "key": "ZAR->ZW:RTG:card-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "card-top-up",
       "providers": [
@@ -8020,6 +8215,7 @@
       "key": "ZAR->ZW:RTG:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "cash-collection",
       "providers": [
@@ -8042,6 +8238,7 @@
       "key": "ZAR->ZW:RTG:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "mobile-wallet",
       "providers": [
@@ -8064,6 +8261,7 @@
       "key": "ZAR->ZW:USD:bank-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
       "providers": [
@@ -8086,6 +8284,7 @@
       "key": "ZAR->ZW:USD:card-top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "card-top-up",
       "providers": [
@@ -8108,6 +8307,7 @@
       "key": "ZAR->ZW:USD:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -8279,6 +8479,7 @@
       "key": "ZAR->ZW:USD:inter-africa",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "inter-africa",
       "providers": [
@@ -8311,6 +8512,7 @@
       "key": "ZAR->ZW:USD:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
       "providers": [
@@ -8343,6 +8545,7 @@
       "key": "ZAR->ZW:USD:mpay-non-integration",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mpay-non-integration",
       "providers": [
@@ -8365,6 +8568,7 @@
       "key": "ZAR->ZW:USD:mukuru-wallet-topup",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -8396,6 +8600,7 @@
       "key": "ZAR->ZW:USD:mukuru_groceries",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru_groceries",
       "providers": [
@@ -8428,6 +8633,7 @@
       "key": "ZAR->ZW:ZAR:cash-collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -8489,6 +8695,7 @@
       "key": "ZAR->ZW:ZIG:mobile-wallet",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZIG",
       "type": "mobile-wallet",
       "providers": [
@@ -8511,6 +8718,7 @@
       "key": "ZMW->CD:USD:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -8542,6 +8750,7 @@
       "key": "ZMW->MW:MWK:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
       "providers": [
@@ -8573,6 +8782,7 @@
       "key": "ZMW->MZ:MZN:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
       "providers": [
@@ -8595,6 +8805,7 @@
       "key": "ZMW->PK:PKR:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
       "providers": [
@@ -8617,6 +8828,7 @@
       "key": "ZMW->ZA:ZAR:bank-top-up",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
       "providers": [
@@ -8639,6 +8851,7 @@
       "key": "ZMW->ZA:ZAR:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
       "providers": [
@@ -8670,6 +8883,7 @@
       "key": "ZMW->ZM:ZMW:abandoned-funds",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "abandoned-funds",
       "providers": [
@@ -8701,6 +8915,7 @@
       "key": "ZMW->ZM:ZMW:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
       "providers": [
@@ -8742,6 +8957,7 @@
       "key": "ZMW->ZM:ZMW:mukuru-payin",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-payin",
       "providers": [
@@ -8764,6 +8980,7 @@
       "key": "ZMW->ZM:ZMW:mukuru-wallet-topup",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-topup",
       "providers": [
@@ -8795,6 +9012,7 @@
       "key": "ZMW->ZM:ZMW:mukuru-wallet-withdrawal",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-withdrawal",
       "providers": [
@@ -8817,6 +9035,7 @@
       "key": "ZMW->ZM:ZMW:zuku",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "zuku",
       "providers": [
@@ -8848,6 +9067,7 @@
       "key": "ZMW->ZW:USD:cash-collection",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
       "providers": [
@@ -8898,6 +9118,7 @@
       "key": "ZWG->ZW:ZWG:bank-top-up",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "bank-top-up",
       "providers": [
@@ -8929,6 +9150,7 @@
       "key": "ZWG->ZW:ZWG:cash-collection",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "cash-collection",
       "providers": [
@@ -8989,6 +9211,7 @@
       "key": "ZWG->ZW:ZWG:inter-africa",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "inter-africa",
       "providers": [
