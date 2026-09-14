@@ -133,8 +133,12 @@ def build_snapshot(items, mid_rates):
         else:
             s["verdict"] = "not-live"
 
+    api_url = os.environ.get("TAURUS_API_URL", "")
+    environment = "staging" if "api-uct" in api_url else ("production" if api_url else "unknown")
+
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "environment": environment,
         "totalCorridors": len(corridor_list),
         "corridors": sorted(corridor_list, key=lambda c: c["key"]),
         "partners": partner_stats,
