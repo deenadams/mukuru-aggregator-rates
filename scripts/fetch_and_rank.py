@@ -158,11 +158,16 @@ def update_history(snapshot):
                 continue
             hkey = f"{c['key']}|{p['provider']}"
             series = history.setdefault(hkey, [])
+            series[:] = [e for e in series if e["date"] != today]  # replace, don't duplicate, same-day reruns
             series.append({"date": today, "deviationVsMid": round(p["deviationVsMid"], 6), "enabled": p["enabled"]})
 
     cutoff = (datetime.now(timezone.utc).date().toordinal() - HISTORY_RETENTION_DAYS)
     for hkey in list(history.keys()):
-        history[hkey] = [e for e in history[hkey] if date.fromisoformat(e["date"]).toordinal() >= cutoff]
+        # de-dupe any pre-existing same-day entries from before this fix, keep the last one per date
+        deduped = {}
+        for e in history[hkey]:
+            deduped[e["date"]] = e
+        history[hkey] = [deduped[d] for d in sorted(deduped) if date.fromisoformat(d).toordinal() >= cutoff]
         if not history[hkey]:
             del history[hkey]
     return history
