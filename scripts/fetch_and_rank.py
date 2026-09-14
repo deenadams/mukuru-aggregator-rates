@@ -101,13 +101,17 @@ def build_snapshot(items, mid_rates):
         enabled = [p for p in c["providers"] if p["enabled"]]
         best_enabled = max(enabled, key=lambda p: p["rate"], default=None)
         best_overall = max(c["providers"], key=lambda p: p["rate"], default=None)
+        no_live_coverage = best_enabled is None
         missed_opportunity = (
-            best_overall is not None and best_enabled is not None
+            not no_live_coverage and best_overall is not None
             and best_overall["productGuid"] != best_enabled["productGuid"]
             and not best_overall["enabled"]
         )
         c["bestEnabled"] = best_enabled
-        c["bestOverall"] = best_overall if missed_opportunity else None
+        # bestOverall doubles as "what to turn on": either a disabled option that beats
+        # the current live best, or (when nothing at all is live) the best of any provider.
+        c["bestOverall"] = best_overall if (missed_opportunity or no_live_coverage) else None
+        c["noLiveCoverage"] = no_live_coverage
         c["soleCoverage"] = len(enabled) == 1
         corridor_list.append({"key": key, **c})
 

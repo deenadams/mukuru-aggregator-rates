@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:45:39.403126+00:00",
+  "generatedAt": "2026-09-14T19:46:37.639626+00:00",
   "environment": "staging",
   "totalCorridors": 223,
   "corridors": [
@@ -43,6 +43,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -75,6 +76,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -107,6 +109,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -129,7 +132,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "173",
+        "title": "Mukuru Wallet Cash Withdrawal BWP",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -162,6 +175,7 @@
         "deviationVsMid": -0.08608847554800017
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -184,7 +198,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Geoswift",
+        "productGuid": "261",
+        "title": "Bank Top-up CNY",
+        "rate": 0.043225,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.4905202334600224,
+        "deviationVsMid": -0.9118792721452073
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -217,6 +241,7 @@
         "deviationVsMid": -0.09358347316876804
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -239,7 +264,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "148",
+        "title": "Cash PKR",
+        "rate": 18.512645,
+        "banded": false,
+        "enabled": false,
+        "midRate": 20.275725311520826,
+        "deviationVsMid": -0.08695522771355713
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -262,7 +297,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Thunes",
+        "productGuid": "241",
+        "title": "Bank top-up USD",
+        "rate": 0.066789,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.07304208144221298,
+        "deviationVsMid": -0.08560929971800008
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -295,6 +340,7 @@
         "deviationVsMid": -0.05878364478573441
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -327,6 +373,7 @@
         "deviationVsMid": -0.05826605169272528
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -359,6 +406,7 @@
         "deviationVsMid": -0.029399523517217505
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -391,6 +439,7 @@
         "deviationVsMid": -0.08608847554800017
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -423,6 +472,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -455,6 +505,7 @@
         "deviationVsMid": -0.005006641856734458
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -487,6 +538,7 @@
         "deviationVsMid": -0.0954476501788036
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -519,6 +571,7 @@
         "deviationVsMid": -0.10227278035549016
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -551,6 +604,7 @@
         "deviationVsMid": -0.0954476501788036
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -583,6 +637,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -605,7 +660,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "61",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -628,7 +693,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "48",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -651,7 +726,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "49",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -674,7 +759,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "91",
+        "title": "Cash BWP",
+        "rate": 16.669279,
+        "banded": false,
+        "enabled": false,
+        "midRate": 18.51393203089185,
+        "deviationVsMid": -0.0996359405346154
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -707,6 +802,7 @@
         "deviationVsMid": -0.0656599596921656
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -739,6 +835,7 @@
         "deviationVsMid": -0.06233185858499998
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -761,7 +858,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "146",
+        "title": "Pepele Mobile",
+        "rate": 1.268005,
+        "banded": true,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.06233185858499998
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -784,7 +891,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "44",
+        "title": "Cash XAF",
+        "rate": 730.313364,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": -0.045246592331364646
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -807,7 +924,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "62",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -830,7 +957,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "43",
+        "title": "Cash XAF",
+        "rate": 730.313364,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": -0.045246592331364646
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -863,6 +1000,7 @@
         "deviationVsMid": -0.18388801159670984
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -885,7 +1023,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "50",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -918,6 +1066,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -940,7 +1089,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "51",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -963,7 +1122,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "52",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1006,6 +1175,7 @@
         "deviationVsMid": -0.026372381894692282
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1038,6 +1208,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1070,6 +1241,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1102,6 +1274,7 @@
         "deviationVsMid": -0.021526999999999963
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1124,7 +1297,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "46",
+        "title": "Cash XAF",
+        "rate": 730.313364,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": -0.045246592331364646
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1147,7 +1330,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "54",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1170,7 +1363,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "55",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1203,6 +1406,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1235,6 +1439,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1267,6 +1472,7 @@
         "deviationVsMid": -0.052327497416957754
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1318,6 +1524,7 @@
         "midRate": 175.03834029991222,
         "deviationVsMid": -0.03374568845769147
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1360,6 +1567,7 @@
         "deviationVsMid": -0.052327497416957754
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -1382,7 +1590,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "39",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1405,7 +1623,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "130",
+        "title": "Bank Top-up MWK",
+        "rate": 2173.796641,
+        "banded": true,
+        "enabled": false,
+        "midRate": 2361.090766116327,
+        "deviationVsMid": -0.0793252541597121
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1438,6 +1666,7 @@
         "deviationVsMid": -0.0793252541597121
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1480,6 +1709,7 @@
         "deviationVsMid": -0.03238889424065418
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1512,6 +1742,7 @@
         "deviationVsMid": -0.050988941756751525
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1544,6 +1775,7 @@
         "deviationVsMid": -0.050988941756751525
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1576,6 +1808,7 @@
         "deviationVsMid": -0.023449472881279566
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1598,7 +1831,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "40",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1631,6 +1874,7 @@
         "deviationVsMid": 0.004902008515414288
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1663,6 +1907,7 @@
         "deviationVsMid": 0.004902008515414288
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1685,7 +1930,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "56",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1718,6 +1973,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1750,6 +2006,7 @@
         "deviationVsMid": -0.035933821555332854
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1772,7 +2029,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "57",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1795,7 +2062,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "58",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -1828,6 +2105,7 @@
         "deviationVsMid": -0.028669051447917118
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1870,6 +2148,7 @@
         "deviationVsMid": -0.028669051447917118
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -1902,6 +2181,7 @@
         "deviationVsMid": -0.24868157838244098
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1953,6 +2233,7 @@
         "midRate": 375.38340029453013,
         "deviationVsMid": -0.013293958365273043
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -1985,6 +2266,7 @@
         "deviationVsMid": -0.013293958365273043
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2017,6 +2299,7 @@
         "deviationVsMid": -0.013293958365273043
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2059,6 +2342,7 @@
         "deviationVsMid": 0.11268462718448378
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2091,6 +2375,7 @@
         "deviationVsMid": -0.03826970274492427
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2113,7 +2398,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "41",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2146,6 +2441,7 @@
         "deviationVsMid": -0.017900365304648228
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2168,7 +2464,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "53",
+        "title": "Cash USD",
+        "rate": 1.304937,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2191,7 +2497,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "45",
+        "title": "Cash XAF",
+        "rate": 730.313364,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": -0.045246592331364646
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2214,7 +2530,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "42",
+        "title": "Cash XOF",
+        "rate": 881.634951,
+        "banded": false,
+        "enabled": false,
+        "midRate": 764.9235479382218,
+        "deviationVsMid": 0.1525791739270711
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2257,6 +2583,7 @@
         "deviationVsMid": -0.019643339934547796
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2299,6 +2626,7 @@
         "deviationVsMid": -0.037387219573858044
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2361,6 +2689,7 @@
         "deviationVsMid": 0.01844436753842777
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2383,7 +2712,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "78",
+        "title": "Bank Top-up ZMW",
+        "rate": 22.684283,
+        "banded": false,
+        "enabled": false,
+        "midRate": 25.997145302867004,
+        "deviationVsMid": -0.12743177238393386
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2416,6 +2755,7 @@
         "deviationVsMid": -0.10464080848780732
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2448,6 +2788,7 @@
         "deviationVsMid": -0.02556032692700003
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2539,6 +2880,7 @@
         "midRate": 1.3522961312159982,
         "deviationVsMid": -0.0060712524620001
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2620,6 +2962,7 @@
         "midRate": 1.3522961312159982,
         "deviationVsMid": -0.01591229222600001
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2652,6 +2995,7 @@
         "deviationVsMid": -0.03502127242900001
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2674,7 +3018,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "74",
+        "title": "US$ Mukuru-CABS Card Top Up",
+        "rate": 1.304937,
+        "banded": true,
+        "enabled": false,
+        "midRate": 1.3522961312159982,
+        "deviationVsMid": -0.03502127242900001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2707,6 +3061,7 @@
         "deviationVsMid": -0.011219101511791313
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2729,7 +3084,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "3",
+        "title": "Cash ZWD",
+        "rate": 1.999793,
+        "banded": false,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2762,6 +3127,7 @@
         "deviationVsMid": -0.05274171666238485
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2824,6 +3190,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -2856,6 +3223,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2888,6 +3256,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2910,7 +3279,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "193",
+        "title": "Mukuru Wallet Cash Withdrawal MWK",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -2943,6 +3322,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -2975,6 +3355,7 @@
         "deviationVsMid": -0.0841846002004873
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3007,6 +3388,7 @@
         "deviationVsMid": -0.06204703351889245
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3039,6 +3421,7 @@
         "deviationVsMid": -0.5
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3071,6 +3454,7 @@
         "deviationVsMid": -0.08508252946799993
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3103,6 +3487,7 @@
         "deviationVsMid": -0.6023679303534972
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3194,6 +3579,7 @@
         "midRate": 13.690738,
         "deviationVsMid": -0.005795012657462286
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3256,6 +3642,7 @@
         "deviationVsMid": -0.012042009714888977
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3328,6 +3715,7 @@
         "deviationVsMid": -0.020487719507889118
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3370,6 +3758,7 @@
         "deviationVsMid": -0.047619999999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3441,6 +3830,7 @@
         "midRate": 161.46801,
         "deviationVsMid": -0.01818537306553781
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3483,6 +3873,7 @@
         "deviationVsMid": -0.012187615367279185
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3515,6 +3906,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3547,6 +3939,7 @@
         "deviationVsMid": 0.01277645634534969
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3579,6 +3972,7 @@
         "deviationVsMid": -0.002224055328101375
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -3631,6 +4025,7 @@
         "deviationVsMid": 0.00390120712604723
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3673,6 +4068,7 @@
         "deviationVsMid": 0.008832001742588129
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3745,6 +4141,7 @@
         "deviationVsMid": -0.009854877553482145
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -3907,6 +4304,7 @@
         "deviationVsMid": 0.020742842715352226
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4039,6 +4437,7 @@
         "deviationVsMid": 0.9184111862336796
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4171,6 +4570,7 @@
         "deviationVsMid": 0.020742842715352226
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4223,6 +4623,7 @@
         "deviationVsMid": -0.028822715321469638
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4285,6 +4686,7 @@
         "deviationVsMid": -0.018872583074413196
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4327,6 +4729,7 @@
         "deviationVsMid": 0.20986811739271058
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -4349,7 +4752,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "149",
+        "title": "Cash PKR",
+        "rate": 251.85909,
+        "banded": false,
+        "enabled": false,
+        "midRate": 277.589643,
+        "deviationVsMid": -0.09269277024143156
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -4382,6 +4795,7 @@
         "deviationVsMid": -0.028245400488989134
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -4404,7 +4818,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "MFS",
+        "productGuid": "379",
+        "title": "MTN top-up SZL",
+        "rate": 7.036,
+        "banded": false,
+        "enabled": false,
+        "midRate": 16.15987,
+        "deviationVsMid": -0.5646004578007126
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -4437,6 +4861,7 @@
         "deviationVsMid": 0.019381816596347665
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -4469,6 +4894,7 @@
         "deviationVsMid": -0.06937437403954347
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -4520,6 +4946,7 @@
         "midRate": 3796.338052,
         "deviationVsMid": -0.022843092688838402
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -4682,6 +5109,7 @@
         "deviationVsMid": 0.022036425876607518
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4834,6 +5262,7 @@
         "deviationVsMid": 0.02689231016352956
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4886,6 +5315,7 @@
         "deviationVsMid": 0.07260713403095541
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -4988,6 +5418,7 @@
         "deviationVsMid": -0.060802165076582045
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -5129,6 +5560,7 @@
         "midRate": 19.224447,
         "deviationVsMid": 0.08869628343535692
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -5211,6 +5643,7 @@
         "deviationVsMid": -0.04692239001725265
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -5233,7 +5666,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "166",
+        "title": "Mukuru-CABS Card Top-up",
+        "rate": 9.894353,
+        "banded": true,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -5256,7 +5699,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "165",
+        "title": "Cash RTGS",
+        "rate": 9.894353,
+        "banded": true,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -5648,6 +6101,7 @@
         "midRate": 1.0,
         "deviationVsMid": 0.0
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -5690,6 +6144,7 @@
         "deviationVsMid": -0.047619999999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -5712,7 +6167,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "248",
+        "title": "Mukuru Payin USD",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -6004,6 +6469,7 @@
         "midRate": 1.0,
         "deviationVsMid": 0.0
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -6036,7 +6502,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "249",
+        "title": "Mukuru Wallet Withdrawal USD",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -6089,6 +6565,7 @@
         "deviationVsMid": -0.029127000000000014
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -6111,7 +6588,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "458",
+        "title": "Cash ZAR",
+        "rate": 16.233137,
+        "banded": false,
+        "enabled": false,
+        "midRate": 16.161423,
+        "deviationVsMid": 0.004437356784733625
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -6154,6 +6641,7 @@
         "deviationVsMid": -0.9637496951574113
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6196,6 +6684,7 @@
         "deviationVsMid": -0.02221774707700003
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -6228,6 +6717,7 @@
         "deviationVsMid": -0.09091000000000005
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6260,6 +6750,7 @@
         "deviationVsMid": -0.4274764838638129
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6292,6 +6783,7 @@
         "deviationVsMid": -0.11424554174660691
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6324,6 +6816,7 @@
         "deviationVsMid": -0.08941133154158691
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6356,6 +6849,7 @@
         "deviationVsMid": -0.11424554174660691
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6388,6 +6882,7 @@
         "deviationVsMid": -0.11781566221192752
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6430,6 +6925,7 @@
         "deviationVsMid": -0.12335794057449645
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6462,6 +6958,7 @@
         "deviationVsMid": -0.06692113839429259
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6494,6 +6991,7 @@
         "deviationVsMid": -0.112673231608
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6545,6 +7043,7 @@
         "midRate": 0.06187573953110441,
         "deviationVsMid": -0.112673231608
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6577,6 +7076,7 @@
         "deviationVsMid": -0.9984313091690599
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6609,6 +7109,7 @@
         "deviationVsMid": -0.09713136936712896
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6661,6 +7162,7 @@
         "deviationVsMid": -0.03792183696875796
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -6693,6 +7195,7 @@
         "deviationVsMid": -0.03239157332318381
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6725,6 +7228,7 @@
         "deviationVsMid": -0.11651102524337607
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6757,6 +7261,7 @@
         "deviationVsMid": -0.7130056426980118
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6789,6 +7294,7 @@
         "deviationVsMid": -0.11651102524337607
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6841,6 +7347,7 @@
         "deviationVsMid": -0.04043306169580637
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6863,7 +7370,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "256",
+        "title": "DStv USD",
+        "rate": 0.060501,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.02221774707700003
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -6896,6 +7413,7 @@
         "deviationVsMid": -0.02171955219384831
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6928,6 +7446,7 @@
         "deviationVsMid": -0.5140773152035498
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6970,6 +7489,7 @@
         "deviationVsMid": -0.10903600260436896
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -6992,7 +7512,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "111",
+        "title": "Cash KES",
+        "rate": 7.659046,
+        "banded": true,
+        "enabled": false,
+        "midRate": 8.009064362711129,
+        "deviationVsMid": -0.04370277810985717
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7045,6 +7575,7 @@
         "deviationVsMid": -0.03679572910953249
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7067,7 +7598,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "69",
+        "title": "Bank Top-up LSL",
+        "rate": 0.970873,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.9999039069765083,
+        "deviationVsMid": -0.029033696912227777
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7100,6 +7641,7 @@
         "deviationVsMid": -0.09082263439804916
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7132,6 +7674,7 @@
         "deviationVsMid": -0.09082263439804916
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7164,6 +7707,7 @@
         "deviationVsMid": -0.12093498411403804
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7196,6 +7740,7 @@
         "deviationVsMid": -0.11287016796405634
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7238,6 +7783,7 @@
         "deviationVsMid": -0.12093498411403804
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -7270,6 +7816,7 @@
         "deviationVsMid": -0.09421067023501699
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7302,7 +7849,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "179",
+        "title": "K25,000 Farmer's world Groceries",
+        "rate": 104.466,
+        "banded": false,
+        "enabled": false,
+        "midRate": 108.03420484693706,
+        "deviationVsMid": -0.033028473269114164
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7335,6 +7892,7 @@
         "deviationVsMid": -0.11473603249776596
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7396,6 +7954,7 @@
         "midRate": 3.950076054565245,
         "deviationVsMid": -0.11473603249776596
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -7428,6 +7987,7 @@
         "deviationVsMid": -0.09082263439804916
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7460,6 +8020,7 @@
         "deviationVsMid": -0.7028217220647911
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7492,6 +8053,7 @@
         "deviationVsMid": -0.08185501082841401
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7534,6 +8096,7 @@
         "deviationVsMid": -0.11112173500000001
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7556,7 +8119,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "TransFast",
+        "productGuid": "295",
+        "title": "Bank top-up NZD",
+        "rate": 0.08634,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.10648146515316134,
+        "deviationVsMid": -0.189154658270246
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7579,7 +8152,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "TerraPay",
+        "productGuid": "510",
+        "title": "Bank top-up PHP",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 3.8786919320161353,
+        "deviationVsMid": -0.7421811225208076
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7622,6 +8205,7 @@
         "deviationVsMid": -0.025853678424162335
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7654,6 +8238,7 @@
         "deviationVsMid": -0.11441244022383439
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7676,7 +8261,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "68",
+        "title": "Bank Top-up SZL",
+        "rate": 0.970873,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.9999039069765083,
+        "deviationVsMid": -0.029033696912227777
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7699,7 +8294,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "224",
+        "title": "Cash SZL",
+        "rate": 0.90909,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.9999039069765083,
+        "deviationVsMid": -0.09082263439804916
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -7732,6 +8337,7 @@
         "deviationVsMid": -0.1143392533763914
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7794,6 +8400,7 @@
         "deviationVsMid": -0.02577317505321947
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -7826,6 +8433,7 @@
         "deviationVsMid": -0.06934124551201522
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7858,6 +8466,7 @@
         "deviationVsMid": -0.1285649853241005
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -7910,6 +8519,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -7942,6 +8552,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8004,6 +8615,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -8036,7 +8648,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "220",
+        "title": "The Acme TV Company RC",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8089,6 +8711,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8121,6 +8744,7 @@
         "deviationVsMid": -0.1436746649146269
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8153,6 +8777,7 @@
         "deviationVsMid": -0.17627418057788619
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8185,7 +8810,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Zeepay",
+        "productGuid": "183",
+        "title": "MTN top-up ZMW",
+        "rate": 1.357932,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.1895268752015218,
+        "deviationVsMid": 0.14157319881482128
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8208,7 +8843,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "164",
+        "title": "Mukuru-CABS Card RTGS",
+        "rate": 0.90909,
+        "banded": true,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8231,7 +8876,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "163",
+        "title": "Cash RTGS",
+        "rate": 0.90909,
+        "banded": true,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8254,7 +8909,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "160",
+        "title": "Ecocash RTG",
+        "rate": 0.90909,
+        "banded": true,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8277,7 +8942,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "72",
+        "title": "Bank Top-up USD",
+        "rate": 0.05436,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.12146504572000004
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8300,7 +8975,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "87",
+        "title": "Store Card USD",
+        "rate": 0.054904,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.112673231608
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8473,6 +9158,7 @@
         "deviationVsMid": -0.066144494791
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -8505,7 +9191,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "75",
+        "title": "Mukuru-CABS Card IA US$ Cash Collection",
+        "rate": 0.054522,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.118846895194
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8538,7 +9234,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "80",
+        "title": "Ecocash USD",
+        "rate": 0.054522,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.118846895194
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8561,7 +9267,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "246",
+        "title": "Test RC",
+        "rate": 0.060501,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.02221774707700003
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8594,6 +9310,7 @@
         "deviationVsMid": -0.064350576838
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8626,7 +9343,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "237",
+        "title": "$10 Kambudzi Voucher",
+        "rate": 0.055,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.06187573953110441,
+        "deviationVsMid": -0.11112173500000001
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8689,6 +9416,7 @@
         "deviationVsMid": -0.04306299999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -8711,7 +9439,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "487",
+        "title": "Hot Airtime",
+        "rate": 1.600085,
+        "banded": false,
+        "enabled": false,
+        "midRate": null,
+        "deviationVsMid": null
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8744,6 +9482,7 @@
         "deviationVsMid": -0.0673451782419999
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8776,6 +9515,7 @@
         "deviationVsMid": -0.07653474685295868
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8798,7 +9538,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "138",
+        "title": "Cash MZN",
+        "rate": 3.096545,
+        "banded": false,
+        "enabled": false,
+        "midRate": 3.320711903962699,
+        "deviationVsMid": -0.06750567662771183
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8821,7 +9571,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "150",
+        "title": "Cash PKR",
+        "rate": 13.440636,
+        "banded": false,
+        "enabled": false,
+        "midRate": 14.43940847817365,
+        "deviationVsMid": -0.06916990260947166
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8844,7 +9604,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "348",
+        "title": "Paysoft Bank Topup ZAR",
+        "rate": 0.801485,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.8406703714286293,
+        "deviationVsMid": -0.04661205242910842
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -8877,6 +9647,7 @@
         "deviationVsMid": -0.04661205242910842
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8909,6 +9680,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -8951,6 +9723,7 @@
         "deviationVsMid": -0.047619999999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -8973,7 +9746,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "262",
+        "title": "Mukuru Payin ZMW",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -9006,6 +9789,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -9028,7 +9812,17 @@
         }
       ],
       "bestEnabled": null,
-      "bestOverall": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "264",
+        "title": "Mukuru Wallet Withdrawal ZMW",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
@@ -9061,6 +9855,7 @@
         "deviationVsMid": 0.0
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -9112,6 +9907,7 @@
         "midRate": 0.052017100934034666,
         "deviationVsMid": -0.01670798484399995
       },
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -9144,6 +9940,7 @@
         "deviationVsMid": -0.047619999999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     },
     {
@@ -9205,6 +10002,7 @@
         "midRate": 1.0,
         "deviationVsMid": -0.029127000000000014
       },
+      "noLiveCoverage": false,
       "soleCoverage": false
     },
     {
@@ -9237,6 +10035,7 @@
         "deviationVsMid": -0.047619999999999996
       },
       "bestOverall": null,
+      "noLiveCoverage": false,
       "soleCoverage": true
     }
   ],
