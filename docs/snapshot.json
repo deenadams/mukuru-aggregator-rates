@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-09-14T19:12:02.123639+00:00",
+  "generatedAt": "2026-09-14T19:17:58.138848+00:00",
+  "environment": "staging",
   "totalCorridors": 223,
   "corridors": [
     {
