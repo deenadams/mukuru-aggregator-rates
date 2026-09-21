@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:33:53.394966+00:00",
+  "generatedAt": "2026-09-21T10:21:39.703182+00:00",
   "environment": "staging",
   "totalCorridors": 223,
   "corridors": [
@@ -160,8 +160,8 @@
           "rate": 0.066754,
           "banded": false,
           "enabled": true,
-          "midRate": 0.06998070561965361,
-          "deviationVsMid": -0.046108503638000155
+          "midRate": 0.07233308110787952,
+          "deviationVsMid": -0.07713042251800019
         }
       ],
       "bestEnabled": {
@@ -171,8 +171,8 @@
         "rate": 0.066754,
         "banded": false,
         "enabled": true,
-        "midRate": 0.06998070561965361,
-        "deviationVsMid": -0.046108503638000155
+        "midRate": 0.07233308110787952,
+        "deviationVsMid": -0.07713042251800019
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -193,8 +193,8 @@
           "rate": 0.043225,
           "banded": false,
           "enabled": false,
-          "midRate": 0.47015872253860885,
-          "deviationVsMid": -0.9080629627232951
+          "midRate": 0.48497247690097306,
+          "deviationVsMid": -0.910871230721767
         }
       ],
       "bestEnabled": null,
@@ -205,8 +205,8 @@
         "rate": 0.043225,
         "banded": false,
         "enabled": false,
-        "midRate": 0.47015872253860885,
-        "deviationVsMid": -0.9080629627232951
+        "midRate": 0.48497247690097306,
+        "deviationVsMid": -0.910871230721767
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -226,8 +226,8 @@
           "rate": 4.22655,
           "banded": false,
           "enabled": true,
-          "midRate": 4.486890969290856,
-          "deviationVsMid": -0.05802257533616937
+          "midRate": 4.618666144711153,
+          "deviationVsMid": -0.08489813561436284
         }
       ],
       "bestEnabled": {
@@ -237,8 +237,8 @@
         "rate": 4.22655,
         "banded": false,
         "enabled": true,
-        "midRate": 4.486890969290856,
-        "deviationVsMid": -0.05802257533616937
+        "midRate": 4.618666144711153,
+        "deviationVsMid": -0.08489813561436284
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -259,8 +259,8 @@
           "rate": 18.512645,
           "banded": false,
           "enabled": false,
-          "midRate": 19.498813022261636,
-          "deviationVsMid": -0.05057579767218328
+          "midRate": 20.10325880060323,
+          "deviationVsMid": -0.07912218692401754
         }
       ],
       "bestEnabled": null,
@@ -271,8 +271,8 @@
         "rate": 18.512645,
         "banded": false,
         "enabled": false,
-        "midRate": 19.498813022261636,
-        "deviationVsMid": -0.05057579767218328
+        "midRate": 20.10325880060323,
+        "deviationVsMid": -0.07912218692401754
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -292,8 +292,8 @@
           "rate": 0.066789,
           "banded": false,
           "enabled": false,
-          "midRate": 0.06998070561965361,
-          "deviationVsMid": -0.04560836578300005
+          "midRate": 0.07233308110787952,
+          "deviationVsMid": -0.07664654986300008
         }
       ],
       "bestEnabled": null,
@@ -304,8 +304,8 @@
         "rate": 0.066789,
         "banded": false,
         "enabled": false,
-        "midRate": 0.06998070561965361,
-        "deviationVsMid": -0.04560836578300005
+        "midRate": 0.07233308110787952,
+        "deviationVsMid": -0.07664654986300008
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -325,8 +325,8 @@
           "rate": 1.111072,
           "banded": false,
           "enabled": true,
-          "midRate": 1.1383920939157866,
-          "deviationVsMid": -0.023998843686459683
+          "midRate": 1.1760670377209061,
+          "deviationVsMid": -0.0552647388594953
         }
       ],
       "bestEnabled": {
@@ -336,8 +336,8 @@
         "rate": 1.111072,
         "banded": false,
         "enabled": true,
-        "midRate": 1.1383920939157866,
-        "deviationVsMid": -0.023998843686459683
+        "midRate": 1.1760670377209061,
+        "deviationVsMid": -0.0552647388594953
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -358,8 +358,8 @@
           "rate": 1.111683,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1383920939157866,
-          "deviationVsMid": -0.023462121757991058
+          "midRate": 1.1760670377209061,
+          "deviationVsMid": -0.0547452106520013
         }
       ],
       "bestEnabled": {
@@ -369,8 +369,8 @@
         "rate": 1.111683,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1383920939157866,
-        "deviationVsMid": -0.023462121757991058
+        "midRate": 1.1760670377209061,
+        "deviationVsMid": -0.0547452106520013
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -391,8 +391,8 @@
           "rate": 1.362911,
           "banded": false,
           "enabled": true,
-          "midRate": 1.380686850828358,
-          "deviationVsMid": -0.012874643383250351
+          "midRate": 1.4044700976127698,
+          "deviationVsMid": -0.029590589136364896
         }
       ],
       "bestEnabled": {
@@ -402,8 +402,8 @@
         "rate": 1.362911,
         "banded": false,
         "enabled": true,
-        "midRate": 1.380686850828358,
-        "deviationVsMid": -0.012874643383250351
+        "midRate": 1.4044700976127698,
+        "deviationVsMid": -0.029590589136364896
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -424,8 +424,8 @@
           "rate": 0.066754,
           "banded": false,
           "enabled": true,
-          "midRate": 0.06998070561965361,
-          "deviationVsMid": -0.046108503638000155
+          "midRate": 0.07233308110787952,
+          "deviationVsMid": -0.07713042251800019
         }
       ],
       "bestEnabled": {
@@ -435,8 +435,8 @@
         "rate": 0.066754,
         "banded": false,
         "enabled": true,
-        "midRate": 0.06998070561965361,
-        "deviationVsMid": -0.046108503638000155
+        "midRate": 0.07233308110787952,
+        "deviationVsMid": -0.07713042251800019
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -457,8 +457,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -468,8 +468,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -490,8 +490,8 @@
           "rate": 1.880469,
           "banded": true,
           "enabled": true,
-          "midRate": 1.8783824435819305,
-          "deviationVsMid": 0.001110826192609918
+          "midRate": 1.87928060999905,
+          "deviationVsMid": 0.0006323643178282708
         }
       ],
       "bestEnabled": {
@@ -501,8 +501,8 @@
         "rate": 1.880469,
         "banded": true,
         "enabled": true,
-        "midRate": 1.8783824435819305,
-        "deviationVsMid": 0.001110826192609918
+        "midRate": 1.87928060999905,
+        "deviationVsMid": 0.0006323643178282708
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -523,8 +523,8 @@
           "rate": 150.865454,
           "banded": false,
           "enabled": true,
-          "midRate": 164.88462890888744,
-          "deviationVsMid": -0.08502414689385149
+          "midRate": 164.67834029737318,
+          "deviationVsMid": -0.08387797856372685
         }
       ],
       "bestEnabled": {
@@ -534,8 +534,8 @@
         "rate": 150.865454,
         "banded": false,
         "enabled": true,
-        "midRate": 164.88462890888744,
-        "deviationVsMid": -0.08502414689385149
+        "midRate": 164.67834029737318,
+        "deviationVsMid": -0.08387797856372685
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -556,8 +556,8 @@
           "rate": 149.727127,
           "banded": false,
           "enabled": true,
-          "midRate": 164.88462890888744,
-          "deviationVsMid": -0.09192792566045213
+          "midRate": 164.67834029737318,
+          "deviationVsMid": -0.09079040552858715
         }
       ],
       "bestEnabled": {
@@ -567,8 +567,8 @@
         "rate": 149.727127,
         "banded": false,
         "enabled": true,
-        "midRate": 164.88462890888744,
-        "deviationVsMid": -0.09192792566045213
+        "midRate": 164.67834029737318,
+        "deviationVsMid": -0.09079040552858715
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -589,8 +589,8 @@
           "rate": 150.865454,
           "banded": false,
           "enabled": true,
-          "midRate": 164.88462890888744,
-          "deviationVsMid": -0.08502414689385149
+          "midRate": 164.67834029737318,
+          "deviationVsMid": -0.08387797856372685
         }
       ],
       "bestEnabled": {
@@ -600,8 +600,8 @@
         "rate": 150.865454,
         "banded": false,
         "enabled": true,
-        "midRate": 164.88462890888744,
-        "deviationVsMid": -0.08502414689385149
+        "midRate": 164.67834029737318,
+        "deviationVsMid": -0.08387797856372685
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -622,8 +622,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -633,8 +633,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -655,8 +655,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -667,8 +667,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -688,8 +688,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -700,8 +700,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -721,8 +721,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -733,8 +733,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -754,8 +754,8 @@
           "rate": 16.669279,
           "banded": false,
           "enabled": false,
-          "midRate": 19.10527005400144,
-          "deviationVsMid": -0.12750361796070206
+          "midRate": 18.497095975306756,
+          "deviationVsMid": -0.09881642922472018
         }
       ],
       "bestEnabled": null,
@@ -766,8 +766,8 @@
         "rate": 16.669279,
         "banded": false,
         "enabled": false,
-        "midRate": 19.10527005400144,
-        "deviationVsMid": -0.12750361796070206
+        "midRate": 18.497095975306756,
+        "deviationVsMid": -0.09881642922472018
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -787,8 +787,8 @@
           "rate": 17.298308,
           "banded": true,
           "enabled": true,
-          "midRate": 19.10527005400144,
-          "deviationVsMid": -0.09457924692475042
+          "midRate": 18.497095975306756,
+          "deviationVsMid": -0.06480952344665968
         }
       ],
       "bestEnabled": {
@@ -798,8 +798,8 @@
         "rate": 17.298308,
         "banded": true,
         "enabled": true,
-        "midRate": 19.10527005400144,
-        "deviationVsMid": -0.09457924692475042
+        "midRate": 18.497095975306756,
+        "deviationVsMid": -0.06480952344665968
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -820,8 +820,8 @@
           "rate": 1.268005,
           "banded": true,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         }
       ],
       "bestEnabled": {
@@ -831,8 +831,8 @@
         "rate": 1.268005,
         "banded": true,
         "enabled": true,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.05160453628499999
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.05227911494499996
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -853,8 +853,8 @@
           "rate": 1.268005,
           "banded": true,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         }
       ],
       "bestEnabled": null,
@@ -865,8 +865,8 @@
         "rate": 1.268005,
         "banded": true,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.05160453628499999
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.05227911494499996
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -886,8 +886,8 @@
           "rate": 730.313364,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": -0.04404586132697105
+          "midRate": 764.7710710706692,
+          "deviationVsMid": -0.045056237577643876
         }
       ],
       "bestEnabled": null,
@@ -898,8 +898,8 @@
         "rate": 730.313364,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": -0.04404586132697105
+        "midRate": 764.7710710706692,
+        "deviationVsMid": -0.045056237577643876
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -919,8 +919,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -931,8 +931,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -952,8 +952,8 @@
           "rate": 730.313364,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": -0.04404586132697105
+          "midRate": 764.7710710706692,
+          "deviationVsMid": -0.045056237577643876
         }
       ],
       "bestEnabled": null,
@@ -964,8 +964,8 @@
         "rate": 730.313364,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": -0.04404586132697105
+        "midRate": 764.7710710706692,
+        "deviationVsMid": -0.045056237577643876
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -985,8 +985,8 @@
           "rate": 3405.088062,
           "banded": true,
           "enabled": true,
-          "midRate": 4198.611811327868,
-          "deviationVsMid": -0.18899669342779885
+          "midRate": 4235.432856888647,
+          "deviationVsMid": -0.19604721003619427
         }
       ],
       "bestEnabled": {
@@ -996,8 +996,8 @@
         "rate": 3405.088062,
         "banded": true,
         "enabled": true,
-        "midRate": 4198.611811327868,
-        "deviationVsMid": -0.18899669342779885
+        "midRate": 4235.432856888647,
+        "deviationVsMid": -0.19604721003619427
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1018,8 +1018,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1030,8 +1030,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1051,8 +1051,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1062,8 +1062,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1084,8 +1084,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1096,8 +1096,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1117,8 +1117,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1129,8 +1129,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1150,8 +1150,8 @@
           "rate": 31.301705,
           "banded": false,
           "enabled": false,
-          "midRate": 216.27200334784868,
-          "deviationVsMid": -0.8552669577409203
+          "midRate": 215.83665881288874,
+          "deviationVsMid": -0.8549750298574822
         },
         {
           "provider": "Mukuru (own rail)",
@@ -1160,8 +1160,8 @@
           "rate": 212.594088,
           "banded": false,
           "enabled": true,
-          "midRate": 216.27200334784868,
-          "deviationVsMid": -0.01700597068004765
+          "midRate": 215.83665881288874,
+          "deviationVsMid": -0.015023262640938883
         }
       ],
       "bestEnabled": {
@@ -1171,8 +1171,8 @@
         "rate": 212.594088,
         "banded": false,
         "enabled": true,
-        "midRate": 216.27200334784868,
-        "deviationVsMid": -0.01700597068004765
+        "midRate": 215.83665881288874,
+        "deviationVsMid": -0.015023262640938883
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1193,8 +1193,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1204,8 +1204,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1226,8 +1226,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1237,8 +1237,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1292,8 +1292,8 @@
           "rate": 730.313364,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": -0.04404586132697105
+          "midRate": 764.7710710706692,
+          "deviationVsMid": -0.045056237577643876
         }
       ],
       "bestEnabled": null,
@@ -1304,8 +1304,8 @@
         "rate": 730.313364,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": -0.04404586132697105
+        "midRate": 764.7710710706692,
+        "deviationVsMid": -0.045056237577643876
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1325,8 +1325,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1337,8 +1337,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1358,8 +1358,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1370,8 +1370,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1391,8 +1391,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1402,8 +1402,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1424,8 +1424,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1435,8 +1435,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1457,8 +1457,8 @@
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
-          "midRate": 173.16176500080888,
-          "deviationVsMid": -0.04205745420055561
+          "midRate": 173.35999737761418,
+          "deviationVsMid": -0.04315283508754943
         }
       ],
       "bestEnabled": {
@@ -1468,8 +1468,8 @@
         "rate": 165.879022,
         "banded": true,
         "enabled": true,
-        "midRate": 173.16176500080888,
-        "deviationVsMid": -0.04205745420055561
+        "midRate": 173.35999737761418,
+        "deviationVsMid": -0.04315283508754943
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1490,8 +1490,8 @@
           "rate": 169.131551,
           "banded": false,
           "enabled": false,
-          "midRate": 173.16176500080888,
-          "deviationVsMid": -0.02327427189709031
+          "midRate": 173.35999737761418,
+          "deviationVsMid": -0.024391130835124203
         },
         {
           "provider": "Mukuru (own rail)",
@@ -1500,8 +1500,8 @@
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
-          "midRate": 173.16176500080888,
-          "deviationVsMid": -0.04205745420055561
+          "midRate": 173.35999737761418,
+          "deviationVsMid": -0.04315283508754943
         }
       ],
       "bestEnabled": {
@@ -1511,8 +1511,8 @@
         "rate": 165.879022,
         "banded": true,
         "enabled": true,
-        "midRate": 173.16176500080888,
-        "deviationVsMid": -0.04205745420055561
+        "midRate": 173.35999737761418,
+        "deviationVsMid": -0.04315283508754943
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -1521,8 +1521,8 @@
         "rate": 169.131551,
         "banded": false,
         "enabled": false,
-        "midRate": 173.16176500080888,
-        "deviationVsMid": -0.02327427189709031
+        "midRate": 173.35999737761418,
+        "deviationVsMid": -0.024391130835124203
       },
       "noLiveCoverage": false,
       "soleCoverage": true
@@ -1542,8 +1542,8 @@
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
-          "midRate": 173.16176500080888,
-          "deviationVsMid": -0.04205745420055561
+          "midRate": 173.35999737761418,
+          "deviationVsMid": -0.04315283508754943
         },
         {
           "provider": "Mukuru (own rail)",
@@ -1552,8 +1552,8 @@
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
-          "midRate": 173.16176500080888,
-          "deviationVsMid": -0.04205745420055561
+          "midRate": 173.35999737761418,
+          "deviationVsMid": -0.04315283508754943
         }
       ],
       "bestEnabled": {
@@ -1563,8 +1563,8 @@
         "rate": 165.879022,
         "banded": true,
         "enabled": true,
-        "midRate": 173.16176500080888,
-        "deviationVsMid": -0.04205745420055561
+        "midRate": 173.35999737761418,
+        "deviationVsMid": -0.04315283508754943
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1585,8 +1585,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -1597,8 +1597,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1618,8 +1618,8 @@
           "rate": 2173.796641,
           "banded": true,
           "enabled": false,
-          "midRate": 2341.0623189200246,
-          "deviationVsMid": -0.07144862251987698
+          "midRate": 2338.6894439605517,
+          "deviationVsMid": -0.07050649815278899
         }
       ],
       "bestEnabled": null,
@@ -1630,8 +1630,8 @@
         "rate": 2173.796641,
         "banded": true,
         "enabled": false,
-        "midRate": 2341.0623189200246,
-        "deviationVsMid": -0.07144862251987698
+        "midRate": 2338.6894439605517,
+        "deviationVsMid": -0.07050649815278899
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1651,8 +1651,8 @@
           "rate": 2173.796641,
           "banded": true,
           "enabled": true,
-          "midRate": 2341.0623189200246,
-          "deviationVsMid": -0.07144862251987698
+          "midRate": 2338.6894439605517,
+          "deviationVsMid": -0.07050649815278899
         }
       ],
       "bestEnabled": {
@@ -1662,8 +1662,8 @@
         "rate": 2173.796641,
         "banded": true,
         "enabled": true,
-        "midRate": 2341.0623189200246,
-        "deviationVsMid": -0.07144862251987698
+        "midRate": 2338.6894439605517,
+        "deviationVsMid": -0.07050649815278899
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1684,8 +1684,8 @@
           "rate": 2284.617647,
           "banded": true,
           "enabled": true,
-          "midRate": 2341.0623189200246,
-          "deviationVsMid": -0.024110708828145824
+          "midRate": 2338.6894439605517,
+          "deviationVsMid": -0.023120554591028335
         },
         {
           "provider": "Mukuru (own rail)",
@@ -1694,8 +1694,8 @@
           "rate": 2118.463636,
           "banded": false,
           "enabled": false,
-          "midRate": 2341.0623189200246,
-          "deviationVsMid": -0.09508447559085635
+          "midRate": 2338.6894439605517,
+          "deviationVsMid": -0.09416633257111773
         }
       ],
       "bestEnabled": {
@@ -1705,8 +1705,8 @@
         "rate": 2284.617647,
         "banded": true,
         "enabled": true,
-        "midRate": 2341.0623189200246,
-        "deviationVsMid": -0.024110708828145824
+        "midRate": 2338.6894439605517,
+        "deviationVsMid": -0.023120554591028335
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1727,8 +1727,8 @@
           "rate": 81.927204,
           "banded": true,
           "enabled": true,
-          "midRate": 85.7232636711621,
-          "deviationVsMid": -0.04428272453232691
+          "midRate": 85.43191095662226,
+          "deviationVsMid": -0.04102339415539657
         }
       ],
       "bestEnabled": {
@@ -1738,8 +1738,8 @@
         "rate": 81.927204,
         "banded": true,
         "enabled": true,
-        "midRate": 85.7232636711621,
-        "deviationVsMid": -0.04428272453232691
+        "midRate": 85.43191095662226,
+        "deviationVsMid": -0.04102339415539657
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1760,8 +1760,8 @@
           "rate": 81.927204,
           "banded": true,
           "enabled": true,
-          "midRate": 85.7232636711621,
-          "deviationVsMid": -0.04428272453232691
+          "midRate": 85.43191095662226,
+          "deviationVsMid": -0.04102339415539657
         }
       ],
       "bestEnabled": {
@@ -1771,8 +1771,8 @@
         "rate": 81.927204,
         "banded": true,
         "enabled": true,
-        "midRate": 85.7232636711621,
-        "deviationVsMid": -0.04428272453232691
+        "midRate": 85.43191095662226,
+        "deviationVsMid": -0.04102339415539657
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1793,8 +1793,8 @@
           "rate": 21.34049,
           "banded": true,
           "enabled": true,
-          "midRate": 21.745959250905486,
-          "deviationVsMid": -0.01864572844210601
+          "midRate": 21.756974408993177,
+          "deviationVsMid": -0.01914257015539004
         }
       ],
       "bestEnabled": {
@@ -1804,8 +1804,8 @@
         "rate": 21.34049,
         "banded": true,
         "enabled": true,
-        "midRate": 21.745959250905486,
-        "deviationVsMid": -0.01864572844210601
+        "midRate": 21.756974408993177,
+        "deviationVsMid": -0.01914257015539004
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1826,8 +1826,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -1838,8 +1838,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1859,8 +1859,8 @@
           "rate": 1803.431372,
           "banded": true,
           "enabled": true,
-          "midRate": 1785.8242192252617,
-          "deviationVsMid": 0.009859398582004212
+          "midRate": 1783.2683771044312,
+          "deviationVsMid": 0.011306764116071124
         }
       ],
       "bestEnabled": {
@@ -1870,8 +1870,8 @@
         "rate": 1803.431372,
         "banded": true,
         "enabled": true,
-        "midRate": 1785.8242192252617,
-        "deviationVsMid": 0.009859398582004212
+        "midRate": 1783.2683771044312,
+        "deviationVsMid": 0.011306764116071124
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1892,8 +1892,8 @@
           "rate": 1803.431372,
           "banded": true,
           "enabled": true,
-          "midRate": 1785.8242192252617,
-          "deviationVsMid": 0.009859398582004212
+          "midRate": 1783.2683771044312,
+          "deviationVsMid": 0.011306764116071124
         }
       ],
       "bestEnabled": {
@@ -1903,8 +1903,8 @@
         "rate": 1803.431372,
         "banded": true,
         "enabled": true,
-        "midRate": 1785.8242192252617,
-        "deviationVsMid": 0.009859398582004212
+        "midRate": 1783.2683771044312,
+        "deviationVsMid": 0.011306764116071124
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1925,8 +1925,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -1937,8 +1937,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -1958,8 +1958,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -1969,8 +1969,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -1991,8 +1991,8 @@
           "rate": 2.243532,
           "banded": true,
           "enabled": true,
-          "midRate": 2.338659496779835,
-          "deviationVsMid": -0.0406760782879331
+          "midRate": 2.3392604604427816,
+          "deviationVsMid": -0.04092253174093395
         }
       ],
       "bestEnabled": {
@@ -2002,8 +2002,8 @@
         "rate": 2.243532,
         "banded": true,
         "enabled": true,
-        "midRate": 2.338659496779835,
-        "deviationVsMid": -0.0406760782879331
+        "midRate": 2.3392604604427816,
+        "deviationVsMid": -0.04092253174093395
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2024,8 +2024,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -2036,8 +2036,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2057,8 +2057,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -2069,8 +2069,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2090,8 +2090,8 @@
           "rate": 82.338683,
           "banded": false,
           "enabled": true,
-          "midRate": 84.01644376643675,
-          "deviationVsMid": -0.01996943325881388
+          "midRate": 84.14139208547907,
+          "deviationVsMid": -0.021424759453084603
         }
       ],
       "bestEnabled": {
@@ -2101,8 +2101,8 @@
         "rate": 82.338683,
         "banded": false,
         "enabled": true,
-        "midRate": 84.01644376643675,
-        "deviationVsMid": -0.01996943325881388
+        "midRate": 84.14139208547907,
+        "deviationVsMid": -0.021424759453084603
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2123,8 +2123,8 @@
           "rate": 82.338683,
           "banded": false,
           "enabled": true,
-          "midRate": 84.01644376643675,
-          "deviationVsMid": -0.01996943325881388
+          "midRate": 84.14139208547907,
+          "deviationVsMid": -0.021424759453084603
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2133,8 +2133,8 @@
           "rate": 82.338683,
           "banded": false,
           "enabled": true,
-          "midRate": 84.01644376643675,
-          "deviationVsMid": -0.01996943325881388
+          "midRate": 84.14139208547907,
+          "deviationVsMid": -0.021424759453084603
         }
       ],
       "bestEnabled": {
@@ -2144,8 +2144,8 @@
         "rate": 82.338683,
         "banded": false,
         "enabled": true,
-        "midRate": 84.01644376643675,
-        "deviationVsMid": -0.01996943325881388
+        "midRate": 84.14139208547907,
+        "deviationVsMid": -0.021424759453084603
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2166,8 +2166,8 @@
           "rate": 63.688457,
           "banded": false,
           "enabled": true,
-          "midRate": 84.01644376643675,
-          "deviationVsMid": -0.24195247805236744
+          "midRate": 84.14139208547907,
+          "deviationVsMid": -0.24307816377343713
         }
       ],
       "bestEnabled": {
@@ -2177,8 +2177,8 @@
         "rate": 63.688457,
         "banded": false,
         "enabled": true,
-        "midRate": 84.01644376643675,
-        "deviationVsMid": -0.24195247805236744
+        "midRate": 84.14139208547907,
+        "deviationVsMid": -0.24307816377343713
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2199,8 +2199,8 @@
           "rate": 370.393069,
           "banded": true,
           "enabled": false,
-          "midRate": 372.5300885227885,
-          "deviationVsMid": -0.005736501798452051
+          "midRate": 371.85190745118814,
+          "deviationVsMid": -0.003923170547080256
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2209,8 +2209,8 @@
           "rate": 338.914144,
           "banded": false,
           "enabled": true,
-          "midRate": 372.5300885227885,
-          "deviationVsMid": -0.09023685752763597
+          "midRate": 371.85190745118814,
+          "deviationVsMid": -0.0885776374712069
         }
       ],
       "bestEnabled": {
@@ -2220,8 +2220,8 @@
         "rate": 338.914144,
         "banded": false,
         "enabled": true,
-        "midRate": 372.5300885227885,
-        "deviationVsMid": -0.09023685752763597
+        "midRate": 371.85190745118814,
+        "deviationVsMid": -0.0885776374712069
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -2230,8 +2230,8 @@
         "rate": 370.393069,
         "banded": true,
         "enabled": false,
-        "midRate": 372.5300885227885,
-        "deviationVsMid": -0.005736501798452051
+        "midRate": 371.85190745118814,
+        "deviationVsMid": -0.003923170547080256
       },
       "noLiveCoverage": false,
       "soleCoverage": true
@@ -2251,8 +2251,8 @@
           "rate": 370.393069,
           "banded": true,
           "enabled": true,
-          "midRate": 372.5300885227885,
-          "deviationVsMid": -0.005736501798452051
+          "midRate": 371.85190745118814,
+          "deviationVsMid": -0.003923170547080256
         }
       ],
       "bestEnabled": {
@@ -2262,8 +2262,8 @@
         "rate": 370.393069,
         "banded": true,
         "enabled": true,
-        "midRate": 372.5300885227885,
-        "deviationVsMid": -0.005736501798452051
+        "midRate": 371.85190745118814,
+        "deviationVsMid": -0.003923170547080256
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2284,8 +2284,8 @@
           "rate": 370.393069,
           "banded": true,
           "enabled": true,
-          "midRate": 372.5300885227885,
-          "deviationVsMid": -0.005736501798452051
+          "midRate": 371.85190745118814,
+          "deviationVsMid": -0.003923170547080256
         }
       ],
       "bestEnabled": {
@@ -2295,8 +2295,8 @@
         "rate": 370.393069,
         "banded": true,
         "enabled": true,
-        "midRate": 372.5300885227885,
-        "deviationVsMid": -0.005736501798452051
+        "midRate": 371.85190745118814,
+        "deviationVsMid": -0.003923170547080256
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2317,8 +2317,8 @@
           "rate": 4.930792,
           "banded": true,
           "enabled": true,
-          "midRate": 5.0833766744257245,
-          "deviationVsMid": -0.030016401340741072
+          "midRate": 5.087491353485565,
+          "deviationVsMid": -0.03080090806998746
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2327,8 +2327,8 @@
           "rate": 5.611937,
           "banded": true,
           "enabled": true,
-          "midRate": 5.0833766744257245,
-          "deviationVsMid": 0.10397819391064264
+          "midRate": 5.087491353485565,
+          "deviationVsMid": 0.10308531456375337
         }
       ],
       "bestEnabled": {
@@ -2338,8 +2338,8 @@
         "rate": 5.611937,
         "banded": true,
         "enabled": true,
-        "midRate": 5.0833766744257245,
-        "deviationVsMid": 0.10397819391064264
+        "midRate": 5.087491353485565,
+        "deviationVsMid": 0.10308531456375337
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2360,8 +2360,8 @@
           "rate": 1.121389,
           "banded": true,
           "enabled": true,
-          "midRate": 1.1649163104675089,
-          "deviationVsMid": -0.037365182439621225
+          "midRate": 1.1657508385613806,
+          "deviationVsMid": -0.03805430551191052
         }
       ],
       "bestEnabled": {
@@ -2371,8 +2371,8 @@
         "rate": 1.121389,
         "banded": true,
         "enabled": true,
-        "midRate": 1.1649163104675089,
-        "deviationVsMid": -0.037365182439621225
+        "midRate": 1.1657508385613806,
+        "deviationVsMid": -0.03805430551191052
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2393,8 +2393,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -2405,8 +2405,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2426,8 +2426,8 @@
           "rate": 751.231137,
           "banded": false,
           "enabled": true,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": -0.01666524273654779
+          "midRate": 764.7710710706692,
+          "deviationVsMid": -0.01770455837419884
         }
       ],
       "bestEnabled": {
@@ -2437,8 +2437,8 @@
         "rate": 751.231137,
         "banded": false,
         "enabled": true,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": -0.01666524273654779
+        "midRate": 764.7710710706692,
+        "deviationVsMid": -0.01770455837419884
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2459,8 +2459,8 @@
           "rate": 1.304937,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -2471,8 +2471,8 @@
         "rate": 1.304937,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2492,8 +2492,8 @@
           "rate": 730.313364,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": -0.04404586132697105
+          "midRate": 764.7710710706692,
+          "deviationVsMid": -0.045056237577643876
         }
       ],
       "bestEnabled": null,
@@ -2504,8 +2504,8 @@
         "rate": 730.313364,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": -0.04404586132697105
+        "midRate": 764.7710710706692,
+        "deviationVsMid": -0.045056237577643876
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2525,8 +2525,8 @@
           "rate": 881.634951,
           "banded": false,
           "enabled": false,
-          "midRate": 763.9627618682173,
-          "deviationVsMid": 0.15402869747737918
+          "midRate": 764.7710710706692,
+          "deviationVsMid": 0.1528089703572638
         }
       ],
       "bestEnabled": null,
@@ -2537,8 +2537,8 @@
         "rate": 881.634951,
         "banded": false,
         "enabled": false,
-        "midRate": 763.9627618682173,
-        "deviationVsMid": 0.15402869747737918
+        "midRate": 764.7710710706692,
+        "deviationVsMid": 0.1528089703572638
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2558,8 +2558,8 @@
           "rate": 3511.635467,
           "banded": false,
           "enabled": true,
-          "midRate": 3555.5048218915076,
-          "deviationVsMid": -0.01233843211838743
+          "midRate": 3540.8275486981056,
+          "deviationVsMid": -0.008244423456555773
         },
         {
           "provider": "Thunes",
@@ -2568,8 +2568,8 @@
           "rate": 3442.52677,
           "banded": true,
           "enabled": true,
-          "midRate": 3555.5048218915076,
-          "deviationVsMid": -0.031775530494542834
+          "midRate": 3540.8275486981056,
+          "deviationVsMid": -0.02776209158625897
         }
       ],
       "bestEnabled": {
@@ -2579,8 +2579,8 @@
         "rate": 3511.635467,
         "banded": false,
         "enabled": true,
-        "midRate": 3555.5048218915076,
-        "deviationVsMid": -0.01233843211838743
+        "midRate": 3540.8275486981056,
+        "deviationVsMid": -0.008244423456555773
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2601,8 +2601,8 @@
           "rate": 21.037931,
           "banded": true,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": -0.032707156626009024
+          "midRate": 21.753824870118315,
+          "deviationVsMid": -0.03290887346903704
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2611,8 +2611,8 @@
           "rate": 21.037931,
           "banded": true,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": -0.032707156626009024
+          "midRate": 21.753824870118315,
+          "deviationVsMid": -0.03290887346903704
         }
       ],
       "bestEnabled": {
@@ -2622,8 +2622,8 @@
         "rate": 21.037931,
         "banded": true,
         "enabled": true,
-        "midRate": 21.74928838160127,
-        "deviationVsMid": -0.032707156626009024
+        "midRate": 21.753824870118315,
+        "deviationVsMid": -0.03290887346903704
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2644,8 +2644,8 @@
           "rate": 21.95082,
           "banded": true,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": 0.009266124705450764
+          "midRate": 21.753824870118315,
+          "deviationVsMid": 0.009055654858759272
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2654,8 +2654,8 @@
           "rate": 22.258132,
           "banded": false,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": 0.023395874360155285
+          "midRate": 21.753824870118315,
+          "deviationVsMid": 0.023182457930624224
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2664,8 +2664,8 @@
           "rate": 22.258132,
           "banded": false,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": 0.023395874360155285
+          "midRate": 21.753824870118315,
+          "deviationVsMid": 0.023182457930624224
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2674,8 +2674,8 @@
           "rate": 20.234665,
           "banded": false,
           "enabled": false,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": -0.06964013511736604
+          "midRate": 21.753824870118315,
+          "deviationVsMid": -0.06983415004894507
         }
       ],
       "bestEnabled": {
@@ -2685,8 +2685,8 @@
         "rate": 22.258132,
         "banded": false,
         "enabled": true,
-        "midRate": 21.74928838160127,
-        "deviationVsMid": 0.023395874360155285
+        "midRate": 21.753824870118315,
+        "deviationVsMid": 0.023182457930624224
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2707,8 +2707,8 @@
           "rate": 22.684283,
           "banded": false,
           "enabled": false,
-          "midRate": 26.378395145084585,
-          "deviationVsMid": -0.14004309681337665
+          "midRate": 25.97861818999185,
+          "deviationVsMid": -0.1268094848578581
         }
       ],
       "bestEnabled": null,
@@ -2719,8 +2719,8 @@
         "rate": 22.684283,
         "banded": false,
         "enabled": false,
-        "midRate": 26.378395145084585,
-        "deviationVsMid": -0.14004309681337665
+        "midRate": 25.97861818999185,
+        "deviationVsMid": -0.1268094848578581
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -2740,8 +2740,8 @@
           "rate": 23.276783,
           "banded": true,
           "enabled": true,
-          "midRate": 26.378395145084585,
-          "deviationVsMid": -0.11758153322161258
+          "midRate": 25.97861818999185,
+          "deviationVsMid": -0.10400226718112056
         }
       ],
       "bestEnabled": {
@@ -2751,8 +2751,8 @@
         "rate": 23.276783,
         "banded": true,
         "enabled": true,
-        "midRate": 26.378395145084585,
-        "deviationVsMid": -0.11758153322161258
+        "midRate": 25.97861818999185,
+        "deviationVsMid": -0.10400226718112056
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2773,8 +2773,8 @@
           "rate": 1.317731,
           "banded": true,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.014412322667000037
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.015113355559000011
         }
       ],
       "bestEnabled": {
@@ -2784,8 +2784,8 @@
         "rate": 1.317731,
         "banded": true,
         "enabled": true,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.014412322667000037
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.015113355559000011
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -2806,8 +2806,8 @@
           "rate": 1.268005,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2816,8 +2816,8 @@
           "rate": 1.268005,
           "banded": false,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2826,8 +2826,8 @@
           "rate": 1.268005,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2836,8 +2836,8 @@
           "rate": 1.268005,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2846,8 +2846,8 @@
           "rate": 1.268005,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.05160453628499999
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.05227911494499996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2856,8 +2856,8 @@
           "rate": 1.344086,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": 0.005299715097999893
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": 0.004584661345999918
         }
       ],
       "bestEnabled": {
@@ -2867,8 +2867,8 @@
         "rate": 1.268005,
         "banded": false,
         "enabled": true,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.05160453628499999
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.05227911494499996
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -2877,8 +2877,8 @@
         "rate": 1.344086,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": 0.005299715097999893
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": 0.004584661345999918
       },
       "noLiveCoverage": false,
       "soleCoverage": true
@@ -2898,8 +2898,8 @@
           "rate": 1.29239,
           "banded": true,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.03336594623000008
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.034053497710000054
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2908,8 +2908,8 @@
           "rate": 1.221896,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.08609144007199995
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.08674148874399994
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2918,8 +2918,8 @@
           "rate": 1.330778,
           "banded": false,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.004653910346000013
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.0053618842419999885
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2928,8 +2928,8 @@
           "rate": 1.29239,
           "banded": true,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.03336594623000008
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.034053497710000054
         },
         {
           "provider": "Mukuru (own rail)",
@@ -2938,8 +2938,8 @@
           "rate": 1.29239,
           "banded": false,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.03336594623000008
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.034053497710000054
         }
       ],
       "bestEnabled": {
@@ -2949,8 +2949,8 @@
         "rate": 1.29239,
         "banded": true,
         "enabled": true,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.03336594623000008
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.034053497710000054
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -2959,8 +2959,8 @@
         "rate": 1.330778,
         "banded": false,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.004653910346000013
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.0053618842419999885
       },
       "noLiveCoverage": false,
       "soleCoverage": false
@@ -2980,8 +2980,8 @@
           "rate": 1.304937,
           "banded": true,
           "enabled": true,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": {
@@ -2991,8 +2991,8 @@
         "rate": 1.304937,
         "banded": true,
         "enabled": true,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3013,8 +3013,8 @@
           "rate": 1.304937,
           "banded": true,
           "enabled": false,
-          "midRate": 1.3370002794330584,
-          "deviationVsMid": -0.023981505409000015
+          "midRate": 1.3379519434420954,
+          "deviationVsMid": -0.02467573189299999
         }
       ],
       "bestEnabled": null,
@@ -3025,8 +3025,8 @@
         "rate": 1.304937,
         "banded": true,
         "enabled": false,
-        "midRate": 1.3370002794330584,
-        "deviationVsMid": -0.023981505409000015
+        "midRate": 1.3379519434420954,
+        "deviationVsMid": -0.02467573189299999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -3046,8 +3046,8 @@
           "rate": 21.609836,
           "banded": true,
           "enabled": true,
-          "midRate": 21.74928838160127,
-          "deviationVsMid": -0.006411813534057476
+          "midRate": 21.753824870118315,
+          "deviationVsMid": -0.006619013942513664
         }
       ],
       "bestEnabled": {
@@ -3057,8 +3057,8 @@
         "rate": 21.609836,
         "banded": true,
         "enabled": true,
-        "midRate": 21.74928838160127,
-        "deviationVsMid": -0.006411813534057476
+        "midRate": 21.753824870118315,
+        "deviationVsMid": -0.006619013942513664
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3112,8 +3112,8 @@
           "rate": 0.787427,
           "banded": false,
           "enabled": true,
-          "midRate": 0.8261907435083304,
-          "deviationVsMid": -0.04691863690426301
+          "midRate": 0.8291075690179722,
+          "deviationVsMid": -0.0502716059718769
         }
       ],
       "bestEnabled": {
@@ -3123,8 +3123,8 @@
         "rate": 0.787427,
         "banded": false,
         "enabled": true,
-        "midRate": 0.8261907435083304,
-        "deviationVsMid": -0.04691863690426301
+        "midRate": 0.8291075690179722,
+        "deviationVsMid": -0.0502716059718769
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3340,8 +3340,8 @@
           "rate": 0.145603,
           "banded": false,
           "enabled": true,
-          "midRate": 0.15912865091718,
-          "deviationVsMid": -0.08499821269910439
+          "midRate": 0.15900012223147506,
+          "deviationVsMid": -0.08425856561274392
         }
       ],
       "bestEnabled": {
@@ -3351,8 +3351,8 @@
         "rate": 0.145603,
         "banded": false,
         "enabled": true,
-        "midRate": 0.15912865091718,
-        "deviationVsMid": -0.08499821269910439
+        "midRate": 0.15900012223147506,
+        "deviationVsMid": -0.08425856561274392
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3373,8 +3373,8 @@
           "rate": 0.008682,
           "banded": false,
           "enabled": true,
-          "midRate": 0.009290350028629149,
-          "deviationVsMid": -0.06548192767274176
+          "midRate": 0.009301715935946753,
+          "deviationVsMid": -0.06662382943257189
         }
       ],
       "bestEnabled": {
@@ -3384,8 +3384,8 @@
         "rate": 0.008682,
         "banded": false,
         "enabled": true,
-        "midRate": 0.009290350028629149,
-        "deviationVsMid": -0.06548192767274176
+        "midRate": 0.009301715935946753,
+        "deviationVsMid": -0.06662382943257189
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3439,8 +3439,8 @@
           "rate": 0.000241,
           "banded": true,
           "enabled": true,
-          "midRate": 0.0002564714876626975,
-          "deviationVsMid": -0.06032439630499996
+          "midRate": 0.00026099096430203146,
+          "deviationVsMid": -0.07659638468899996
         }
       ],
       "bestEnabled": {
@@ -3450,8 +3450,8 @@
         "rate": 0.000241,
         "banded": true,
         "enabled": true,
-        "midRate": 0.0002564714876626975,
-        "deviationVsMid": -0.06032439630499996
+        "midRate": 0.00026099096430203146,
+        "deviationVsMid": -0.07659638468899996
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3472,8 +3472,8 @@
           "rate": 366.37271,
           "banded": false,
           "enabled": true,
-          "midRate": 927.3052,
-          "deviationVsMid": -0.6049060115267336
+          "midRate": 918.878664,
+          "deviationVsMid": -0.6012828196433125
         }
       ],
       "bestEnabled": {
@@ -3483,8 +3483,8 @@
         "rate": 366.37271,
         "banded": false,
         "enabled": true,
-        "midRate": 927.3052,
-        "deviationVsMid": -0.6049060115267336
+        "midRate": 918.878664,
+        "deviationVsMid": -0.6012828196433125
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3505,8 +3505,8 @@
           "rate": 13.6114,
           "banded": false,
           "enabled": false,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.0474646235286469
+          "midRate": 13.824933,
+          "deviationVsMid": -0.015445499808208835
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3515,8 +3515,8 @@
           "rate": 12.963238,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.09282345764449278
+          "midRate": 13.824933,
+          "deviationVsMid": -0.06232905432525418
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3525,8 +3525,8 @@
           "rate": 13.173639,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07809944720141208
+          "midRate": 13.824933,
+          "deviationVsMid": -0.04711010172707528
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3535,8 +3535,8 @@
           "rate": 13.305376,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.06888039898519571
+          "midRate": 13.824933,
+          "deviationVsMid": -0.037581158621166476
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3545,8 +3545,8 @@
           "rate": 13.344509,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.06614184403218183
+          "midRate": 13.824933,
+          "deviationVsMid": -0.03475054815817186
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3555,8 +3555,8 @@
           "rate": 13.214951,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07520840429085299
+          "midRate": 13.824933,
+          "deviationVsMid": -0.04412187748034659
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3565,8 +3565,8 @@
           "rate": 13.05446,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.08643967771645672
+          "midRate": 13.824933,
+          "deviationVsMid": -0.055730686000431184
         }
       ],
       "bestEnabled": {
@@ -3576,8 +3576,8 @@
         "rate": 13.344509,
         "banded": false,
         "enabled": true,
-        "midRate": 14.289653,
-        "deviationVsMid": -0.06614184403218183
+        "midRate": 13.824933,
+        "deviationVsMid": -0.03475054815817186
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -3586,8 +3586,8 @@
         "rate": 13.6114,
         "banded": false,
         "enabled": false,
-        "midRate": 14.289653,
-        "deviationVsMid": -0.0474646235286469
+        "midRate": 13.824933,
+        "deviationVsMid": -0.015445499808208835
       },
       "noLiveCoverage": false,
       "soleCoverage": false
@@ -3607,8 +3607,8 @@
           "rate": 11.088992,
           "banded": false,
           "enabled": false,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.22398451522930615
+          "midRate": 13.824933,
+          "deviationVsMid": -0.19789904225937302
         },
         {
           "provider": "Thunes",
@@ -3617,8 +3617,8 @@
           "rate": 5.356781,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.6251286857700463
+          "midRate": 13.824933,
+          "deviationVsMid": -0.6125275254498521
         },
         {
           "provider": "Thunes",
@@ -3627,8 +3627,8 @@
           "rate": 13.221773,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07473099591711561
+          "midRate": 13.824933,
+          "deviationVsMid": -0.043628421201028535
         },
         {
           "provider": "Thunes",
@@ -3637,8 +3637,8 @@
           "rate": 13.525874,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.05344979335747338
+          "midRate": 13.824933,
+          "deviationVsMid": -0.02163185890304132
         }
       ],
       "bestEnabled": {
@@ -3648,8 +3648,8 @@
         "rate": 13.525874,
         "banded": false,
         "enabled": true,
-        "midRate": 14.289653,
-        "deviationVsMid": -0.05344979335747338
+        "midRate": 13.824933,
+        "deviationVsMid": -0.02163185890304132
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3670,8 +3670,8 @@
           "rate": 13.279414,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07069723806449327
+          "midRate": 13.824933,
+          "deviationVsMid": -0.03945907007288936
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3680,8 +3680,8 @@
           "rate": 13.239695,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07347680171100028
+          "midRate": 13.824933,
+          "deviationVsMid": -0.042332067721413215
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3690,8 +3690,8 @@
           "rate": 13.370135,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.06434851846997265
+          "midRate": 13.824933,
+          "deviationVsMid": -0.032896940621701405
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3700,8 +3700,8 @@
           "rate": 13.279414,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.07069723806449327
+          "midRate": 13.824933,
+          "deviationVsMid": -0.03945907007288936
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3710,8 +3710,8 @@
           "rate": 13.410246,
           "banded": false,
           "enabled": true,
-          "midRate": 14.289653,
-          "deviationVsMid": -0.061541522386862633
+          "midRate": 13.824933,
+          "deviationVsMid": -0.029995588405383154
         }
       ],
       "bestEnabled": {
@@ -3721,8 +3721,8 @@
         "rate": 13.410246,
         "banded": false,
         "enabled": true,
-        "midRate": 14.289653,
-        "deviationVsMid": -0.061541522386862633
+        "midRate": 13.824933,
+        "deviationVsMid": -0.029995588405383154
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3786,8 +3786,8 @@
           "rate": 16.496586,
           "banded": false,
           "enabled": false,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.898017590116752
+          "midRate": 161.318693,
+          "deviationVsMid": -0.8977391541351007
         },
         {
           "provider": "Thunes",
@@ -3796,8 +3796,8 @@
           "rate": 50.327509,
           "banded": false,
           "enabled": true,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.6888737675031156
+          "midRate": 161.318693,
+          "deviationVsMid": -0.6880243196614543
         },
         {
           "provider": "Mukuru (own rail)",
@@ -3806,8 +3806,8 @@
           "rate": 51.964247,
           "banded": false,
           "enabled": true,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.6787554020675346
+          "midRate": 161.318693,
+          "deviationVsMid": -0.6778783287067668
         },
         {
           "provider": "Thunes",
@@ -3816,8 +3816,8 @@
           "rate": 158.531654,
           "banded": false,
           "enabled": false,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.019952363616493423
+          "midRate": 161.318693,
+          "deviationVsMid": -0.01727660290428954
         }
       ],
       "bestEnabled": {
@@ -3827,8 +3827,8 @@
         "rate": 51.964247,
         "banded": false,
         "enabled": true,
-        "midRate": 161.759131,
-        "deviationVsMid": -0.6787554020675346
+        "midRate": 161.318693,
+        "deviationVsMid": -0.6778783287067668
       },
       "bestOverall": {
         "provider": "Thunes",
@@ -3837,8 +3837,8 @@
         "rate": 158.531654,
         "banded": false,
         "enabled": false,
-        "midRate": 161.759131,
-        "deviationVsMid": -0.019952363616493423
+        "midRate": 161.318693,
+        "deviationVsMid": -0.01727660290428954
       },
       "noLiveCoverage": false,
       "soleCoverage": false
@@ -3858,8 +3858,8 @@
           "rate": 54.251734,
           "banded": false,
           "enabled": true,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.6646140859893714
+          "midRate": 161.318693,
+          "deviationVsMid": -0.6636984035073976
         },
         {
           "provider": "Thunes",
@@ -3868,8 +3868,8 @@
           "rate": 159.5001,
           "banded": false,
           "enabled": true,
-          "midRate": 161.759131,
-          "deviationVsMid": -0.013965400197408289
+          "midRate": 161.318693,
+          "deviationVsMid": -0.01127329366597331
         }
       ],
       "bestEnabled": {
@@ -3879,8 +3879,8 @@
         "rate": 159.5001,
         "banded": false,
         "enabled": true,
-        "midRate": 161.759131,
-        "deviationVsMid": -0.013965400197408289
+        "midRate": 161.318693,
+        "deviationVsMid": -0.01127329366597331
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3934,8 +3934,8 @@
           "rate": 11.571287,
           "banded": false,
           "enabled": true,
-          "midRate": 11.578138,
-          "deviationVsMid": -0.0005917186338597169
+          "midRate": 11.462862,
+          "deviationVsMid": 0.009458807058830548
         }
       ],
       "bestEnabled": {
@@ -3945,8 +3945,8 @@
         "rate": 11.571287,
         "banded": false,
         "enabled": true,
-        "midRate": 11.578138,
-        "deviationVsMid": -0.0005917186338597169
+        "midRate": 11.462862,
+        "deviationVsMid": 0.009458807058830548
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -3967,8 +3967,8 @@
           "rate": 129.15,
           "banded": false,
           "enabled": true,
-          "midRate": 129.51513,
-          "deviationVsMid": -0.002819207300336212
+          "midRate": 129.571169,
+          "deviationVsMid": -0.0032504839097345175
         }
       ],
       "bestEnabled": {
@@ -3978,8 +3978,8 @@
         "rate": 129.15,
         "banded": false,
         "enabled": true,
-        "midRate": 129.51513,
-        "deviationVsMid": -0.002819207300336212
+        "midRate": 129.571169,
+        "deviationVsMid": -0.0032504839097345175
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4000,8 +4000,8 @@
           "rate": 15.769333,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": -0.030458836779295284
+          "midRate": 16.261402,
+          "deviationVsMid": -0.030259936996822338
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4010,8 +4010,8 @@
           "rate": 16.222913,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": -0.0025715139094157485
+          "midRate": 16.261402,
+          "deviationVsMid": -0.0023668930883082523
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4020,8 +4020,8 @@
           "rate": 16.185532,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": -0.004869798701952824
+          "midRate": 16.261402,
+          "deviationVsMid": -0.0046656493702081706
         }
       ],
       "bestEnabled": {
@@ -4031,8 +4031,8 @@
         "rate": 16.222913,
         "banded": false,
         "enabled": true,
-        "midRate": 16.264738,
-        "deviationVsMid": -0.0025715139094157485
+        "midRate": 16.261402,
+        "deviationVsMid": -0.0023668930883082523
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4053,8 +4053,8 @@
           "rate": 16.265029,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": 1.7891465574001537e-05
+          "midRate": 16.261402,
+          "deviationVsMid": 0.0002230434989552591
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4063,8 +4063,8 @@
           "rate": 16.302594,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": 0.0023274890748315705
+          "midRate": 16.261402,
+          "deviationVsMid": 0.0025331149183815014
         }
       ],
       "bestEnabled": {
@@ -4074,8 +4074,8 @@
         "rate": 16.302594,
         "banded": false,
         "enabled": true,
-        "midRate": 16.264738,
-        "deviationVsMid": 0.0023274890748315705
+        "midRate": 16.261402,
+        "deviationVsMid": 0.0025331149183815014
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4096,8 +4096,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4106,8 +4106,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4116,8 +4116,8 @@
           "rate": 1684.857451,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.03776381150286424
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.036101904504782394
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4126,8 +4126,8 @@
           "rate": 1383.024,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.21014342099374286
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.20877923599236428
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4136,8 +4136,8 @@
           "rate": 1728.78,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.012679276242178511
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.01097404499045529
         }
       ],
       "bestEnabled": {
@@ -4147,8 +4147,8 @@
         "rate": 1728.78,
         "banded": false,
         "enabled": true,
-        "midRate": 1750.981174,
-        "deviationVsMid": -0.012679276242178511
+        "midRate": 1747.962216,
+        "deviationVsMid": -0.01097404499045529
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4169,8 +4169,8 @@
           "rate": 1571.618181,
           "banded": false,
           "enabled": false,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.10243570614197818
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.10088549591394592
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4179,8 +4179,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4189,8 +4189,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4199,8 +4199,8 @@
           "rate": 1696.690028,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.031006127767767778
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.029332549371307415
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4209,8 +4209,8 @@
           "rate": 1688.092072,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.03591649238371542
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.03425139482534443
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4219,8 +4219,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4229,8 +4229,8 @@
           "rate": 1686.446759,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.03685614440535389
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.03519266974818864
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4239,8 +4239,8 @@
           "rate": 1742.134121,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.005052625996994277
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.0033342225287550774
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4249,8 +4249,8 @@
           "rate": 1678.427184,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.041436190792534536
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.03978062647093283
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4259,8 +4259,8 @@
           "rate": 1620.184732,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.07469894247989217
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.0731008272549525
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4269,8 +4269,8 @@
           "rate": 1730.294374,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.011814404579086554
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.010107679581559009
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4279,8 +4279,8 @@
           "rate": 1782.203206,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": 0.01783116372900529
+          "midRate": 1747.962216,
+          "deviationVsMid": 0.019589090477228035
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4289,8 +4289,8 @@
           "rate": 1670.31884,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.04606693389839958
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.044419367472185674
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4299,8 +4299,8 @@
           "rate": 1730.294374,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.011814404579086554
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.010107679581559009
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4309,8 +4309,8 @@
           "rate": 1697.336386,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.030636987305495758
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.028962771355465017
         }
       ],
       "bestEnabled": {
@@ -4320,8 +4320,8 @@
         "rate": 1782.203206,
         "banded": false,
         "enabled": true,
-        "midRate": 1750.981174,
-        "deviationVsMid": 0.01783116372900529
+        "midRate": 1747.962216,
+        "deviationVsMid": 0.019589090477228035
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4342,8 +4342,8 @@
           "rate": 1571.618181,
           "banded": true,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.10243570614197818
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.10088549591394592
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4352,8 +4352,8 @@
           "rate": 1742.134121,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.005052625996994277
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.0033342225287550774
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4362,8 +4362,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4372,8 +4372,8 @@
           "rate": 1738.734835,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.006993986675495824
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.005278936189545142
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4382,8 +4382,8 @@
           "rate": 3349.52,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": 0.9129388994789958
+          "midRate": 1747.962216,
+          "deviationVsMid": 0.9162427936600205
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4392,8 +4392,8 @@
           "rate": 1620.184732,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.07469894247989217
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.0731008272549525
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4402,8 +4402,8 @@
           "rate": 1738.734835,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.006993986675495824
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.005278936189545142
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4412,8 +4412,8 @@
           "rate": 1738.734835,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.006993986675495824
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.005278936189545142
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4422,8 +4422,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4432,8 +4432,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4442,8 +4442,8 @@
           "rate": 1730.294374,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.011814404579086554
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.010107679581559009
         }
       ],
       "bestEnabled": {
@@ -4453,8 +4453,8 @@
         "rate": 3349.52,
         "banded": false,
         "enabled": true,
-        "midRate": 1750.981174,
-        "deviationVsMid": 0.9129388994789958
+        "midRate": 1747.962216,
+        "deviationVsMid": 0.9162427936600205
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4475,8 +4475,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4485,8 +4485,8 @@
           "rate": 1733.534232,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.009964094565416519
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.008254173841936137
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4495,8 +4495,8 @@
           "rate": 1733.534232,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.009964094565416519
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.008254173841936137
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4505,8 +4505,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4515,8 +4515,8 @@
           "rate": 891.101603,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.49108441813549736
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.490205454761386
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4525,8 +4525,8 @@
           "rate": 1738.734835,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.006993986675495824
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.005278936189545142
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4535,8 +4535,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4545,8 +4545,8 @@
           "rate": 1728.78,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.012679276242178511
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.01097404499045529
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4555,8 +4555,8 @@
           "rate": 1747.258045,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.0021263101255936012
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.00040285252939349593
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4565,8 +4565,8 @@
           "rate": 1782.203206,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": 0.01783116372900529
+          "midRate": 1747.962216,
+          "deviationVsMid": 0.019589090477228035
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4575,8 +4575,8 @@
           "rate": 1646.457142,
           "banded": false,
           "enabled": true,
-          "midRate": 1750.981174,
-          "deviationVsMid": -0.059694549291596226
+          "midRate": 1747.962216,
+          "deviationVsMid": -0.05807051952889577
         }
       ],
       "bestEnabled": {
@@ -4586,8 +4586,8 @@
         "rate": 1782.203206,
         "banded": false,
         "enabled": true,
-        "midRate": 1750.981174,
-        "deviationVsMid": 0.01783116372900529
+        "midRate": 1747.962216,
+        "deviationVsMid": 0.019589090477228035
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4608,8 +4608,8 @@
           "rate": 60.404585,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.057887630902153014
+          "midRate": 63.85275,
+          "deviationVsMid": -0.05400182451029913
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4618,8 +4618,8 @@
           "rate": 61.998841,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.03302249364297876
+          "midRate": 63.85275,
+          "deviationVsMid": -0.02903412930531577
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4628,8 +4628,8 @@
           "rate": 61.998841,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.03302249364297876
+          "midRate": 63.85275,
+          "deviationVsMid": -0.02903412930531577
         }
       ],
       "bestEnabled": {
@@ -4639,8 +4639,8 @@
         "rate": 61.998841,
         "banded": false,
         "enabled": true,
-        "midRate": 64.116115,
-        "deviationVsMid": -0.03302249364297876
+        "midRate": 63.85275,
+        "deviationVsMid": -0.02903412930531577
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4661,8 +4661,8 @@
           "rate": 62.634046,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.023115389945257848
+          "midRate": 63.85275,
+          "deviationVsMid": -0.019086163086163125
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4671,8 +4671,8 @@
           "rate": 62.303354,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.028273094837389864
+          "midRate": 63.85275,
+          "deviationVsMid": -0.02426514128209046
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4681,8 +4681,8 @@
           "rate": 62.634046,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.023115389945257848
+          "midRate": 63.85275,
+          "deviationVsMid": -0.019086163086163125
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4691,8 +4691,8 @@
           "rate": 62.392082,
           "banded": false,
           "enabled": true,
-          "midRate": 64.116115,
-          "deviationVsMid": -0.026889230577991065
+          "midRate": 63.85275,
+          "deviationVsMid": -0.0228755691806539
         }
       ],
       "bestEnabled": {
@@ -4702,8 +4702,8 @@
         "rate": 62.634046,
         "banded": false,
         "enabled": true,
-        "midRate": 64.116115,
-        "deviationVsMid": -0.023115389945257848
+        "midRate": 63.85275,
+        "deviationVsMid": -0.019086163086163125
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4724,8 +4724,8 @@
           "rate": 1364.374477,
           "banded": false,
           "enabled": false,
-          "midRate": 1335.694724,
-          "deviationVsMid": 0.02147178729142013
+          "midRate": 1332.834401,
+          "deviationVsMid": 0.023663912018129247
         },
         {
           "provider": "MFS",
@@ -4734,8 +4734,8 @@
           "rate": 1605.617647,
           "banded": false,
           "enabled": true,
-          "midRate": 1335.694724,
-          "deviationVsMid": 0.20208429227874983
+          "midRate": 1332.834401,
+          "deviationVsMid": 0.20466401962264474
         }
       ],
       "bestEnabled": {
@@ -4745,8 +4745,8 @@
         "rate": 1605.617647,
         "banded": false,
         "enabled": true,
-        "midRate": 1335.694724,
-        "deviationVsMid": 0.20208429227874983
+        "midRate": 1332.834401,
+        "deviationVsMid": 0.20466401962264474
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4767,8 +4767,8 @@
           "rate": 251.85909,
           "banded": false,
           "enabled": false,
-          "midRate": 278.631272,
-          "deviationVsMid": -0.09608462757188294
+          "midRate": 277.926206,
+          "deviationVsMid": -0.09379150089934295
         }
       ],
       "bestEnabled": null,
@@ -4779,8 +4779,8 @@
         "rate": 251.85909,
         "banded": false,
         "enabled": false,
-        "midRate": 278.631272,
-        "deviationVsMid": -0.09608462757188294
+        "midRate": 277.926206,
+        "deviationVsMid": -0.09379150089934295
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -4800,8 +4800,8 @@
           "rate": 15.703428,
           "banded": false,
           "enabled": true,
-          "midRate": 16.264738,
-          "deviationVsMid": -0.03451085409429901
+          "midRate": 16.261402,
+          "deviationVsMid": -0.034312785576544984
         }
       ],
       "bestEnabled": {
@@ -4811,8 +4811,8 @@
         "rate": 15.703428,
         "banded": false,
         "enabled": true,
-        "midRate": 16.264738,
-        "deviationVsMid": -0.03451085409429901
+        "midRate": 16.261402,
+        "deviationVsMid": -0.034312785576544984
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4833,8 +4833,8 @@
           "rate": 7.036,
           "banded": false,
           "enabled": false,
-          "midRate": 16.264738,
-          "deviationVsMid": -0.5674077258422485
+          "midRate": 16.261402,
+          "deviationVsMid": -0.5673189802453688
         }
       ],
       "bestEnabled": null,
@@ -4845,8 +4845,8 @@
         "rate": 7.036,
         "banded": false,
         "enabled": false,
-        "midRate": 16.264738,
-        "deviationVsMid": -0.5674077258422485
+        "midRate": 16.261402,
+        "deviationVsMid": -0.5673189802453688
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -4866,8 +4866,8 @@
           "rate": 2700.1656,
           "banded": false,
           "enabled": true,
-          "midRate": 2659.314943,
-          "deviationVsMid": 0.015361346014141491
+          "midRate": 2646.453459,
+          "deviationVsMid": 0.020295894801148656
         }
       ],
       "bestEnabled": {
@@ -4877,8 +4877,8 @@
         "rate": 2700.1656,
         "banded": false,
         "enabled": true,
-        "midRate": 2659.314943,
-        "deviationVsMid": 0.015361346014141491
+        "midRate": 2646.453459,
+        "deviationVsMid": 0.020295894801148656
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4899,8 +4899,8 @@
           "rate": 3532.969476,
           "banded": false,
           "enabled": true,
-          "midRate": 3899.068895,
-          "deviationVsMid": -0.09389406262337914
+          "midRate": 3831.550271,
+          "deviationVsMid": -0.07792688960911713
         }
       ],
       "bestEnabled": {
@@ -4910,8 +4910,8 @@
         "rate": 3532.969476,
         "banded": false,
         "enabled": true,
-        "midRate": 3899.068895,
-        "deviationVsMid": -0.09389406262337914
+        "midRate": 3831.550271,
+        "deviationVsMid": -0.07792688960911713
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -4932,8 +4932,8 @@
           "rate": 3709.61795,
           "banded": false,
           "enabled": false,
-          "midRate": 3899.068895,
-          "deviationVsMid": -0.04858876570325389
+          "midRate": 3831.550271,
+          "deviationVsMid": -0.0318232340373749
         },
         {
           "provider": "Thunes",
@@ -4942,8 +4942,8 @@
           "rate": 3709.473324,
           "banded": false,
           "enabled": true,
-          "midRate": 3899.068895,
-          "deviationVsMid": -0.04862585814862854
+          "midRate": 3831.550271,
+          "deviationVsMid": -0.031860980116577994
         }
       ],
       "bestEnabled": {
@@ -4953,8 +4953,8 @@
         "rate": 3709.473324,
         "banded": false,
         "enabled": true,
-        "midRate": 3899.068895,
-        "deviationVsMid": -0.04862585814862854
+        "midRate": 3831.550271,
+        "deviationVsMid": -0.031860980116577994
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -4963,8 +4963,8 @@
         "rate": 3709.61795,
         "banded": false,
         "enabled": false,
-        "midRate": 3899.068895,
-        "deviationVsMid": -0.04858876570325389
+        "midRate": 3831.550271,
+        "deviationVsMid": -0.0318232340373749
       },
       "noLiveCoverage": false,
       "soleCoverage": true
@@ -4984,8 +4984,8 @@
           "rate": 15.052545,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.0746705584995796
+          "midRate": 16.259048,
+          "deviationVsMid": -0.07420502110578674
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4994,8 +4994,8 @@
           "rate": 15.08731,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.07253343962474731
+          "midRate": 16.259048,
+          "deviationVsMid": -0.0720668270368597
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5004,8 +5004,8 @@
           "rate": 15.769333,
           "banded": false,
           "enabled": false,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.03060724297956602
+          "midRate": 16.259048,
+          "deviationVsMid": -0.030119537134031486
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5014,8 +5014,8 @@
           "rate": 15.844784,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.025969021888670812
+          "midRate": 16.259048,
+          "deviationVsMid": -0.02547898253329465
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5024,8 +5024,8 @@
           "rate": 7.884666,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.5153036522264273
+          "midRate": 16.259048,
+          "deviationVsMid": -0.5150597993191238
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5034,8 +5034,8 @@
           "rate": 15.769333,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.03060724297956602
+          "midRate": 16.259048,
+          "deviationVsMid": -0.030119537134031486
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5044,8 +5044,8 @@
           "rate": 15.769333,
           "banded": false,
           "enabled": false,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.03060724297956602
+          "midRate": 16.259048,
+          "deviationVsMid": -0.030119537134031486
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5054,8 +5054,8 @@
           "rate": 15.052545,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.0746705584995796
+          "midRate": 16.259048,
+          "deviationVsMid": -0.07420502110578674
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5064,8 +5064,8 @@
           "rate": 7.8066,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.5201026259667597
+          "midRate": 16.259048,
+          "deviationVsMid": -0.519861187444677
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5074,8 +5074,8 @@
           "rate": 7.8066,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.5201026259667597
+          "midRate": 16.259048,
+          "deviationVsMid": -0.519861187444677
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5084,8 +5084,8 @@
           "rate": 15.052545,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.0746705584995796
+          "midRate": 16.259048,
+          "deviationVsMid": -0.07420502110578674
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5094,8 +5094,8 @@
           "rate": 15.839479,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.02629513768418311
+          "midRate": 16.259048,
+          "deviationVsMid": -0.025805262399126887
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5104,8 +5104,8 @@
           "rate": 7.884666,
           "banded": false,
           "enabled": false,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.5153036522264273
+          "midRate": 16.259048,
+          "deviationVsMid": -0.5150597993191238
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5114,8 +5114,8 @@
           "rate": 16.517563,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": 0.015388915677581931
+          "midRate": 16.259048,
+          "deviationVsMid": 0.015899762396912733
         }
       ],
       "bestEnabled": {
@@ -5125,8 +5125,8 @@
         "rate": 16.517563,
         "banded": false,
         "enabled": true,
-        "midRate": 16.267228,
-        "deviationVsMid": 0.015388915677581931
+        "midRate": 16.259048,
+        "deviationVsMid": 0.015899762396912733
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -5147,8 +5147,8 @@
           "rate": 15.171156,
           "banded": true,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.06737915027686336
+          "midRate": 16.259048,
+          "deviationVsMid": -0.06690994454287853
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5157,8 +5157,8 @@
           "rate": 16.596041,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": 0.0202132164127779
+          "midRate": 16.259048,
+          "deviationVsMid": 0.020726490259454285
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5167,8 +5167,8 @@
           "rate": 16.137121,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.007998105147355092
+          "midRate": 16.259048,
+          "deviationVsMid": -0.007499024543134349
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5177,8 +5177,8 @@
           "rate": 15.08731,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.07253343962474731
+          "midRate": 16.259048,
+          "deviationVsMid": -0.0720668270368597
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5187,8 +5187,8 @@
           "rate": 15.510318,
           "banded": false,
           "enabled": false,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.04652974680136035
+          "midRate": 16.259048,
+          "deviationVsMid": -0.04605005163893976
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5197,8 +5197,8 @@
           "rate": 15.16282,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.06789159160983048
+          "midRate": 16.259048,
+          "deviationVsMid": -0.06742264368737948
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5207,8 +5207,8 @@
           "rate": 16.596041,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": 0.0202132164127779
+          "midRate": 16.259048,
+          "deviationVsMid": 0.020726490259454285
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5217,8 +5217,8 @@
           "rate": 15.805753,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.028368385812260092
+          "midRate": 16.259048,
+          "deviationVsMid": -0.027879553587639366
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5227,8 +5227,8 @@
           "rate": 15.769333,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.03060724297956602
+          "midRate": 16.259048,
+          "deviationVsMid": -0.030119537134031486
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5237,8 +5237,8 @@
           "rate": 16.393861,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": 0.007784546943093302
+          "midRate": 16.259048,
+          "deviationVsMid": 0.008291567870394452
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5247,8 +5247,8 @@
           "rate": 16.025279,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.014873400680189532
+          "midRate": 16.259048,
+          "deviationVsMid": -0.014377779067999478
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5257,8 +5257,8 @@
           "rate": 16.153951,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.006963509701837343
+          "midRate": 16.259048,
+          "deviationVsMid": -0.006463908588005931
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5267,8 +5267,8 @@
           "rate": 16.233137,
           "banded": false,
           "enabled": true,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.00209568587838076
+          "midRate": 16.259048,
+          "deviationVsMid": -0.0015936357405427848
         }
       ],
       "bestEnabled": {
@@ -5278,8 +5278,8 @@
         "rate": 16.596041,
         "banded": false,
         "enabled": true,
-        "midRate": 16.267228,
-        "deviationVsMid": 0.0202132164127779
+        "midRate": 16.259048,
+        "deviationVsMid": 0.020726490259454285
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -5300,8 +5300,8 @@
           "rate": 20.416118,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.03479970334832007
+          "midRate": 19.416705,
+          "deviationVsMid": 0.05147181254491947
         },
         {
           "provider": "Tilt Pay",
@@ -5310,8 +5310,8 @@
           "rate": 20.620279,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.04514769125842597
+          "midRate": 19.416705,
+          "deviationVsMid": 0.06198652140000065
         },
         {
           "provider": "Tilt Pay",
@@ -5320,8 +5320,8 @@
           "rate": 18.461773,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.06425711177394129
+          "midRate": 19.416705,
+          "deviationVsMid": -0.049180950114862405
         }
       ],
       "bestEnabled": {
@@ -5331,8 +5331,8 @@
         "rate": 20.620279,
         "banded": false,
         "enabled": true,
-        "midRate": 19.729536,
-        "deviationVsMid": 0.04514769125842597
+        "midRate": 19.416705,
+        "deviationVsMid": 0.06198652140000065
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -5353,8 +5353,8 @@
           "rate": 16.906569,
           "banded": false,
           "enabled": false,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.1430832940014402
+          "midRate": 19.416705,
+          "deviationVsMid": -0.12927713533269417
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5363,8 +5363,8 @@
           "rate": 16.223982,
           "banded": true,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.17768050906012184
+          "midRate": 19.416705,
+          "deviationVsMid": -0.16443176120768177
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5373,8 +5373,8 @@
           "rate": 16.223982,
           "banded": true,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.17768050906012184
+          "midRate": 19.416705,
+          "deviationVsMid": -0.16443176120768177
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5383,8 +5383,8 @@
           "rate": 17.999115,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.08770713107495279
+          "midRate": 19.416705,
+          "deviationVsMid": -0.07300878290111533
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5393,8 +5393,8 @@
           "rate": 17.999115,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.08770713107495279
+          "midRate": 19.416705,
+          "deviationVsMid": -0.07300878290111533
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5403,8 +5403,8 @@
           "rate": 17.999115,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.08770713107495279
+          "midRate": 19.416705,
+          "deviationVsMid": -0.07300878290111533
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5413,8 +5413,8 @@
           "rate": 18.055559,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.0848462427094079
+          "midRate": 19.416705,
+          "deviationVsMid": -0.07010180151575675
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5423,8 +5423,8 @@
           "rate": 18.055559,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.0848462427094079
+          "midRate": 19.416705,
+          "deviationVsMid": -0.07010180151575675
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5433,8 +5433,8 @@
           "rate": 17.711643,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.10227777277681548
+          "midRate": 19.416705,
+          "deviationVsMid": -0.08781417856428275
         }
       ],
       "bestEnabled": {
@@ -5444,8 +5444,8 @@
         "rate": 18.055559,
         "banded": false,
         "enabled": true,
-        "midRate": 19.729536,
-        "deviationVsMid": -0.0848462427094079
+        "midRate": 19.416705,
+        "deviationVsMid": -0.07010180151575675
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -5466,8 +5466,8 @@
           "rate": 20.929584,
           "banded": false,
           "enabled": false,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.060824947935927076
+          "midRate": 19.416705,
+          "deviationVsMid": 0.07791636119516664
         },
         {
           "provider": "Zeepay",
@@ -5476,8 +5476,8 @@
           "rate": 9.099819,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.5387717683781311
+          "midRate": 19.416705,
+          "deviationVsMid": -0.5313407192414985
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5486,8 +5486,8 @@
           "rate": 9.206547,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.5333622138908892
+          "midRate": 19.416705,
+          "deviationVsMid": -0.5258440090633297
         },
         {
           "provider": "Zeepay",
@@ -5496,8 +5496,8 @@
           "rate": 19.026894,
           "banded": false,
           "enabled": false,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.03561371134120949
+          "midRate": 19.416705,
+          "deviationVsMid": -0.020076063369145365
         },
         {
           "provider": "Thunes",
@@ -5506,8 +5506,8 @@
           "rate": 8.047105,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.5921290292888793
+          "midRate": 19.416705,
+          "deviationVsMid": -0.5855576422467149
         },
         {
           "provider": "Tilt Pay",
@@ -5516,8 +5516,8 @@
           "rate": 10.36118,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.47483914472190325
+          "midRate": 19.416705,
+          "deviationVsMid": -0.46637804921071835
         },
         {
           "provider": "Thunes",
@@ -5526,8 +5526,8 @@
           "rate": 18.255672,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.0747034294166877
+          "midRate": 19.416705,
+          "deviationVsMid": -0.05979557293577874
         },
         {
           "provider": "Thunes",
@@ -5536,8 +5536,8 @@
           "rate": 18.712064,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.051571005015019
+          "midRate": 19.416705,
+          "deviationVsMid": -0.036290451958764305
         },
         {
           "provider": "Tilt Pay",
@@ -5546,8 +5546,8 @@
           "rate": 20.620279,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.04514769125842597
+          "midRate": 19.416705,
+          "deviationVsMid": 0.06198652140000065
         },
         {
           "provider": "Tilt Pay",
@@ -5556,8 +5556,8 @@
           "rate": 20.620279,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.04514769125842597
+          "midRate": 19.416705,
+          "deviationVsMid": 0.06198652140000065
         },
         {
           "provider": "Tilt Pay",
@@ -5566,8 +5566,8 @@
           "rate": 20.620279,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": 0.04514769125842597
+          "midRate": 19.416705,
+          "deviationVsMid": 0.06198652140000065
         }
       ],
       "bestEnabled": {
@@ -5577,8 +5577,8 @@
         "rate": 20.620279,
         "banded": false,
         "enabled": true,
-        "midRate": 19.729536,
-        "deviationVsMid": 0.04514769125842597
+        "midRate": 19.416705,
+        "deviationVsMid": 0.06198652140000065
       },
       "bestOverall": {
         "provider": "Zeepay",
@@ -5587,8 +5587,8 @@
         "rate": 20.929584,
         "banded": false,
         "enabled": false,
-        "midRate": 19.729536,
-        "deviationVsMid": 0.060824947935927076
+        "midRate": 19.416705,
+        "deviationVsMid": 0.07791636119516664
       },
       "noLiveCoverage": false,
       "soleCoverage": false
@@ -5608,8 +5608,8 @@
           "rate": 18.089367,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.08313266971914597
+          "midRate": 19.416705,
+          "deviationVsMid": -0.06836062040392543
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5618,8 +5618,8 @@
           "rate": 18.089367,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.08313266971914597
+          "midRate": 19.416705,
+          "deviationVsMid": -0.06836062040392543
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5628,8 +5628,8 @@
           "rate": 18.267587,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.0740995125278162
+          "midRate": 19.416705,
+          "deviationVsMid": -0.05918192607860095
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5638,8 +5638,8 @@
           "rate": 18.32239,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.07132179895158208
+          "midRate": 19.416705,
+          "deviationVsMid": -0.05635945954784819
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5648,8 +5648,8 @@
           "rate": 18.232574,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.07587416146025938
+          "midRate": 19.416705,
+          "deviationVsMid": -0.060985167153747286
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5658,8 +5658,8 @@
           "rate": 18.32239,
           "banded": false,
           "enabled": true,
-          "midRate": 19.729536,
-          "deviationVsMid": -0.07132179895158208
+          "midRate": 19.416705,
+          "deviationVsMid": -0.05635945954784819
         }
       ],
       "bestEnabled": {
@@ -5669,8 +5669,8 @@
         "rate": 18.32239,
         "banded": false,
         "enabled": true,
-        "midRate": 19.729536,
-        "deviationVsMid": -0.07132179895158208
+        "midRate": 19.416705,
+        "deviationVsMid": -0.05635945954784819
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6113,6 +6113,16 @@
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "515",
+          "title": "Cash USD",
+          "rate": 0.966183,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.033816999999999986
+        },
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "516",
           "title": "Cash USD",
           "rate": 0.966183,
           "banded": false,
@@ -6632,8 +6642,8 @@
           "rate": 16.233137,
           "banded": false,
           "enabled": false,
-          "midRate": 16.267228,
-          "deviationVsMid": -0.00209568587838076
+          "midRate": 16.259048,
+          "deviationVsMid": -0.0015936357405427848
         }
       ],
       "bestEnabled": null,
@@ -6644,8 +6654,8 @@
         "rate": 16.233137,
         "banded": false,
         "enabled": false,
-        "midRate": 16.267228,
-        "deviationVsMid": -0.00209568587838076
+        "midRate": 16.259048,
+        "deviationVsMid": -0.0015936357405427848
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -6708,8 +6718,8 @@
           "rate": 0.060501,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.015816438772000084
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.016311336952
         },
         {
           "provider": "Mukuru (own rail)",
@@ -6718,8 +6728,8 @@
           "rate": 0.060501,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.015816438772000084
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.016311336952
         }
       ],
       "bestEnabled": {
@@ -6729,8 +6739,8 @@
         "rate": 0.060501,
         "banded": false,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.015816438772000084
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.016311336952
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6784,8 +6794,8 @@
           "rate": 32.640398,
           "banded": false,
           "enabled": true,
-          "midRate": 57.00450009061163,
-          "deviationVsMid": -0.42740664424534236
+          "midRate": 56.51491182017545,
+          "deviationVsMid": -0.42244627216515285
         }
       ],
       "bestEnabled": {
@@ -6795,8 +6805,8 @@
         "rate": 32.640398,
         "banded": false,
         "enabled": true,
-        "midRate": 57.00450009061163,
-        "deviationVsMid": -0.42740664424534236
+        "midRate": 56.51491182017545,
+        "deviationVsMid": -0.42244627216515285
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6817,8 +6827,8 @@
           "rate": 6.759554,
           "banded": false,
           "enabled": true,
-          "midRate": 7.581150519314047,
-          "deviationVsMid": -0.1083735927971506
+          "midRate": 7.5700866988030295,
+          "deviationVsMid": -0.10707046445467924
         }
       ],
       "bestEnabled": {
@@ -6828,8 +6838,8 @@
         "rate": 6.759554,
         "banded": false,
         "enabled": true,
-        "midRate": 7.581150519314047,
-        "deviationVsMid": -0.1083735927971506
+        "midRate": 7.5700866988030295,
+        "deviationVsMid": -0.10707046445467924
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6850,8 +6860,8 @@
           "rate": 6.949074,
           "banded": false,
           "enabled": true,
-          "midRate": 7.581150519314047,
-          "deviationVsMid": -0.08337474868804447
+          "midRate": 7.5700866988030295,
+          "deviationVsMid": -0.08203508407654336
         }
       ],
       "bestEnabled": {
@@ -6861,8 +6871,8 @@
         "rate": 6.949074,
         "banded": false,
         "enabled": true,
-        "midRate": 7.581150519314047,
-        "deviationVsMid": -0.08337474868804447
+        "midRate": 7.5700866988030295,
+        "deviationVsMid": -0.08203508407654336
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6883,8 +6893,8 @@
           "rate": 6.759554,
           "banded": false,
           "enabled": true,
-          "midRate": 7.581150519314047,
-          "deviationVsMid": -0.1083735927971506
+          "midRate": 7.5700866988030295,
+          "deviationVsMid": -0.10707046445467924
         }
       ],
       "bestEnabled": {
@@ -6894,8 +6904,8 @@
         "rate": 6.759554,
         "banded": false,
         "enabled": true,
-        "midRate": 7.581150519314047,
-        "deviationVsMid": -0.1083735927971506
+        "midRate": 7.5700866988030295,
+        "deviationVsMid": -0.10707046445467924
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6916,8 +6926,8 @@
           "rate": 0.74732,
           "banded": true,
           "enabled": true,
-          "midRate": 0.8784319614872307,
-          "deviationVsMid": -0.1492568203748545
+          "midRate": 0.8502916652930725,
+          "deviationVsMid": -0.12110158137041248
         }
       ],
       "bestEnabled": {
@@ -6927,8 +6937,8 @@
         "rate": 0.74732,
         "banded": true,
         "enabled": true,
-        "midRate": 0.8784319614872307,
-        "deviationVsMid": -0.1492568203748545
+        "midRate": 0.8502916652930725,
+        "deviationVsMid": -0.12110158137041248
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6949,8 +6959,8 @@
           "rate": 0.719465,
           "banded": false,
           "enabled": false,
-          "midRate": 0.8784319614872307,
-          "deviationVsMid": -0.1809667321508787
+          "midRate": 0.8502916652930725,
+          "deviationVsMid": -0.15386092870612827
         },
         {
           "provider": "Thunes",
@@ -6959,8 +6969,8 @@
           "rate": 0.742625,
           "banded": false,
           "enabled": true,
-          "midRate": 0.8784319614872307,
-          "deviationVsMid": -0.15460157125578913
+          "midRate": 0.8502916652930725,
+          "deviationVsMid": -0.12662321611251215
         }
       ],
       "bestEnabled": {
@@ -6970,8 +6980,8 @@
         "rate": 0.742625,
         "banded": false,
         "enabled": true,
-        "midRate": 0.8784319614872307,
-        "deviationVsMid": -0.15460157125578913
+        "midRate": 0.8502916652930725,
+        "deviationVsMid": -0.12662321611251215
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -6992,8 +7002,8 @@
           "rate": 0.790434,
           "banded": true,
           "enabled": true,
-          "midRate": 0.8784319614872307,
-          "deviationVsMid": -0.1001761836377693
+          "midRate": 0.8502916652930725,
+          "deviationVsMid": -0.07039662710611334
         }
       ],
       "bestEnabled": {
@@ -7003,8 +7013,8 @@
         "rate": 0.790434,
         "banded": true,
         "enabled": true,
-        "midRate": 0.8784319614872307,
-        "deviationVsMid": -0.1001761836377693
+        "midRate": 0.8502916652930725,
+        "deviationVsMid": -0.07039662710611334
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7025,8 +7035,8 @@
           "rate": 0.054904,
           "banded": true,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10686411388800005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10731322860799997
         }
       ],
       "bestEnabled": {
@@ -7036,8 +7046,8 @@
         "rate": 0.054904,
         "banded": true,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10686411388800005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10731322860799997
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7058,8 +7068,8 @@
           "rate": 0.054904,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10686411388800005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10731322860799997
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7068,8 +7078,8 @@
           "rate": 0.054904,
           "banded": true,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10686411388800005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10731322860799997
         }
       ],
       "bestEnabled": {
@@ -7079,8 +7089,8 @@
         "rate": 0.054904,
         "banded": true,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10686411388800005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10731322860799997
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -7089,8 +7099,8 @@
         "rate": 0.054904,
         "banded": true,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10686411388800005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10731322860799997
       },
       "noLiveCoverage": false,
       "soleCoverage": true
@@ -7110,8 +7120,8 @@
           "rate": 0.054904,
           "banded": false,
           "enabled": true,
-          "midRate": 35.12587393500602,
-          "deviationVsMid": -0.9984369356873058
+          "midRate": 35.155705979833506,
+          "deviationVsMid": -0.9984382620553405
         }
       ],
       "bestEnabled": {
@@ -7121,8 +7131,8 @@
         "rate": 0.054904,
         "banded": false,
         "enabled": true,
-        "midRate": 35.12587393500602,
-        "deviationVsMid": -0.9984369356873058
+        "midRate": 35.155705979833506,
+        "deviationVsMid": -0.9984382620553405
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7143,8 +7153,8 @@
           "rate": 31.600299,
           "banded": false,
           "enabled": true,
-          "midRate": 35.12587393500602,
-          "deviationVsMid": -0.10036974287186275
+          "midRate": 35.155705979833506,
+          "deviationVsMid": -0.10113314128503087
         }
       ],
       "bestEnabled": {
@@ -7154,8 +7164,8 @@
         "rate": 31.600299,
         "banded": false,
         "enabled": true,
-        "midRate": 35.12587393500602,
-        "deviationVsMid": -0.10036974287186275
+        "midRate": 35.155705979833506,
+        "deviationVsMid": -0.10113314128503087
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7176,8 +7186,8 @@
           "rate": 0.355338,
           "banded": false,
           "enabled": true,
-          "midRate": 0.4130024488499208,
-          "deviationVsMid": -0.13962253495226917
+          "midRate": 0.4123680550054345,
+          "deviationVsMid": -0.13829891601249986
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7186,8 +7196,8 @@
           "rate": 0.394819,
           "banded": true,
           "enabled": true,
-          "midRate": 0.4130024488499208,
-          "deviationVsMid": -0.04402746012900387
+          "midRate": 0.4123680550054345,
+          "deviationVsMid": -0.042556776143106545
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7196,8 +7206,8 @@
           "rate": 0.399774,
           "banded": false,
           "enabled": true,
-          "midRate": 0.4130024488499208,
-          "deviationVsMid": -0.032029952574755396
+          "midRate": 0.4123680550054345,
+          "deviationVsMid": -0.030540811424562227
         }
       ],
       "bestEnabled": {
@@ -7207,8 +7217,8 @@
         "rate": 0.399774,
         "banded": false,
         "enabled": true,
-        "midRate": 0.4130024488499208,
-        "deviationVsMid": -0.032029952574755396
+        "midRate": 0.4123680550054345,
+        "deviationVsMid": -0.030540811424562227
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7229,8 +7239,8 @@
           "rate": 0.402072,
           "banded": false,
           "enabled": true,
-          "midRate": 0.4130024488499208,
-          "deviationVsMid": -0.026465820917911328
+          "midRate": 0.4123680550054345,
+          "deviationVsMid": -0.024968119815437263
         }
       ],
       "bestEnabled": {
@@ -7240,8 +7250,8 @@
         "rate": 0.402072,
         "banded": false,
         "enabled": true,
-        "midRate": 0.4130024488499208,
-        "deviationVsMid": -0.026465820917911328
+        "midRate": 0.4123680550054345,
+        "deviationVsMid": -0.024968119815437263
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7262,8 +7272,8 @@
           "rate": 0.047136,
           "banded": false,
           "enabled": true,
-          "midRate": 0.053561123013705844,
-          "deviationVsMid": -0.11995870609474919
+          "midRate": 0.05358831587187639,
+          "deviationVsMid": -0.12040527430089704
         }
       ],
       "bestEnabled": {
@@ -7273,8 +7283,8 @@
         "rate": 0.047136,
         "banded": false,
         "enabled": true,
-        "midRate": 0.053561123013705844,
-        "deviationVsMid": -0.11995870609474919
+        "midRate": 0.05358831587187639,
+        "deviationVsMid": -0.12040527430089704
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7295,8 +7305,8 @@
           "rate": 2.867347,
           "banded": false,
           "enabled": true,
-          "midRate": 9.943865728076105,
-          "deviationVsMid": -0.711646649461068
+          "midRate": 9.921779737657456,
+          "deviationVsMid": -0.7110047717429994
         }
       ],
       "bestEnabled": {
@@ -7306,8 +7316,8 @@
         "rate": 2.867347,
         "banded": false,
         "enabled": true,
-        "midRate": 9.943865728076105,
-        "deviationVsMid": -0.711646649461068
+        "midRate": 9.921779737657456,
+        "deviationVsMid": -0.7110047717429994
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7328,8 +7338,8 @@
           "rate": 0.047136,
           "banded": false,
           "enabled": true,
-          "midRate": 0.053561123013705844,
-          "deviationVsMid": -0.11995870609474919
+          "midRate": 0.05358831587187639,
+          "deviationVsMid": -0.12040527430089704
         }
       ],
       "bestEnabled": {
@@ -7339,8 +7349,8 @@
         "rate": 0.047136,
         "banded": false,
         "enabled": true,
-        "midRate": 0.053561123013705844,
-        "deviationVsMid": -0.11995870609474919
+        "midRate": 0.05358831587187639,
+        "deviationVsMid": -0.12040527430089704
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7361,8 +7371,8 @@
           "rate": 0.041218,
           "banded": false,
           "enabled": false,
-          "midRate": 0.04597851582334741,
-          "deviationVsMid": -0.10353783148715885
+          "midRate": 0.04596892757804762,
+          "deviationVsMid": -0.1033508465034634
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7371,8 +7381,8 @@
           "rate": 0.041218,
           "banded": false,
           "enabled": true,
-          "midRate": 0.04597851582334741,
-          "deviationVsMid": -0.10353783148715885
+          "midRate": 0.04596892757804762,
+          "deviationVsMid": -0.1033508465034634
         },
         {
           "provider": "Thunes",
@@ -7381,8 +7391,8 @@
           "rate": 0.043906,
           "banded": true,
           "enabled": true,
-          "midRate": 0.04597851582334741,
-          "deviationVsMid": -0.045075744317414575
+          "midRate": 0.04596892757804762,
+          "deviationVsMid": -0.044876565252585314
         }
       ],
       "bestEnabled": {
@@ -7392,8 +7402,8 @@
         "rate": 0.043906,
         "banded": true,
         "enabled": true,
-        "midRate": 0.04597851582334741,
-        "deviationVsMid": -0.045075744317414575
+        "midRate": 0.04596892757804762,
+        "deviationVsMid": -0.044876565252585314
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7414,8 +7424,8 @@
           "rate": 0.060501,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.015816438772000084
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.016311336952
         }
       ],
       "bestEnabled": null,
@@ -7426,8 +7436,8 @@
         "rate": 0.060501,
         "banded": true,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.015816438772000084
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.016311336952
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -7447,8 +7457,8 @@
           "rate": 0.691595,
           "banded": false,
           "enabled": true,
-          "midRate": 0.7117462176100317,
-          "deviationVsMid": -0.028312363468115564
+          "midRate": 0.7050143403230005,
+          "deviationVsMid": -0.019034138109662396
         }
       ],
       "bestEnabled": {
@@ -7458,8 +7468,8 @@
         "rate": 0.691595,
         "banded": false,
         "enabled": true,
-        "midRate": 0.7117462176100317,
-        "deviationVsMid": -0.028312363468115564
+        "midRate": 0.7050143403230005,
+        "deviationVsMid": -0.019034138109662396
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7480,8 +7490,8 @@
           "rate": 0.025925,
           "banded": false,
           "enabled": true,
-          "midRate": 0.053561123013705844,
-          "deviationVsMid": -0.5159735543004577
+          "midRate": 0.05358831587187639,
+          "deviationVsMid": -0.5162191687086464
         }
       ],
       "bestEnabled": {
@@ -7491,8 +7501,8 @@
         "rate": 0.025925,
         "banded": false,
         "enabled": true,
-        "midRate": 0.053561123013705844,
-        "deviationVsMid": -0.5159735543004577
+        "midRate": 0.05358831587187639,
+        "deviationVsMid": -0.5162191687086464
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7513,8 +7523,8 @@
           "rate": 7.084618,
           "banded": true,
           "enabled": false,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.1101649954032089
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.11099710674321385
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7523,8 +7533,8 @@
           "rate": 7.135788,
           "banded": true,
           "enabled": true,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.10373799296140924
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.10457611438371758
         }
       ],
       "bestEnabled": {
@@ -7534,8 +7544,8 @@
         "rate": 7.135788,
         "banded": true,
         "enabled": true,
-        "midRate": 7.961720952088457,
-        "deviationVsMid": -0.10373799296140924
+        "midRate": 7.969173164382072,
+        "deviationVsMid": -0.10457611438371758
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7556,8 +7566,8 @@
           "rate": 7.659046,
           "banded": true,
           "enabled": false,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.03801627234989457
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.038915852119787535
         }
       ],
       "bestEnabled": null,
@@ -7568,8 +7578,8 @@
         "rate": 7.659046,
         "banded": true,
         "enabled": false,
-        "midRate": 7.961720952088457,
-        "deviationVsMid": -0.03801627234989457
+        "midRate": 7.969173164382072,
+        "deviationVsMid": -0.038915852119787535
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -7589,8 +7599,8 @@
           "rate": 7.084618,
           "banded": true,
           "enabled": false,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.1101649954032089
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.11099710674321385
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7599,8 +7609,8 @@
           "rate": 7.714365,
           "banded": true,
           "enabled": true,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.031068151418139345
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.031974228583829485
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7609,8 +7619,8 @@
           "rate": 7.084618,
           "banded": false,
           "enabled": false,
-          "midRate": 7.961720952088457,
-          "deviationVsMid": -0.1101649954032089
+          "midRate": 7.969173164382072,
+          "deviationVsMid": -0.11099710674321385
         }
       ],
       "bestEnabled": {
@@ -7620,8 +7630,8 @@
         "rate": 7.714365,
         "banded": true,
         "enabled": true,
-        "midRate": 7.961720952088457,
-        "deviationVsMid": -0.031068151418139345
+        "midRate": 7.969173164382072,
+        "deviationVsMid": -0.031974228583829485
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7642,8 +7652,8 @@
           "rate": 0.970873,
           "banded": true,
           "enabled": false,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.028978367186486647
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.02926754354243258
         }
       ],
       "bestEnabled": null,
@@ -7654,8 +7664,8 @@
         "rate": 0.970873,
         "banded": true,
         "enabled": false,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.028978367186486647
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.02926754354243258
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -7675,8 +7685,8 @@
           "rate": 0.90909,
           "banded": true,
           "enabled": true,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.09077082566469886
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.09104159983745563
         }
       ],
       "bestEnabled": {
@@ -7686,8 +7696,8 @@
         "rate": 0.90909,
         "banded": true,
         "enabled": true,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.09077082566469886
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.09104159983745563
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7708,8 +7718,8 @@
           "rate": 0.90909,
           "banded": true,
           "enabled": true,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.09077082566469886
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.09104159983745563
         }
       ],
       "bestEnabled": {
@@ -7719,8 +7729,8 @@
         "rate": 0.90909,
         "banded": true,
         "enabled": true,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.09077082566469886
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.09104159983745563
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7741,8 +7751,8 @@
           "rate": 94.96909,
           "banded": true,
           "enabled": true,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.11770391199961588
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.11662450212463855
         }
       ],
       "bestEnabled": {
@@ -7752,8 +7762,8 @@
         "rate": 94.96909,
         "banded": true,
         "enabled": true,
-        "midRate": 107.63857087390673,
-        "deviationVsMid": -0.11770391199961588
+        "midRate": 107.50704567696705,
+        "deviationVsMid": -0.11662450212463855
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7774,8 +7784,8 @@
           "rate": 95.840366,
           "banded": true,
           "enabled": true,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.10960945298807191
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.10852014027083053
         }
       ],
       "bestEnabled": {
@@ -7785,8 +7795,8 @@
         "rate": 95.840366,
         "banded": true,
         "enabled": true,
-        "midRate": 107.63857087390673,
-        "deviationVsMid": -0.10960945298807191
+        "midRate": 107.50704567696705,
+        "deviationVsMid": -0.10852014027083053
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7807,8 +7817,8 @@
           "rate": 94.96909,
           "banded": true,
           "enabled": true,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.11770391199961588
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.11662450212463855
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7817,8 +7827,8 @@
           "rate": 94.96909,
           "banded": true,
           "enabled": true,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.11770391199961588
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.11662450212463855
         }
       ],
       "bestEnabled": {
@@ -7828,8 +7838,8 @@
         "rate": 94.96909,
         "banded": true,
         "enabled": true,
-        "midRate": 107.63857087390673,
-        "deviationVsMid": -0.11770391199961588
+        "midRate": 107.50704567696705,
+        "deviationVsMid": -0.11662450212463855
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7850,8 +7860,8 @@
           "rate": 97.85623,
           "banded": true,
           "enabled": true,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.09088137081795951
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.08976914597732923
         }
       ],
       "bestEnabled": {
@@ -7861,8 +7871,8 @@
         "rate": 97.85623,
         "banded": true,
         "enabled": true,
-        "midRate": 107.63857087390673,
-        "deviationVsMid": -0.09088137081795951
+        "midRate": 107.50704567696705,
+        "deviationVsMid": -0.08976914597732923
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7883,8 +7893,8 @@
           "rate": 104.466,
           "banded": false,
           "enabled": false,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.029474293909227445
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.028286943035386477
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7893,8 +7903,8 @@
           "rate": 104.466,
           "banded": false,
           "enabled": false,
-          "midRate": 107.63857087390673,
-          "deviationVsMid": -0.029474293909227445
+          "midRate": 107.50704567696705,
+          "deviationVsMid": -0.028286943035386477
         }
       ],
       "bestEnabled": null,
@@ -7905,8 +7915,8 @@
         "rate": 104.466,
         "banded": false,
         "enabled": false,
-        "midRate": 107.63857087390673,
-        "deviationVsMid": -0.029474293909227445
+        "midRate": 107.50704567696705,
+        "deviationVsMid": -0.028286943035386477
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -7926,8 +7936,8 @@
           "rate": 3.49686,
           "banded": true,
           "enabled": true,
-          "midRate": 3.9414284351335085,
-          "deviationVsMid": -0.11279373517749783
+          "midRate": 3.9272133276191816,
+          "deviationVsMid": -0.10958236584516723
         }
       ],
       "bestEnabled": {
@@ -7937,8 +7947,8 @@
         "rate": 3.49686,
         "banded": true,
         "enabled": true,
-        "midRate": 3.9414284351335085,
-        "deviationVsMid": -0.11279373517749783
+        "midRate": 3.9272133276191816,
+        "deviationVsMid": -0.10958236584516723
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -7959,8 +7969,8 @@
           "rate": 3.465357,
           "banded": true,
           "enabled": true,
-          "midRate": 3.9414284351335085,
-          "deviationVsMid": -0.12078652269564358
+          "midRate": 3.9272133276191816,
+          "deviationVsMid": -0.11760408439517482
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7969,8 +7979,8 @@
           "rate": 3.49686,
           "banded": true,
           "enabled": false,
-          "midRate": 3.9414284351335085,
-          "deviationVsMid": -0.11279373517749783
+          "midRate": 3.9272133276191816,
+          "deviationVsMid": -0.10958236584516723
         },
         {
           "provider": "Mukuru (own rail)",
@@ -7979,8 +7989,8 @@
           "rate": 3.477859,
           "banded": true,
           "enabled": true,
-          "midRate": 3.9414284351335085,
-          "deviationVsMid": -0.11761457622858143
+          "midRate": 3.9272133276191816,
+          "deviationVsMid": -0.11442065661648088
         }
       ],
       "bestEnabled": {
@@ -7990,8 +8000,8 @@
         "rate": 3.477859,
         "banded": true,
         "enabled": true,
-        "midRate": 3.9414284351335085,
-        "deviationVsMid": -0.11761457622858143
+        "midRate": 3.9272133276191816,
+        "deviationVsMid": -0.11442065661648088
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -8000,8 +8010,8 @@
         "rate": 3.49686,
         "banded": true,
         "enabled": false,
-        "midRate": 3.9414284351335085,
-        "deviationVsMid": -0.11279373517749783
+        "midRate": 3.9272133276191816,
+        "deviationVsMid": -0.10958236584516723
       },
       "noLiveCoverage": false,
       "soleCoverage": false
@@ -8021,8 +8031,8 @@
           "rate": 0.90909,
           "banded": true,
           "enabled": true,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.09077082566469886
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.09104159983745563
         }
       ],
       "bestEnabled": {
@@ -8032,8 +8042,8 @@
         "rate": 0.90909,
         "banded": true,
         "enabled": true,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.09077082566469886
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.09104159983745563
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8054,8 +8064,8 @@
           "rate": 24.402907,
           "banded": false,
           "enabled": true,
-          "midRate": 82.10954712136574,
-          "deviationVsMid": -0.7028006138685654
+          "midRate": 81.97493487933612,
+          "deviationVsMid": -0.7023125784007012
         }
       ],
       "bestEnabled": {
@@ -8065,8 +8075,8 @@
         "rate": 24.402907,
         "banded": false,
         "enabled": true,
-        "midRate": 82.10954712136574,
-        "deviationVsMid": -0.7028006138685654
+        "midRate": 81.97493487933612,
+        "deviationVsMid": -0.7023125784007012
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8087,8 +8097,8 @@
           "rate": 75.393824,
           "banded": false,
           "enabled": true,
-          "midRate": 82.10954712136574,
-          "deviationVsMid": -0.0817897961541459
+          "midRate": 81.97493487933612,
+          "deviationVsMid": -0.08028198972067815
         }
       ],
       "bestEnabled": {
@@ -8098,8 +8108,8 @@
         "rate": 75.393824,
         "banded": false,
         "enabled": true,
-        "midRate": 82.10954712136574,
-        "deviationVsMid": -0.0817897961541459
+        "midRate": 81.97493487933612,
+        "deviationVsMid": -0.08028198972067815
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8120,8 +8130,8 @@
           "rate": 0.054903,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10688038111600005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10732948765599998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8130,8 +8140,8 @@
           "rate": 0.055,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10530246000000006
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10575235999999999
         }
       ],
       "bestEnabled": {
@@ -8141,8 +8151,8 @@
         "rate": 0.055,
         "banded": false,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10530246000000006
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10575235999999999
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8163,8 +8173,8 @@
           "rate": 0.08634,
           "banded": false,
           "enabled": false,
-          "midRate": 0.10752809267811334,
-          "deviationVsMid": -0.19704704278109117
+          "midRate": 0.10753329469228456,
+          "deviationVsMid": -0.19708588631019755
         }
       ],
       "bestEnabled": null,
@@ -8175,8 +8185,8 @@
         "rate": 0.08634,
         "banded": false,
         "enabled": false,
-        "midRate": 0.10752809267811334,
-        "deviationVsMid": -0.19704704278109117
+        "midRate": 0.10753329469228456,
+        "deviationVsMid": -0.19708588631019755
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -8196,8 +8206,8 @@
           "rate": 0.055,
           "banded": false,
           "enabled": true,
-          "midRate": 3.86295138913649,
-          "deviationVsMid": -0.9857621816948894
+          "midRate": 3.8678895590934967,
+          "deviationVsMid": -0.9857803592476694
         }
       ],
       "bestEnabled": {
@@ -8207,8 +8217,8 @@
         "rate": 0.055,
         "banded": false,
         "enabled": true,
-        "midRate": 3.86295138913649,
-        "deviationVsMid": -0.9857621816948894
+        "midRate": 3.8678895590934967,
+        "deviationVsMid": -0.9857803592476694
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8229,8 +8239,8 @@
           "rate": 15.226699,
           "banded": false,
           "enabled": false,
-          "midRate": 17.128380569818045,
-          "deviationVsMid": -0.11102518198182741
+          "midRate": 17.093633403382533,
+          "deviationVsMid": -0.10921811409697714
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8239,8 +8249,8 @@
           "rate": 16.732,
           "banded": false,
           "enabled": true,
-          "midRate": 17.128380569818045,
-          "deviationVsMid": -0.023141742338240012
+          "midRate": 17.093633403382533,
+          "deviationVsMid": -0.02115602896403365
         }
       ],
       "bestEnabled": {
@@ -8250,8 +8260,8 @@
         "rate": 16.732,
         "banded": false,
         "enabled": true,
-        "midRate": 17.128380569818045,
-        "deviationVsMid": -0.023141742338240012
+        "midRate": 17.093633403382533,
+        "deviationVsMid": -0.02115602896403365
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8272,8 +8282,8 @@
           "rate": 15.210909,
           "banded": false,
           "enabled": true,
-          "midRate": 17.128380569818045,
-          "deviationVsMid": -0.11194704379682144
+          "midRate": 17.093633403382533,
+          "deviationVsMid": -0.11014184983105907
         }
       ],
       "bestEnabled": {
@@ -8283,8 +8293,8 @@
         "rate": 15.210909,
         "banded": false,
         "enabled": true,
-        "midRate": 17.128380569818045,
-        "deviationVsMid": -0.11194704379682144
+        "midRate": 17.093633403382533,
+        "deviationVsMid": -0.11014184983105907
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8305,8 +8315,8 @@
           "rate": 0.970873,
           "banded": true,
           "enabled": false,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.028978367186486647
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.02926754354243258
         }
       ],
       "bestEnabled": null,
@@ -8317,8 +8327,8 @@
         "rate": 0.970873,
         "banded": true,
         "enabled": false,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.028978367186486647
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.02926754354243258
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -8338,8 +8348,8 @@
           "rate": 0.90909,
           "banded": false,
           "enabled": false,
-          "midRate": 0.9998469315116258,
-          "deviationVsMid": -0.09077082566469886
+          "midRate": 1.0001447809244428,
+          "deviationVsMid": -0.09104159983745563
         }
       ],
       "bestEnabled": null,
@@ -8350,8 +8360,8 @@
         "rate": 0.90909,
         "banded": false,
         "enabled": false,
-        "midRate": 0.9998469315116258,
-        "deviationVsMid": -0.09077082566469886
+        "midRate": 1.0001447809244428,
+        "deviationVsMid": -0.09104159983745563
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -8371,8 +8381,8 @@
           "rate": 145.158114,
           "banded": false,
           "enabled": true,
-          "midRate": 163.4768347133267,
-          "deviationVsMid": -0.1120569819292772
+          "midRate": 162.7680451524591,
+          "deviationVsMid": -0.1081903461822896
         }
       ],
       "bestEnabled": {
@@ -8382,8 +8392,8 @@
         "rate": 145.158114,
         "banded": false,
         "enabled": true,
-        "midRate": 163.4768347133267,
-        "deviationVsMid": -0.1120569819292772
+        "midRate": 162.7680451524591,
+        "deviationVsMid": -0.1081903461822896
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8404,8 +8414,8 @@
           "rate": 145.158114,
           "banded": false,
           "enabled": true,
-          "midRate": 163.4768347133267,
-          "deviationVsMid": -0.1120569819292772
+          "midRate": 162.7680451524591,
+          "deviationVsMid": -0.1081903461822896
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8414,8 +8424,8 @@
           "rate": 145.158114,
           "banded": false,
           "enabled": true,
-          "midRate": 163.4768347133267,
-          "deviationVsMid": -0.1120569819292772
+          "midRate": 162.7680451524591,
+          "deviationVsMid": -0.1081903461822896
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8424,8 +8434,8 @@
           "rate": 159.673926,
           "banded": false,
           "enabled": true,
-          "midRate": 163.4768347133267,
-          "deviationVsMid": -0.02326267645196024
+          "midRate": 162.7680451524591,
+          "deviationVsMid": -0.019009377114291456
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8434,8 +8444,8 @@
           "rate": 145.158114,
           "banded": false,
           "enabled": true,
-          "midRate": 163.4768347133267,
-          "deviationVsMid": -0.1120569819292772
+          "midRate": 162.7680451524591,
+          "deviationVsMid": -0.1081903461822896
         }
       ],
       "bestEnabled": {
@@ -8445,8 +8455,8 @@
         "rate": 159.673926,
         "banded": false,
         "enabled": true,
-        "midRate": 163.4768347133267,
-        "deviationVsMid": -0.02326267645196024
+        "midRate": 162.7680451524591,
+        "deviationVsMid": -0.019009377114291456
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8467,8 +8477,8 @@
           "rate": 218.612881,
           "banded": true,
           "enabled": true,
-          "midRate": 239.68858707826558,
-          "deviationVsMid": -0.0879295352989992
+          "midRate": 235.65649544794996,
+          "deviationVsMid": -0.07232397484123006
         }
       ],
       "bestEnabled": {
@@ -8478,8 +8488,8 @@
         "rate": 218.612881,
         "banded": true,
         "enabled": true,
-        "midRate": 239.68858707826558,
-        "deviationVsMid": -0.0879295352989992
+        "midRate": 235.65649544794996,
+        "deviationVsMid": -0.07232397484123006
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8500,8 +8510,8 @@
           "rate": 204.701152,
           "banded": false,
           "enabled": true,
-          "midRate": 239.68858707826558,
-          "deviationVsMid": -0.1459703839250432
+          "midRate": 235.65649544794996,
+          "deviationVsMid": -0.13135790460223976
         }
       ],
       "bestEnabled": {
@@ -8511,8 +8521,8 @@
         "rate": 204.701152,
         "banded": false,
         "enabled": true,
-        "midRate": 239.68858707826558,
-        "deviationVsMid": -0.1459703839250432
+        "midRate": 235.65649544794996,
+        "deviationVsMid": -0.13135790460223976
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8778,8 +8788,8 @@
           "rate": 1.018622,
           "banded": true,
           "enabled": true,
-          "midRate": 1.212839458572782,
-          "deviationVsMid": -0.16013451508357826
+          "midRate": 1.194209218153486,
+          "deviationVsMid": -0.14703220799533195
         }
       ],
       "bestEnabled": {
@@ -8789,8 +8799,8 @@
         "rate": 1.018622,
         "banded": true,
         "enabled": true,
-        "midRate": 1.212839458572782,
-        "deviationVsMid": -0.16013451508357826
+        "midRate": 1.194209218153486,
+        "deviationVsMid": -0.14703220799533195
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8811,8 +8821,8 @@
           "rate": 0.979844,
           "banded": true,
           "enabled": true,
-          "midRate": 1.212839458572782,
-          "deviationVsMid": -0.19210741943287457
+          "midRate": 1.194209218153486,
+          "deviationVsMid": -0.17950390509038477
         }
       ],
       "bestEnabled": {
@@ -8822,8 +8832,8 @@
         "rate": 0.979844,
         "banded": true,
         "enabled": true,
-        "midRate": 1.212839458572782,
-        "deviationVsMid": -0.19210741943287457
+        "midRate": 1.194209218153486,
+        "deviationVsMid": -0.17950390509038477
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -8844,8 +8854,8 @@
           "rate": 1.018622,
           "banded": true,
           "enabled": false,
-          "midRate": 1.212839458572782,
-          "deviationVsMid": -0.16013451508357826
+          "midRate": 1.194209218153486,
+          "deviationVsMid": -0.14703220799533195
         },
         {
           "provider": "Zeepay",
@@ -8854,8 +8864,8 @@
           "rate": 1.357932,
           "banded": false,
           "enabled": false,
-          "midRate": 1.212839458572782,
-          "deviationVsMid": 0.11963045925134783
+          "midRate": 1.194209218153486,
+          "deviationVsMid": 0.13709723502190502
         }
       ],
       "bestEnabled": null,
@@ -8866,8 +8876,8 @@
         "rate": 1.357932,
         "banded": false,
         "enabled": false,
-        "midRate": 1.212839458572782,
-        "deviationVsMid": 0.11963045925134783
+        "midRate": 1.194209218153486,
+        "deviationVsMid": 0.13709723502190502
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -8986,8 +8996,8 @@
           "rate": 0.05436,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.1157134859200001
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11615815072
         }
       ],
       "bestEnabled": null,
@@ -8998,8 +9008,8 @@
         "rate": 0.05436,
         "banded": true,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.1157134859200001
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.11615815072
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9019,8 +9029,8 @@
           "rate": 0.054904,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10686411388800005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10731322860799997
         }
       ],
       "bestEnabled": null,
@@ -9031,8 +9041,8 @@
         "rate": 0.054904,
         "banded": false,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10686411388800005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10731322860799997
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9052,8 +9062,8 @@
           "rate": 0.057783,
           "banded": true,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06003076447600005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.06050342941599997
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9062,8 +9072,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9072,8 +9082,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9082,8 +9092,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9092,8 +9102,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9102,8 +9112,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9112,8 +9122,8 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.06434157989600008
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.064812077136
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9122,8 +9132,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9132,8 +9142,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9142,8 +9152,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9152,8 +9162,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9162,8 +9172,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9172,8 +9182,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9182,8 +9192,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9192,8 +9202,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         }
       ],
       "bestEnabled": {
@@ -9203,8 +9213,8 @@
         "rate": 0.057783,
         "banded": true,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.06003076447600005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.06050342941599997
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -9225,8 +9235,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9235,8 +9245,8 @@
           "rate": 0.05436,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.1157134859200001
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11615815072
         }
       ],
       "bestEnabled": null,
@@ -9247,8 +9257,8 @@
         "rate": 0.054522,
         "banded": true,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.11307819498400005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.11352418494399998
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9268,8 +9278,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9278,8 +9288,8 @@
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.11307819498400005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.11352418494399998
         }
       ],
       "bestEnabled": null,
@@ -9290,8 +9300,8 @@
         "rate": 0.054522,
         "banded": true,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.11307819498400005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.11352418494399998
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9311,8 +9321,8 @@
           "rate": 0.060501,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.015816438772000084
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.016311336952
         }
       ],
       "bestEnabled": null,
@@ -9323,8 +9333,8 @@
         "rate": 0.060501,
         "banded": false,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.015816438772000084
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.016311336952
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9344,8 +9354,8 @@
           "rate": 0.057894,
           "banded": true,
           "enabled": true,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.05822510216800005
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.058698675087999974
         }
       ],
       "bestEnabled": {
@@ -9355,8 +9365,8 @@
         "rate": 0.057894,
         "banded": true,
         "enabled": true,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.05822510216800005
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.058698675087999974
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -9377,8 +9387,8 @@
           "rate": 0.053772,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.12527861598400006
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.125718470944
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9387,8 +9397,8 @@
           "rate": 0.055,
           "banded": false,
           "enabled": false,
-          "midRate": 0.061473288503732786,
-          "deviationVsMid": -0.10530246000000006
+          "midRate": 0.06150421599099775,
+          "deviationVsMid": -0.10575235999999999
         }
       ],
       "bestEnabled": null,
@@ -9399,8 +9409,8 @@
         "rate": 0.055,
         "banded": false,
         "enabled": false,
-        "midRate": 0.061473288503732786,
-        "deviationVsMid": -0.10530246000000006
+        "midRate": 0.06150421599099775,
+        "deviationVsMid": -0.10575235999999999
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9516,8 +9526,8 @@
           "rate": 0.048514,
           "banded": false,
           "enabled": true,
-          "midRate": 0.05068542919610477,
-          "deviationVsMid": -0.04284129049600005
+          "midRate": 0.05150204424489119,
+          "deviationVsMid": -0.05801797362999992
         }
       ],
       "bestEnabled": {
@@ -9527,8 +9537,8 @@
         "rate": 0.048514,
         "banded": false,
         "enabled": true,
-        "midRate": 0.05068542919610477,
-        "deviationVsMid": -0.04284129049600005
+        "midRate": 0.05150204424489119,
+        "deviationVsMid": -0.05801797362999992
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -9549,8 +9559,8 @@
           "rate": 83.870181,
           "banded": false,
           "enabled": true,
-          "midRate": 88.7492323184894,
-          "deviationVsMid": -0.054975701659933505
+          "midRate": 90.02362738683004,
+          "deviationVsMid": -0.06835368186608148
         }
       ],
       "bestEnabled": {
@@ -9560,8 +9570,8 @@
         "rate": 83.870181,
         "banded": false,
         "enabled": true,
-        "midRate": 88.7492323184894,
-        "deviationVsMid": -0.054975701659933505
+        "midRate": 90.02362738683004,
+        "deviationVsMid": -0.06835368186608148
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -9582,8 +9592,8 @@
           "rate": 3.096545,
           "banded": false,
           "enabled": false,
-          "midRate": 3.2497528071618103,
-          "deviationVsMid": -0.04714444951756662
+          "midRate": 3.2885471556579757,
+          "deviationVsMid": -0.05838510034062743
         }
       ],
       "bestEnabled": null,
@@ -9594,8 +9604,8 @@
         "rate": 3.096545,
         "banded": false,
         "enabled": false,
-        "midRate": 3.2497528071618103,
-        "deviationVsMid": -0.04714444951756662
+        "midRate": 3.2885471556579757,
+        "deviationVsMid": -0.05838510034062743
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9615,8 +9625,8 @@
           "rate": 13.440636,
           "banded": false,
           "enabled": false,
-          "midRate": 14.12254560877661,
-          "deviationVsMid": -0.048285176601081774
+          "midRate": 14.313767758226742,
+          "deviationVsMid": -0.06099943585607751
         }
       ],
       "bestEnabled": null,
@@ -9627,8 +9637,8 @@
         "rate": 13.440636,
         "banded": false,
         "enabled": false,
-        "midRate": 14.12254560877661,
-        "deviationVsMid": -0.048285176601081774
+        "midRate": 14.313767758226742,
+        "deviationVsMid": -0.06099943585607751
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9648,8 +9658,8 @@
           "rate": 0.801485,
           "banded": false,
           "enabled": false,
-          "midRate": 0.8245114330108929,
-          "deviationVsMid": -0.027927366545793794
+          "midRate": 0.8373742094758096,
+          "deviationVsMid": -0.04285922478825332
         }
       ],
       "bestEnabled": null,
@@ -9660,8 +9670,8 @@
         "rate": 0.801485,
         "banded": false,
         "enabled": false,
-        "midRate": 0.8245114330108929,
-        "deviationVsMid": -0.027927366545793794
+        "midRate": 0.8373742094758096,
+        "deviationVsMid": -0.04285922478825332
       },
       "noLiveCoverage": true,
       "soleCoverage": false
@@ -9681,8 +9691,8 @@
           "rate": 0.801485,
           "banded": false,
           "enabled": true,
-          "midRate": 0.8245114330108929,
-          "deviationVsMid": -0.027927366545793794
+          "midRate": 0.8373742094758096,
+          "deviationVsMid": -0.04285922478825332
         }
       ],
       "bestEnabled": {
@@ -9692,8 +9702,8 @@
         "rate": 0.801485,
         "banded": false,
         "enabled": true,
-        "midRate": 0.8245114330108929,
-        "deviationVsMid": -0.027927366545793794
+        "midRate": 0.8373742094758096,
+        "deviationVsMid": -0.04285922478825332
       },
       "bestOverall": null,
       "noLiveCoverage": false,
@@ -9922,8 +9932,8 @@
           "rate": 0.048514,
           "banded": false,
           "enabled": true,
-          "midRate": 0.05068542919610477,
-          "deviationVsMid": -0.04284129049600005
+          "midRate": 0.05150204424489119,
+          "deviationVsMid": -0.05801797362999992
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9932,8 +9942,8 @@
           "rate": 0.051148,
           "banded": false,
           "enabled": false,
-          "midRate": 0.05068542919610477,
-          "deviationVsMid": 0.009126307327999891
+          "midRate": 0.05150204424489119,
+          "deviationVsMid": -0.006874372659999964
         }
       ],
       "bestEnabled": {
@@ -9943,8 +9953,8 @@
         "rate": 0.048514,
         "banded": false,
         "enabled": true,
-        "midRate": 0.05068542919610477,
-        "deviationVsMid": -0.04284129049600005
+        "midRate": 0.05150204424489119,
+        "deviationVsMid": -0.05801797362999992
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -9953,8 +9963,8 @@
         "rate": 0.051148,
         "banded": false,
         "enabled": false,
-        "midRate": 0.05068542919610477,
-        "deviationVsMid": 0.009126307327999891
+        "midRate": 0.05150204424489119,
+        "deviationVsMid": -0.006874372659999964
       },
       "noLiveCoverage": false,
       "soleCoverage": true
