@@ -1,30 +1,21 @@
 {
-  "generatedAt": "2026-09-22T06:05:06.080066+00:00",
+  "generatedAt": "2026-09-22T06:06:12.096185+00:00",
   "environment": "staging",
-  "totalCorridors": 223,
+  "totalCorridors": 282,
   "corridors": [
     {
-      "key": "BWP->BW:BWP:cash-collection",
+      "key": "BWP->BW:BWP:cash-collection:send cash bwp",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
+      "title": "Send Cash BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "155",
           "title": "Send Cash BWP",
-          "rate": 1,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "190",
-          "title": "Send Cash BWP paid by Wallet",
           "rate": 1,
           "banded": false,
           "enabled": true,
@@ -44,15 +35,50 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "BWP->BW:BWP:mukuru-payin",
+      "key": "BWP->BW:BWP:cash-collection:send cash bwp paid by wallet",
+      "payInCurrency": "BWP",
+      "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
+      "payOutCurrency": "BWP",
+      "type": "cash-collection",
+      "title": "Send Cash BWP paid by Wallet",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "190",
+          "title": "Send Cash BWP paid by Wallet",
+          "rate": 1,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "190",
+        "title": "Send Cash BWP paid by Wallet",
+        "rate": 1,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "BWP->BW:BWP:mukuru-payin:mukuru payin bwp",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-payin",
+      "title": "Mukuru Payin BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -80,12 +106,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->BW:BWP:mukuru-wallet-topup",
+      "key": "BWP->BW:BWP:mukuru-wallet-topup:send to mukuru wallet bwp",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
+      "title": "Send to Mukuru Wallet BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -113,12 +140,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->BW:BWP:mukuru-wallet-withdrawal",
+      "key": "BWP->BW:BWP:mukuru-wallet-withdrawal:mukuru wallet cash withdrawal bwp",
       "payInCurrency": "BWP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-withdrawal",
+      "title": "Mukuru Wallet Cash Withdrawal BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -146,12 +174,13 @@
       "soleCoverage": false
     },
     {
-      "key": "BWP->CD:USD:cash-collection",
+      "key": "BWP->CD:USD:cash-collection:cash usd",
       "payInCurrency": "BWP",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -179,12 +208,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->CN:CNY:bank-top-up",
+      "key": "BWP->CN:CNY:bank-top-up:bank top-up cny",
       "payInCurrency": "BWP",
       "payOutCountry": "CN",
       "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "bank-top-up",
+      "title": "Bank Top-up CNY",
       "providers": [
         {
           "provider": "Geoswift",
@@ -212,12 +242,13 @@
       "soleCoverage": false
     },
     {
-      "key": "BWP->MZ:MZN:cash-collection",
+      "key": "BWP->MZ:MZN:cash-collection:cash mzn",
       "payInCurrency": "BWP",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
+      "title": "Cash MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -245,12 +276,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->PK:PKR:cash-collection",
+      "key": "BWP->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "BWP",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -278,12 +310,13 @@
       "soleCoverage": false
     },
     {
-      "key": "BWP->US:USD:bank-top-up",
+      "key": "BWP->US:USD:bank-top-up:bank top-up usd",
       "payInCurrency": "BWP",
       "payOutCountry": "US",
       "payOutCountryName": "United States",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
+      "title": "Bank top-up USD",
       "providers": [
         {
           "provider": "Thunes",
@@ -311,12 +344,13 @@
       "soleCoverage": false
     },
     {
-      "key": "BWP->ZA:ZAR:card-top-up",
+      "key": "BWP->ZA:ZAR:card-top-up:mukuru card top-up zar",
       "payInCurrency": "BWP",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
+      "title": "Mukuru Card top-up ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -344,12 +378,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->ZA:ZAR:cash-collection",
+      "key": "BWP->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "BWP",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -377,12 +412,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->ZM:ZMW:cash-collection",
+      "key": "BWP->ZM:ZMW:cash-collection:cash zmw",
       "payInCurrency": "BWP",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
+      "title": "Cash ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -410,12 +446,13 @@
       "soleCoverage": true
     },
     {
-      "key": "BWP->ZW:USD:cash-collection",
+      "key": "BWP->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "BWP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -443,12 +480,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->AT:EUR:bank-top-up",
+      "key": "GBP->AT:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "AT",
       "payOutCountryName": "Austria",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -476,12 +514,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->AU:AUD:bank-top-up",
+      "key": "GBP->AU:AUD:bank-top-up:bank top-up aud",
       "payInCurrency": "GBP",
       "payOutCountry": "AU",
       "payOutCountryName": "Australia",
       "payOutCurrency": "AUD",
       "type": "bank-top-up",
+      "title": "Bank Top-up AUD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -509,12 +548,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->BD:BDT:bank-top-up",
+      "key": "GBP->BD:BDT:bank-top-up:bank top-up bdt",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "bank-top-up",
+      "title": "Bank Top-up BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -542,12 +582,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->BD:BDT:cash-collection",
+      "key": "GBP->BD:BDT:cash-collection:cash bdt",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "cash-collection",
+      "title": "Cash BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -575,12 +616,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->BD:BDT:mobile-wallet",
+      "key": "GBP->BD:BDT:mobile-wallet:bkash wallet top-up bdt",
       "payInCurrency": "GBP",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "mobile-wallet",
+      "title": "bKash Wallet top-up BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -608,12 +650,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->BE:EUR:bank-top-up",
+      "key": "GBP->BE:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "BE",
       "payOutCountryName": "Belgium",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -641,12 +684,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->BF:XOF:cash-collection",
+      "key": "GBP->BF:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "BF",
       "payOutCountryName": "Burkina Faso",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -674,12 +718,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->BJ:XOF:cash-collection",
+      "key": "GBP->BJ:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "BJ",
       "payOutCountryName": "Benin",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -707,12 +752,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->BO:USD:cash-collection",
+      "key": "GBP->BO:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "BO",
       "payOutCountryName": "Bolivia",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -740,12 +786,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->BW:BWP:cash-collection",
+      "key": "GBP->BW:BWP:cash-collection:cash bwp",
       "payInCurrency": "GBP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
+      "title": "Cash BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -773,12 +820,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->BW:BWP:old-cash-collection",
+      "key": "GBP->BW:BWP:old-cash-collection:bwp cash collection",
       "payInCurrency": "GBP",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "old-cash-collection",
+      "title": "BWP Cash Collection",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -806,12 +854,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->CD:USD:cash-collection",
+      "key": "GBP->CD:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -839,12 +888,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->CD:USD:mobile-wallet",
+      "key": "GBP->CD:USD:mobile-wallet:pepele mobile",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
+      "title": "Pepele Mobile",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -872,12 +922,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->CD:XAF:cash-collection",
+      "key": "GBP->CD:XAF:cash-collection:cash xaf",
       "payInCurrency": "GBP",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
+      "title": "Cash XAF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -905,12 +956,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->CI:XOF:cash-collection",
+      "key": "GBP->CI:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "CI",
       "payOutCountryName": "Cote d'Ivoire",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -938,12 +990,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->CM:XAF:cash-collection",
+      "key": "GBP->CM:XAF:cash-collection:cash xaf",
       "payInCurrency": "GBP",
       "payOutCountry": "CM",
       "payOutCountryName": "Cameroon",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
+      "title": "Cash XAF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -971,12 +1024,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->CO:COP:bank-top-up",
+      "key": "GBP->CO:COP:bank-top-up:bank top-up cop",
       "payInCurrency": "GBP",
       "payOutCountry": "CO",
       "payOutCountryName": "Colombia",
       "payOutCurrency": "COP",
       "type": "bank-top-up",
+      "title": "Bank Top-up COP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1004,12 +1058,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->CR:USD:cash-collection",
+      "key": "GBP->CR:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "CR",
       "payOutCountryName": "Costa Rica",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1037,12 +1092,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->DE:EUR:bank-top-up",
+      "key": "GBP->DE:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "DE",
       "payOutCountryName": "Germany",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1070,12 +1126,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->DO:USD:cash-collection",
+      "key": "GBP->DO:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "DO",
       "payOutCountryName": "Dominican Rep",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1103,12 +1160,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->EC:USD:cash-collection",
+      "key": "GBP->EC:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "EC",
       "payOutCountryName": "Ecuador",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1136,12 +1194,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->ET:ETB:cash-collection",
+      "key": "GBP->ET:ETB:cash-collection:cash etb",
       "payInCurrency": "GBP",
       "payOutCountry": "ET",
       "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
+      "title": "Cash ETB",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1179,12 +1238,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->FI:EUR:bank-top-up",
+      "key": "GBP->FI:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "FI",
       "payOutCountryName": "Finland",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1212,12 +1272,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->FR:EUR:bank-top-up",
+      "key": "GBP->FR:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "FR",
       "payOutCountryName": "France",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1245,12 +1306,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->GB:GBP:bank-top-up",
+      "key": "GBP->GB:GBP:bank-top-up:bank top-up gbp",
       "payInCurrency": "GBP",
       "payOutCountry": "GB",
       "payOutCountryName": "United Kingdom",
       "payOutCurrency": "GBP",
       "type": "bank-top-up",
+      "title": "Bank Top-up GBP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1278,12 +1340,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->GN:XAF:cash-collection",
+      "key": "GBP->GN:XAF:cash-collection:cash xaf",
       "payInCurrency": "GBP",
       "payOutCountry": "GN",
       "payOutCountryName": "Guinea",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
+      "title": "Cash XAF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1311,12 +1374,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->GT:USD:cash-collection",
+      "key": "GBP->GT:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "GT",
       "payOutCountryName": "Guatemala",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1344,12 +1408,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->HN:USD:cash-collection",
+      "key": "GBP->HN:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "HN",
       "payOutCountryName": "Honduras",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1377,12 +1442,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->IE:EUR:bank-top-up",
+      "key": "GBP->IE:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "IE",
       "payOutCountryName": "Ireland",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1410,12 +1476,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->IT:EUR:bank-top-up",
+      "key": "GBP->IT:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "IT",
       "payOutCountryName": "Italy",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1443,12 +1510,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->KE:KES:bank-top-up",
+      "key": "GBP->KE:KES:bank-top-up:gbp to kes bank topup",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "bank-top-up",
+      "title": "GBP to KES Bank Topup",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1476,12 +1544,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->KE:KES:cash-collection",
+      "key": "GBP->KE:KES:cash-collection:cash kes",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "cash-collection",
+      "title": "Cash KES",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1528,27 +1597,52 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->KE:KES:mobile-wallet",
+      "key": "GBP->KE:KES:mobile-wallet:cba mpesa",
       "payInCurrency": "GBP",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
+      "title": "CBA Mpesa",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "32",
-          "title": "Mpesa KES",
+          "productGuid": "135",
+          "title": "CBA Mpesa",
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
           "midRate": 173.10182694995248,
           "deviationVsMid": -0.04172575805361523
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "135",
+        "title": "CBA Mpesa",
+        "rate": 165.879022,
+        "banded": true,
+        "enabled": true,
+        "midRate": 173.10182694995248,
+        "deviationVsMid": -0.04172575805361523
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "GBP->KE:KES:mobile-wallet:mpesa kes",
+      "payInCurrency": "GBP",
+      "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
+      "payOutCurrency": "KES",
+      "type": "mobile-wallet",
+      "title": "Mpesa KES",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "135",
-          "title": "CBA Mpesa",
+          "productGuid": "32",
+          "title": "Mpesa KES",
           "rate": 165.879022,
           "banded": true,
           "enabled": true,
@@ -1568,15 +1662,16 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "GBP->ML:XOF:cash-collection",
+      "key": "GBP->ML:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "ML",
       "payOutCountryName": "Mali",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1604,12 +1699,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->MW:MWK:bank-top-up",
+      "key": "GBP->MW:MWK:bank-top-up:bank top-up mwk",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
+      "title": "Bank Top-up MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1637,12 +1733,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->MW:MWK:cash-collection",
+      "key": "GBP->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1670,12 +1767,47 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->MW:MWK:mobile-wallet",
+      "key": "GBP->MW:MWK:mobile-wallet:airtel mwk",
       "payInCurrency": "GBP",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
+      "title": "Airtel MWK",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "182",
+          "title": "Airtel MWK",
+          "rate": 2118.463636,
+          "banded": false,
+          "enabled": false,
+          "midRate": 2336.9864392998184,
+          "deviationVsMid": -0.09350623504913864
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "182",
+        "title": "Airtel MWK",
+        "rate": 2118.463636,
+        "banded": false,
+        "enabled": false,
+        "midRate": 2336.9864392998184,
+        "deviationVsMid": -0.09350623504913864
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "GBP->MW:MWK:mobile-wallet:tnm mpamba mwk",
+      "payInCurrency": "GBP",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mobile-wallet",
+      "title": "TNM Mpamba MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1686,16 +1818,6 @@
           "enabled": true,
           "midRate": 2336.9864392998184,
           "deviationVsMid": -0.02240868471428036
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "182",
-          "title": "Airtel MWK",
-          "rate": 2118.463636,
-          "banded": false,
-          "enabled": false,
-          "midRate": 2336.9864392998184,
-          "deviationVsMid": -0.09350623504913864
         }
       ],
       "bestEnabled": {
@@ -1713,12 +1835,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->MZ:MZN:cash-collection",
+      "key": "GBP->MZ:MZN:cash-collection:cash mzn",
       "payInCurrency": "GBP",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
+      "title": "Cash MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1746,12 +1869,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->MZ:MZN:mobile-wallet",
+      "key": "GBP->MZ:MZN:mobile-wallet:mkesh mzn",
       "payInCurrency": "GBP",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
+      "title": "MKesh MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1779,12 +1903,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->NA:NAD:cash-collection",
+      "key": "GBP->NA:NAD:cash-collection:cash nad",
       "payInCurrency": "GBP",
       "payOutCountry": "NA",
       "payOutCountryName": "Namibia",
       "payOutCurrency": "NAD",
       "type": "cash-collection",
+      "title": "Cash NAD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1812,12 +1937,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->NE:XOF:cash-collection",
+      "key": "GBP->NE:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "NE",
       "payOutCountryName": "Niger",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1845,12 +1971,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->NG:NGN:bank-top-up",
+      "key": "GBP->NG:NGN:bank-top-up:bank top-up nga",
       "payInCurrency": "GBP",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
+      "title": "Bank Top-up NGA",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1878,12 +2005,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->NG:NGN:cash-collection",
+      "key": "GBP->NG:NGN:cash-collection:cash ngn",
       "payInCurrency": "GBP",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "cash-collection",
+      "title": "Cash NGN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1911,12 +2039,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->NI:USD:cash-collection",
+      "key": "GBP->NI:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "NI",
       "payOutCountryName": "Nicaragua",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1944,12 +2073,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->NL:EUR:bank-top-up",
+      "key": "GBP->NL:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "NL",
       "payOutCountryName": "Netherlands",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -1977,12 +2107,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->NZ:NZD:bank-top-up",
+      "key": "GBP->NZ:NZD:bank-top-up:bank top-up nzd",
       "payInCurrency": "GBP",
       "payOutCountry": "NZ",
       "payOutCountryName": "New Zealand",
       "payOutCurrency": "NZD",
       "type": "bank-top-up",
+      "title": "Bank Top-up NZD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2010,12 +2141,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PA:USD:cash-collection",
+      "key": "GBP->PA:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "PA",
       "payOutCountryName": "Panama",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2043,12 +2175,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->PE:USD:cash-collection",
+      "key": "GBP->PE:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "PE",
       "payOutCountryName": "Peru",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2076,12 +2209,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->PH:PHP:bank-top-up",
+      "key": "GBP->PH:PHP:bank-top-up:bank top-up php",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
       "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "bank-top-up",
+      "title": "Bank Top-up PHP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2109,12 +2243,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PH:PHP:cash-collection",
+      "key": "GBP->PH:PHP:cash-collection:cash php",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
       "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "cash-collection",
+      "title": "Cash PHP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2152,12 +2287,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->PH:PHP:mobile-wallet",
+      "key": "GBP->PH:PHP:mobile-wallet:gcash php",
       "payInCurrency": "GBP",
       "payOutCountry": "PH",
       "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "mobile-wallet",
+      "title": "GCash PHP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2185,12 +2321,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PK:PKR:bank-top-up",
+      "key": "GBP->PK:PKR:bank-top-up:bank top-up pkr",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "bank-top-up",
+      "title": "Bank Top-up PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2237,12 +2374,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PK:PKR:cash-collection",
+      "key": "GBP->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2270,12 +2408,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PK:PKR:mobile-wallet",
+      "key": "GBP->PK:PKR:mobile-wallet:mobicash pkr",
       "payInCurrency": "GBP",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "mobile-wallet",
+      "title": "Mobicash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2303,12 +2442,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->PL:PLN:bank-top-up",
+      "key": "GBP->PL:PLN:bank-top-up:bank top-up pln",
       "payInCurrency": "GBP",
       "payOutCountry": "PL",
       "payOutCountryName": "Poland",
       "payOutCurrency": "PLN",
       "type": "bank-top-up",
+      "title": "Bank Top-up PLN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2346,12 +2486,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->SK:EUR:bank-top-up",
+      "key": "GBP->SK:EUR:bank-top-up:bank top-up eur",
       "payInCurrency": "GBP",
       "payOutCountry": "SK",
       "payOutCountryName": "Slovakia",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2379,12 +2520,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->SN:XOF:cash-collection",
+      "key": "GBP->SN:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "SN",
       "payOutCountryName": "Senegal",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2412,12 +2554,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->SN:XOF:mobile-wallet",
+      "key": "GBP->SN:XOF:mobile-wallet:mobile bank topup",
       "payInCurrency": "GBP",
       "payOutCountry": "SN",
       "payOutCountryName": "Senegal",
       "payOutCurrency": "XOF",
       "type": "mobile-wallet",
+      "title": "Mobile Bank Topup",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2445,12 +2588,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->SV:USD:cash-collection",
+      "key": "GBP->SV:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "SV",
       "payOutCountryName": "El Salvador",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2478,12 +2622,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->TD:XAF:cash-collection",
+      "key": "GBP->TD:XAF:cash-collection:cash xaf",
       "payInCurrency": "GBP",
       "payOutCountry": "TD",
       "payOutCountryName": "Chad",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
+      "title": "Cash XAF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2511,12 +2656,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->TG:XOF:cash-collection",
+      "key": "GBP->TG:XOF:cash-collection:cash xof",
       "payInCurrency": "GBP",
       "payOutCountry": "TG",
       "payOutCountryName": "Togo",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2544,12 +2690,47 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->TZ:TZS:mobile-wallet",
+      "key": "GBP->TZ:TZS:mobile-wallet:m-pesa top-up tzs",
       "payInCurrency": "GBP",
       "payOutCountry": "TZ",
       "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
+      "title": "M-Pesa top-up TZS",
+      "providers": [
+        {
+          "provider": "Thunes",
+          "productGuid": "214",
+          "title": "M-Pesa top-up TZS",
+          "rate": 3442.52677,
+          "banded": true,
+          "enabled": true,
+          "midRate": 3538.5958884598977,
+          "deviationVsMid": -0.027148937456576837
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Thunes",
+        "productGuid": "214",
+        "title": "M-Pesa top-up TZS",
+        "rate": 3442.52677,
+        "banded": true,
+        "enabled": true,
+        "midRate": 3538.5958884598977,
+        "deviationVsMid": -0.027148937456576837
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "GBP->TZ:TZS:mobile-wallet:tigo pesa tzs",
+      "payInCurrency": "GBP",
+      "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
+      "payOutCurrency": "TZS",
+      "type": "mobile-wallet",
+      "title": "Tigo Pesa TZS",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2560,16 +2741,6 @@
           "enabled": true,
           "midRate": 3538.5958884598977,
           "deviationVsMid": -0.007618960262690965
-        },
-        {
-          "provider": "Thunes",
-          "productGuid": "214",
-          "title": "M-Pesa top-up TZS",
-          "rate": 3442.52677,
-          "banded": true,
-          "enabled": true,
-          "midRate": 3538.5958884598977,
-          "deviationVsMid": -0.027148937456576837
         }
       ],
       "bestEnabled": {
@@ -2584,30 +2755,21 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "GBP->ZA:ZAR:bank-top-up",
+      "key": "GBP->ZA:ZAR:bank-top-up:bank top-up zar",
       "payInCurrency": "GBP",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
+      "title": "Bank Top-up ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "4",
           "title": "Bank Top-up ZAR",
-          "rate": 21.037931,
-          "banded": true,
-          "enabled": true,
-          "midRate": 21.728816755355073,
-          "deviationVsMid": -0.031795829618048735
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "158",
-          "title": "Paysoft Bank Topup ZAR",
           "rate": 21.037931,
           "banded": true,
           "enabled": true,
@@ -2627,15 +2789,50 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "GBP->ZA:ZAR:cash-collection",
+      "key": "GBP->ZA:ZAR:bank-top-up:paysoft bank topup zar",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "bank-top-up",
+      "title": "Paysoft Bank Topup ZAR",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "158",
+          "title": "Paysoft Bank Topup ZAR",
+          "rate": 21.037931,
+          "banded": true,
+          "enabled": true,
+          "midRate": 21.728816755355073,
+          "deviationVsMid": -0.031795829618048735
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "158",
+        "title": "Paysoft Bank Topup ZAR",
+        "rate": 21.037931,
+        "banded": true,
+        "enabled": true,
+        "midRate": 21.728816755355073,
+        "deviationVsMid": -0.031795829618048735
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "GBP->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "GBP",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2693,12 +2890,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->ZM:ZMW:bank-top-up",
+      "key": "GBP->ZM:ZMW:bank-top-up:bank top-up zmw",
       "payInCurrency": "GBP",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
+      "title": "Bank Top-up ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2726,12 +2924,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->ZM:ZMW:cash-collection",
+      "key": "GBP->ZM:ZMW:cash-collection:cash zmw",
       "payInCurrency": "GBP",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
+      "title": "Cash ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2759,12 +2958,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->ZW:USD:bank-top-up",
+      "key": "GBP->ZW:USD:bank-top-up:bank top-up usd",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
+      "title": "Bank Top-up USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2792,12 +2992,81 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->ZW:USD:bill-payment",
+      "key": "GBP->ZW:USD:bill-payment:city of harare",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bill-payment",
+      "title": "City of Harare",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "15",
+          "title": "City of Harare",
+          "rate": 1.268005,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.3373471579366873,
+          "deviationVsMid": -0.05185052925499999
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "15",
+        "title": "City of Harare",
+        "rate": 1.268005,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3373471579366873,
+        "deviationVsMid": -0.05185052925499999
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "GBP->ZW:USD:bill-payment:harare water",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "bill-payment",
+      "title": "Harare Water",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "16",
+          "title": "Harare Water",
+          "rate": 1.268005,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.3373471579366873,
+          "deviationVsMid": -0.05185052925499999
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "16",
+        "title": "Harare Water",
+        "rate": 1.268005,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3373471579366873,
+        "deviationVsMid": -0.05185052925499999
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "GBP->ZW:USD:bill-payment:old mutual unit trusts",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "bill-payment",
+      "title": "Old Mutual Unit Trusts",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2808,7 +3077,31 @@
           "enabled": false,
           "midRate": 1.3373471579366873,
           "deviationVsMid": -0.05185052925499999
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "12",
+        "title": "Old Mutual Unit Trusts",
+        "rate": 1.268005,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3373471579366873,
+        "deviationVsMid": -0.05185052925499999
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "GBP->ZW:USD:bill-payment:tel one",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "bill-payment",
+      "title": "Tel One",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "13",
@@ -2818,46 +3111,6 @@
           "enabled": true,
           "midRate": 1.3373471579366873,
           "deviationVsMid": -0.05185052925499999
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "14",
-          "title": "ZESA",
-          "rate": 1.268005,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.3373471579366873,
-          "deviationVsMid": -0.05185052925499999
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "15",
-          "title": "City of Harare",
-          "rate": 1.268005,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.3373471579366873,
-          "deviationVsMid": -0.05185052925499999
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "16",
-          "title": "Harare Water",
-          "rate": 1.268005,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.3373471579366873,
-          "deviationVsMid": -0.05185052925499999
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "17",
-          "title": "ZOL Payments",
-          "rate": 1.344086,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.3373471579366873,
-          "deviationVsMid": 0.005038962413999892
         }
       ],
       "bestEnabled": {
@@ -2870,6 +3123,65 @@
         "midRate": 1.3373471579366873,
         "deviationVsMid": -0.05185052925499999
       },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "GBP->ZW:USD:bill-payment:zesa",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "bill-payment",
+      "title": "ZESA",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "14",
+          "title": "ZESA",
+          "rate": 1.268005,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.3373471579366873,
+          "deviationVsMid": -0.05185052925499999
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "14",
+        "title": "ZESA",
+        "rate": 1.268005,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.3373471579366873,
+        "deviationVsMid": -0.05185052925499999
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "GBP->ZW:USD:bill-payment:zol payments",
+      "payInCurrency": "GBP",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "bill-payment",
+      "title": "ZOL Payments",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "17",
+          "title": "ZOL Payments",
+          "rate": 1.344086,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.3373471579366873,
+          "deviationVsMid": 0.005038962413999892
+        }
+      ],
+      "bestEnabled": null,
       "bestOverall": {
         "provider": "Mukuru (own rail)",
         "productGuid": "17",
@@ -2880,16 +3192,17 @@
         "midRate": 1.3373471579366873,
         "deviationVsMid": 0.005038962413999892
       },
-      "noLiveCoverage": false,
-      "soleCoverage": true
+      "noLiveCoverage": true,
+      "soleCoverage": false
     },
     {
-      "key": "GBP->ZW:USD:cash-collection",
+      "key": "GBP->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2966,12 +3279,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->ZW:USD:mobile-wallet",
+      "key": "GBP->ZW:USD:mobile-wallet:ecocash usd",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
+      "title": "Ecocash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -2999,12 +3313,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->ZW:USD:old-cash-collection",
+      "key": "GBP->ZW:USD:old-cash-collection:us$ mukuru-cabs card top up",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "old-cash-collection",
+      "title": "US$ Mukuru-CABS Card Top Up",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3032,12 +3347,13 @@
       "soleCoverage": false
     },
     {
-      "key": "GBP->ZW:ZAR:cash-collection",
+      "key": "GBP->ZW:ZAR:cash-collection:cash zar",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3065,12 +3381,13 @@
       "soleCoverage": true
     },
     {
-      "key": "GBP->ZW:ZWD:cash-collection",
+      "key": "GBP->ZW:ZWD:cash-collection:cash zwd",
       "payInCurrency": "GBP",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWD",
       "type": "cash-collection",
+      "title": "Cash ZWD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3098,12 +3415,13 @@
       "soleCoverage": false
     },
     {
-      "key": "MMK->MW:MWK:cash-collection",
+      "key": "MMK->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "MMK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3131,23 +3449,14 @@
       "soleCoverage": true
     },
     {
-      "key": "MWK->MW:MWK:cash-collection",
+      "key": "MWK->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "196",
-          "title": "Remitly Cash MWK",
-          "rate": 1,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "239",
@@ -3181,6 +3490,40 @@
       ],
       "bestEnabled": {
         "provider": "Mukuru (own rail)",
+        "productGuid": "418",
+        "title": "Cash MWK",
+        "rate": 0.970873,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.029127000000000014
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": false
+    },
+    {
+      "key": "MWK->MW:MWK:cash-collection:remitly cash mwk",
+      "payInCurrency": "MWK",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "cash-collection",
+      "title": "Remitly Cash MWK",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "196",
+          "title": "Remitly Cash MWK",
+          "rate": 1,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
         "productGuid": "196",
         "title": "Remitly Cash MWK",
         "rate": 1,
@@ -3191,15 +3534,16 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "MWK->MW:MWK:mukuru-payin",
+      "key": "MWK->MW:MWK:mukuru-payin:mukuru payin mwk",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-payin",
+      "title": "Mukuru Payin MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3227,12 +3571,13 @@
       "soleCoverage": true
     },
     {
-      "key": "MWK->MW:MWK:mukuru-wallet-topup",
+      "key": "MWK->MW:MWK:mukuru-wallet-topup:mukuru wallet mwk dmt",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet MWK DMT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3260,12 +3605,13 @@
       "soleCoverage": true
     },
     {
-      "key": "MWK->MW:MWK:mukuru-wallet-withdrawal",
+      "key": "MWK->MW:MWK:mukuru-wallet-withdrawal:mukuru wallet cash withdrawal mwk",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-withdrawal",
+      "title": "Mukuru Wallet Cash Withdrawal MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3293,12 +3639,13 @@
       "soleCoverage": false
     },
     {
-      "key": "MWK->MW:MWK:zuku",
+      "key": "MWK->MW:MWK:zuku:zuku mwk",
       "payInCurrency": "MWK",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "zuku",
+      "title": "Zuku MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3326,12 +3673,13 @@
       "soleCoverage": true
     },
     {
-      "key": "MWK->PK:PKR:cash-collection",
+      "key": "MWK->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "MWK",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3359,12 +3707,13 @@
       "soleCoverage": true
     },
     {
-      "key": "MWK->ZA:ZAR:cash-collection",
+      "key": "MWK->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "MWK",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3392,12 +3741,13 @@
       "soleCoverage": true
     },
     {
-      "key": "SZL->SZ:SZL:cash-collection",
+      "key": "SZL->SZ:SZL:cash-collection:cash szl",
       "payInCurrency": "SZL",
       "payOutCountry": "SZ",
       "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
+      "title": "Cash SZL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3425,12 +3775,13 @@
       "soleCoverage": true
     },
     {
-      "key": "UGX->ZW:USD:cash-collection",
+      "key": "UGX->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "UGX",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3458,12 +3809,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->AO:AOA:mobile-wallet",
+      "key": "USD->AO:AOA:mobile-wallet:afrimoney top-up aoa",
       "payInCurrency": "USD",
       "payOutCountry": "AO",
       "payOutCountryName": "Angola",
       "payOutCurrency": "AOA",
       "type": "mobile-wallet",
+      "title": "Afrimoney top-up AOA",
       "providers": [
         {
           "provider": "Thunes",
@@ -3491,12 +3843,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->BW:BWP:cash-collection",
+      "key": "USD->BW:BWP:cash-collection:cash bwp",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
+      "title": "Cash BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3593,12 +3946,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->BW:BWP:mobile-wallet",
+      "key": "USD->BW:BWP:mobile-wallet:moov top-up bwp",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mobile-wallet",
+      "title": "Moov top-up BWP",
       "providers": [
         {
           "provider": "Zeepay",
@@ -3609,7 +3963,31 @@
           "enabled": false,
           "midRate": 14.281362,
           "deviationVsMid": -0.22353400186900943
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Zeepay",
+        "productGuid": "186",
+        "title": "Moov top-up BWP",
+        "rate": 11.088992,
+        "banded": false,
+        "enabled": false,
+        "midRate": 14.281362,
+        "deviationVsMid": -0.22353400186900943
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->BW:BWP:mobile-wallet:orange top-up bwp",
+      "payInCurrency": "USD",
+      "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
+      "payOutCurrency": "BWP",
+      "type": "mobile-wallet",
+      "title": "Orange top-up BWP",
+      "providers": [
         {
           "provider": "Thunes",
           "productGuid": "376",
@@ -3656,12 +4034,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->BW:BWP:mukuru-wallet-topup",
+      "key": "USD->BW:BWP:mukuru-wallet-topup:mukuru wallet botswana",
       "payInCurrency": "USD",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet Botswana",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3672,7 +4051,31 @@
           "enabled": true,
           "midRate": 14.281362,
           "deviationVsMid": -0.07015773425531827
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "342",
+        "title": "Mukuru Wallet Botswana",
+        "rate": 13.279414,
+        "banded": false,
+        "enabled": true,
+        "midRate": 14.281362,
+        "deviationVsMid": -0.07015773425531827
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->BW:BWP:mukuru-wallet-topup:mukuru wallet bwp",
+      "payInCurrency": "USD",
+      "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
+      "payOutCurrency": "BWP",
+      "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet BWP",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "344",
@@ -3729,12 +4132,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->CD:USD:cash-collection",
+      "key": "USD->CD:USD:cash-collection:cash usd",
       "payInCurrency": "USD",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3772,12 +4176,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ET:ETB:cash-collection",
+      "key": "USD->ET:ETB:cash-collection:cash etb",
       "payInCurrency": "USD",
       "payOutCountry": "ET",
       "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
+      "title": "Cash ETB",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3844,12 +4249,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ET:ETB:mobile-wallet",
+      "key": "USD->ET:ETB:mobile-wallet:telebirr top-up etb",
       "payInCurrency": "USD",
       "payOutCountry": "ET",
       "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "mobile-wallet",
+      "title": "TeleBirr top-up ETB",
       "providers": [
         {
           "provider": "Thunes",
@@ -3887,12 +4293,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->GB:USD:bill-payment",
+      "key": "USD->GB:USD:bill-payment:dstv usd",
       "payInCurrency": "USD",
       "payOutCountry": "GB",
       "payOutCountryName": "United Kingdom",
       "payOutCurrency": "USD",
       "type": "bill-payment",
+      "title": "DStv USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -3920,12 +4327,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->GH:GHS:bank-top-up",
+      "key": "USD->GH:GHS:bank-top-up:bank top-up ghs",
       "payInCurrency": "USD",
       "payOutCountry": "GH",
       "payOutCountryName": "Ghana",
       "payOutCurrency": "GHS",
       "type": "bank-top-up",
+      "title": "Bank top-up GHS",
       "providers": [
         {
           "provider": "Chipper Cash",
@@ -3953,12 +4361,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->KE:KES:mobile-wallet",
+      "key": "USD->KE:KES:mobile-wallet:m-pesa top-up kes",
       "payInCurrency": "USD",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
+      "title": "M-Pesa top-up KES",
       "providers": [
         {
           "provider": "TransFast",
@@ -3986,12 +4395,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->LS:LSL:cash-collection",
+      "key": "USD->LS:LSL:cash-collection:cash lsl",
       "payInCurrency": "USD",
       "payOutCountry": "LS",
       "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "cash-collection",
+      "title": "Cash LSL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4039,12 +4449,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->LS:LSL:mobile-wallet",
+      "key": "USD->LS:LSL:mobile-wallet:mpesa lesotho lsl",
       "payInCurrency": "USD",
       "payOutCountry": "LS",
       "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "mobile-wallet",
+      "title": "Mpesa Lesotho LSL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4082,12 +4493,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MW:MWK:bank-top-up",
+      "key": "USD->MW:MWK:bank-top-up:bank top-up mwk",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
+      "title": "Bank Top-up MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4155,12 +4567,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MW:MWK:cash-collection",
+      "key": "USD->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4328,12 +4741,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MW:MWK:mobile-wallet",
+      "key": "USD->MW:MWK:mobile-wallet:airtel",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
+      "title": "Airtel",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "409",
+          "title": "Airtel",
+          "rate": 1738.734835,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1747.479273,
+          "deviationVsMid": -0.005004029595720387
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "409",
+        "title": "Airtel",
+        "rate": 1738.734835,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1747.479273,
+        "deviationVsMid": -0.005004029595720387
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->MW:MWK:mobile-wallet:airtel mwk",
+      "payInCurrency": "USD",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mobile-wallet",
+      "title": "Airtel MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4344,16 +4792,6 @@
           "enabled": true,
           "midRate": 1747.479273,
           "deviationVsMid": -0.10063701167573155
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "381",
-          "title": "TNM Mpamba MWK",
-          "rate": 1742.134121,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1747.479273,
-          "deviationVsMid": -0.0030587784831482066
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4377,6 +4815,60 @@
         },
         {
           "provider": "Mukuru (own rail)",
+          "productGuid": "415",
+          "title": "Airtel MWK",
+          "rate": 1646.457142,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1747.479273,
+          "deviationVsMid": -0.057810202707909285
+        },
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "508",
+          "title": "Airtel MWK",
+          "rate": 1730.294374,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1747.479273,
+          "deviationVsMid": -0.009834107485863072
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "401",
+        "title": "Airtel MWK",
+        "rate": 1738.734835,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1747.479273,
+        "deviationVsMid": -0.005004029595720387
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->MW:MWK:mobile-wallet:tnm mpamba mwk",
+      "payInCurrency": "USD",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mobile-wallet",
+      "title": "TNM Mpamba MWK",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "381",
+          "title": "TNM Mpamba MWK",
+          "rate": 1742.134121,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1747.479273,
+          "deviationVsMid": -0.0030587784831482066
+        },
+        {
+          "provider": "Mukuru (own rail)",
           "productGuid": "402",
           "title": "TNM Mpamba MWK",
           "rate": 3349.52,
@@ -4397,16 +4889,6 @@
         },
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "409",
-          "title": "Airtel",
-          "rate": 1738.734835,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1747.479273,
-          "deviationVsMid": -0.005004029595720387
-        },
-        {
-          "provider": "Mukuru (own rail)",
           "productGuid": "410",
           "title": "TNM Mpamba MWK",
           "rate": 1738.734835,
@@ -4417,16 +4899,6 @@
         },
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "415",
-          "title": "Airtel MWK",
-          "rate": 1646.457142,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1747.479273,
-          "deviationVsMid": -0.057810202707909285
-        },
-        {
-          "provider": "Mukuru (own rail)",
           "productGuid": "416",
           "title": "TNM Mpamba MWK",
           "rate": 1646.457142,
@@ -4434,16 +4906,6 @@
           "enabled": true,
           "midRate": 1747.479273,
           "deviationVsMid": -0.057810202707909285
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "508",
-          "title": "Airtel MWK",
-          "rate": 1730.294374,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1747.479273,
-          "deviationVsMid": -0.009834107485863072
         }
       ],
       "bestEnabled": {
@@ -4461,12 +4923,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MW:MWK:mukuru-wallet-topup",
+      "key": "USD->MW:MWK:mukuru-wallet-topup:mukuru wallet malawi",
       "payInCurrency": "USD",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet Malawi",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "343",
+          "title": "Mukuru Wallet Malawi",
+          "rate": 1733.534232,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1747.479273,
+          "deviationVsMid": -0.00798008950118171
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "343",
+        "title": "Mukuru Wallet Malawi",
+        "rate": 1733.534232,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1747.479273,
+        "deviationVsMid": -0.00798008950118171
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->MW:MWK:mukuru-wallet-topup:mukuru wallet mwk",
+      "payInCurrency": "USD",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4477,16 +4974,6 @@
           "enabled": true,
           "midRate": 1747.479273,
           "deviationVsMid": -0.057810202707909285
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "343",
-          "title": "Mukuru Wallet Malawi",
-          "rate": 1733.534232,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1747.479273,
-          "deviationVsMid": -0.00798008950118171
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4594,12 +5081,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MZ:MZN:cash-collection",
+      "key": "USD->MZ:MZN:cash-collection:cash mzn",
       "payInCurrency": "USD",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
+      "title": "Cash MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4647,12 +5135,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->MZ:MZN:mobile-wallet",
+      "key": "USD->MZ:MZN:mobile-wallet:mpesa mozambique mzn",
       "payInCurrency": "USD",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
+      "title": "Mpesa Mozambique MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4663,16 +5152,6 @@
           "enabled": true,
           "midRate": 63.802391,
           "deviationVsMid": -0.01831193128796697
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "372",
-          "title": "Mpesa Mozambique MZN (new moz)",
-          "rate": 62.303354,
-          "banded": false,
-          "enabled": true,
-          "midRate": 63.802391,
-          "deviationVsMid": -0.023494997232940712
         },
         {
           "provider": "Mukuru (own rail)",
@@ -4710,12 +5189,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->NG:NGN:bank-top-up",
+      "key": "USD->MZ:MZN:mobile-wallet:mpesa mozambique mzn (new moz)",
+      "payInCurrency": "USD",
+      "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
+      "payOutCurrency": "MZN",
+      "type": "mobile-wallet",
+      "title": "Mpesa Mozambique MZN (new moz)",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "372",
+          "title": "Mpesa Mozambique MZN (new moz)",
+          "rate": 62.303354,
+          "banded": false,
+          "enabled": true,
+          "midRate": 63.802391,
+          "deviationVsMid": -0.023494997232940712
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "372",
+        "title": "Mpesa Mozambique MZN (new moz)",
+        "rate": 62.303354,
+        "banded": false,
+        "enabled": true,
+        "midRate": 63.802391,
+        "deviationVsMid": -0.023494997232940712
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->NG:NGN:bank-top-up:bank top-up ngn",
       "payInCurrency": "USD",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
+      "title": "Bank top-up NGN",
       "providers": [
         {
           "provider": "Thunes",
@@ -4753,12 +5267,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->PK:PKR:cash-collection",
+      "key": "USD->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "USD",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4786,12 +5301,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->SZ:SZL:cash-collection",
+      "key": "USD->SZ:SZL:cash-collection:cash szl",
       "payInCurrency": "USD",
       "payOutCountry": "SZ",
       "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
+      "title": "Cash SZL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4819,12 +5335,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->SZ:SZL:mobile-wallet",
+      "key": "USD->SZ:SZL:mobile-wallet:mtn top-up szl",
       "payInCurrency": "USD",
       "payOutCountry": "SZ",
       "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "mobile-wallet",
+      "title": "MTN top-up SZL",
       "providers": [
         {
           "provider": "MFS",
@@ -4852,12 +5369,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->TZ:TZS:mobile-wallet",
+      "key": "USD->TZ:TZS:mobile-wallet:tigo top-up tzs",
       "payInCurrency": "USD",
       "payOutCountry": "TZ",
       "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
+      "title": "Tigo top-up TZS",
       "providers": [
         {
           "provider": "TransFast",
@@ -4885,12 +5403,13 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->UG:UGX:cash-collection",
+      "key": "USD->UG:UGX:cash-collection:cash ugx",
       "payInCurrency": "USD",
       "payOutCountry": "UG",
       "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "cash-collection",
+      "title": "Cash UGX",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -4918,23 +5437,14 @@
       "soleCoverage": true
     },
     {
-      "key": "USD->UG:UGX:mobile-wallet",
+      "key": "USD->UG:UGX:mobile-wallet:airtel top-up ugx",
       "payInCurrency": "USD",
       "payOutCountry": "UG",
       "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "mobile-wallet",
+      "title": "Airtel Top-up UGX",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "455",
-          "title": "Airtel UGX",
-          "rate": 3709.61795,
-          "banded": false,
-          "enabled": false,
-          "midRate": 3850.737112,
-          "deviationVsMid": -0.03664731138363931
-        },
         {
           "provider": "Thunes",
           "productGuid": "484",
@@ -4956,6 +5466,31 @@
         "midRate": 3850.737112,
         "deviationVsMid": -0.036684869387676795
       },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->UG:UGX:mobile-wallet:airtel ugx",
+      "payInCurrency": "USD",
+      "payOutCountry": "UG",
+      "payOutCountryName": "Uganda",
+      "payOutCurrency": "UGX",
+      "type": "mobile-wallet",
+      "title": "Airtel UGX",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "455",
+          "title": "Airtel UGX",
+          "rate": 3709.61795,
+          "banded": false,
+          "enabled": false,
+          "midRate": 3850.737112,
+          "deviationVsMid": -0.03664731138363931
+        }
+      ],
+      "bestEnabled": null,
       "bestOverall": {
         "provider": "Mukuru (own rail)",
         "productGuid": "455",
@@ -4966,27 +5501,18 @@
         "midRate": 3850.737112,
         "deviationVsMid": -0.03664731138363931
       },
-      "noLiveCoverage": false,
-      "soleCoverage": true
+      "noLiveCoverage": true,
+      "soleCoverage": false
     },
     {
-      "key": "USD->ZA:ZAR:bank-top-up",
+      "key": "USD->ZA:ZAR:bank-top-up:bank top-up zar",
       "payInCurrency": "USD",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
+      "title": "Bank Top-up ZAR",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "159",
-          "title": "Paysoft Bank Topup ZAR",
-          "rate": 15.052545,
-          "banded": false,
-          "enabled": true,
-          "midRate": 16.247701,
-          "deviationVsMid": -0.0735584683642319
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "276",
@@ -5019,16 +5545,6 @@
         },
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "286",
-          "title": "Paysoft Bank Topup ZAR",
-          "rate": 7.884666,
-          "banded": false,
-          "enabled": true,
-          "midRate": 16.247701,
-          "deviationVsMid": -0.5147211288538607
-        },
-        {
-          "provider": "Mukuru (own rail)",
           "productGuid": "307",
           "title": "Bank Top-up ZAR",
           "rate": 15.769333,
@@ -5046,6 +5562,70 @@
           "enabled": false,
           "midRate": 16.247701,
           "deviationVsMid": -0.029442196160552173
+        },
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "413",
+          "title": "Bank Top-up ZAR",
+          "rate": 15.839479,
+          "banded": false,
+          "enabled": true,
+          "midRate": 16.247701,
+          "deviationVsMid": -0.025124908440892563
+        },
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "429",
+          "title": "Bank Top-up ZAR",
+          "rate": 7.884666,
+          "banded": false,
+          "enabled": false,
+          "midRate": 16.247701,
+          "deviationVsMid": -0.5147211288538607
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "282",
+        "title": "Bank Top-up ZAR",
+        "rate": 15.844784,
+        "banded": false,
+        "enabled": true,
+        "midRate": 16.247701,
+        "deviationVsMid": -0.02479840070912178
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZA:ZAR:bank-top-up:paysoft bank topup zar",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "bank-top-up",
+      "title": "Paysoft Bank Topup ZAR",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "159",
+          "title": "Paysoft Bank Topup ZAR",
+          "rate": 15.052545,
+          "banded": false,
+          "enabled": true,
+          "midRate": 16.247701,
+          "deviationVsMid": -0.0735584683642319
+        },
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "286",
+          "title": "Paysoft Bank Topup ZAR",
+          "rate": 7.884666,
+          "banded": false,
+          "enabled": true,
+          "midRate": 16.247701,
+          "deviationVsMid": -0.5147211288538607
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5089,26 +5669,6 @@
         },
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "413",
-          "title": "Bank Top-up ZAR",
-          "rate": 15.839479,
-          "banded": false,
-          "enabled": true,
-          "midRate": 16.247701,
-          "deviationVsMid": -0.025124908440892563
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "429",
-          "title": "Bank Top-up ZAR",
-          "rate": 7.884666,
-          "banded": false,
-          "enabled": false,
-          "midRate": 16.247701,
-          "deviationVsMid": -0.5147211288538607
-        },
-        {
-          "provider": "Mukuru (own rail)",
           "productGuid": "461",
           "title": "Paysoft Bank Topup ZAR",
           "rate": 16.517563,
@@ -5133,12 +5693,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZA:ZAR:cash-collection",
+      "key": "USD->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "USD",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5149,16 +5710,6 @@
           "enabled": true,
           "midRate": 16.247701,
           "deviationVsMid": -0.06625829709692463
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "206",
-          "title": "World Remit Cash USD -> ZAR",
-          "rate": 16.596041,
-          "banded": false,
-          "enabled": true,
-          "midRate": 16.247701,
-          "deviationVsMid": 0.021439340864285988
         },
         {
           "provider": "Mukuru (own rail)",
@@ -5273,8 +5824,8 @@
       ],
       "bestEnabled": {
         "provider": "Mukuru (own rail)",
-        "productGuid": "206",
-        "title": "World Remit Cash USD -> ZAR",
+        "productGuid": "302",
+        "title": "Cash ZAR",
         "rate": 16.596041,
         "banded": false,
         "enabled": true,
@@ -5286,12 +5837,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZM:ZMW:bank-top-up",
+      "key": "USD->ZA:ZAR:cash-collection:world remit cash usd -> zar",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "cash-collection",
+      "title": "World Remit Cash USD -> ZAR",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "206",
+          "title": "World Remit Cash USD -> ZAR",
+          "rate": 16.596041,
+          "banded": false,
+          "enabled": true,
+          "midRate": 16.247701,
+          "deviationVsMid": 0.021439340864285988
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "206",
+        "title": "World Remit Cash USD -> ZAR",
+        "rate": 16.596041,
+        "banded": false,
+        "enabled": true,
+        "midRate": 16.247701,
+        "deviationVsMid": 0.021439340864285988
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZM:ZMW:bank-top-up:bank top-up zmw",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
+      "title": "Bank top-up ZMW",
       "providers": [
         {
           "provider": "Tilt Pay",
@@ -5339,12 +5925,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZM:ZMW:cash-collection",
+      "key": "USD->ZM:ZMW:cash-collection:cash zmw",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
+      "title": "Cash ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5452,63 +6039,14 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZM:ZMW:mobile-wallet",
+      "key": "USD->ZM:ZMW:mobile-wallet:airtel top-up zmw",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mobile-wallet",
+      "title": "Airtel top-up ZMW",
       "providers": [
-        {
-          "provider": "Zeepay",
-          "productGuid": "184",
-          "title": "MTN top-up ZMW",
-          "rate": 20.929584,
-          "banded": false,
-          "enabled": false,
-          "midRate": 19.735297,
-          "deviationVsMid": 0.0605152787921053
-        },
-        {
-          "provider": "Zeepay",
-          "productGuid": "366",
-          "title": "MTN top-up ZMW",
-          "rate": 9.099819,
-          "banded": false,
-          "enabled": true,
-          "midRate": 19.735297,
-          "deviationVsMid": -0.5389064071343846
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "371",
-          "title": "Airtel ZMW",
-          "rate": 9.206547,
-          "banded": false,
-          "enabled": true,
-          "midRate": 19.735297,
-          "deviationVsMid": -0.5334984317692305
-        },
-        {
-          "provider": "Zeepay",
-          "productGuid": "386",
-          "title": "MTN top-up ZMW",
-          "rate": 19.026894,
-          "banded": false,
-          "enabled": false,
-          "midRate": 19.735297,
-          "deviationVsMid": -0.03589522873661342
-        },
-        {
-          "provider": "Thunes",
-          "productGuid": "393",
-          "title": "MTN top-up ZMW",
-          "rate": 8.047105,
-          "banded": false,
-          "enabled": true,
-          "midRate": 19.735297,
-          "deviationVsMid": -0.5922480923393247
-        },
         {
           "provider": "Tilt Pay",
           "productGuid": "394",
@@ -5541,26 +6079,6 @@
         },
         {
           "provider": "Tilt Pay",
-          "productGuid": "477",
-          "title": "Zamtel top-up ZMW",
-          "rate": 20.620279,
-          "banded": false,
-          "enabled": true,
-          "midRate": 19.735297,
-          "deviationVsMid": 0.04484259851777254
-        },
-        {
-          "provider": "Tilt Pay",
-          "productGuid": "479",
-          "title": "MTN top-up ZMW",
-          "rate": 20.620279,
-          "banded": false,
-          "enabled": true,
-          "midRate": 19.735297,
-          "deviationVsMid": 0.04484259851777254
-        },
-        {
-          "provider": "Tilt Pay",
           "productGuid": "480",
           "title": "Airtel top-up ZMW",
           "rate": 20.620279,
@@ -5572,8 +6090,116 @@
       ],
       "bestEnabled": {
         "provider": "Tilt Pay",
-        "productGuid": "477",
-        "title": "Zamtel top-up ZMW",
+        "productGuid": "480",
+        "title": "Airtel top-up ZMW",
+        "rate": 20.620279,
+        "banded": false,
+        "enabled": true,
+        "midRate": 19.735297,
+        "deviationVsMid": 0.04484259851777254
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZM:ZMW:mobile-wallet:airtel zmw",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
+      "payOutCurrency": "ZMW",
+      "type": "mobile-wallet",
+      "title": "Airtel ZMW",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "371",
+          "title": "Airtel ZMW",
+          "rate": 9.206547,
+          "banded": false,
+          "enabled": true,
+          "midRate": 19.735297,
+          "deviationVsMid": -0.5334984317692305
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "371",
+        "title": "Airtel ZMW",
+        "rate": 9.206547,
+        "banded": false,
+        "enabled": true,
+        "midRate": 19.735297,
+        "deviationVsMid": -0.5334984317692305
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZM:ZMW:mobile-wallet:mtn top-up zmw",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
+      "payOutCurrency": "ZMW",
+      "type": "mobile-wallet",
+      "title": "MTN top-up ZMW",
+      "providers": [
+        {
+          "provider": "Zeepay",
+          "productGuid": "184",
+          "title": "MTN top-up ZMW",
+          "rate": 20.929584,
+          "banded": false,
+          "enabled": false,
+          "midRate": 19.735297,
+          "deviationVsMid": 0.0605152787921053
+        },
+        {
+          "provider": "Zeepay",
+          "productGuid": "366",
+          "title": "MTN top-up ZMW",
+          "rate": 9.099819,
+          "banded": false,
+          "enabled": true,
+          "midRate": 19.735297,
+          "deviationVsMid": -0.5389064071343846
+        },
+        {
+          "provider": "Zeepay",
+          "productGuid": "386",
+          "title": "MTN top-up ZMW",
+          "rate": 19.026894,
+          "banded": false,
+          "enabled": false,
+          "midRate": 19.735297,
+          "deviationVsMid": -0.03589522873661342
+        },
+        {
+          "provider": "Thunes",
+          "productGuid": "393",
+          "title": "MTN top-up ZMW",
+          "rate": 8.047105,
+          "banded": false,
+          "enabled": true,
+          "midRate": 19.735297,
+          "deviationVsMid": -0.5922480923393247
+        },
+        {
+          "provider": "Tilt Pay",
+          "productGuid": "479",
+          "title": "MTN top-up ZMW",
+          "rate": 20.620279,
+          "banded": false,
+          "enabled": true,
+          "midRate": 19.735297,
+          "deviationVsMid": 0.04484259851777254
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Tilt Pay",
+        "productGuid": "479",
+        "title": "MTN top-up ZMW",
         "rate": 20.620279,
         "banded": false,
         "enabled": true,
@@ -5594,12 +6220,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZM:ZMW:mukuru-wallet-topup",
+      "key": "USD->ZM:ZMW:mobile-wallet:zamtel top-up zmw",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
+      "payOutCurrency": "ZMW",
+      "type": "mobile-wallet",
+      "title": "Zamtel top-up ZMW",
+      "providers": [
+        {
+          "provider": "Tilt Pay",
+          "productGuid": "477",
+          "title": "Zamtel top-up ZMW",
+          "rate": 20.620279,
+          "banded": false,
+          "enabled": true,
+          "midRate": 19.735297,
+          "deviationVsMid": 0.04484259851777254
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Tilt Pay",
+        "productGuid": "477",
+        "title": "Zamtel top-up ZMW",
+        "rate": 20.620279,
+        "banded": false,
+        "enabled": true,
+        "midRate": 19.735297,
+        "deviationVsMid": 0.04484259851777254
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZM:ZMW:mukuru-wallet-topup:mukuru wallet zambia",
       "payInCurrency": "USD",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet Zambia",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5677,12 +6338,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:RTG:card-top-up",
+      "key": "USD->ZW:RTG:card-top-up:mukuru-cabs card top-up",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "card-top-up",
+      "title": "Mukuru-CABS Card Top-up",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5710,12 +6372,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:RTG:cash-collection",
+      "key": "USD->ZW:RTG:cash-collection:cash rtgs",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "cash-collection",
+      "title": "Cash RTGS",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5743,12 +6406,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:cash-collection",
+      "key": "USD->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -5769,56 +6433,6 @@
           "enabled": false,
           "midRate": 1.0,
           "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "194",
-          "title": "Remitly Zimbabwe USD",
-          "rate": 1,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "195",
-          "title": "Remitly Zimbabwe USD (Inactive)",
-          "rate": 1,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "268",
-          "title": "Cash USD hello",
-          "rate": 0.960614,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": -0.03938600000000003
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "275",
-          "title": "Cash USD Zam",
-          "rate": 0.90909,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": -0.09091000000000005
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "278",
-          "title": "Cash USD Take 2",
-          "rate": 0.95238,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.0,
-          "deviationVsMid": -0.047619999999999996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -6133,13 +6747,13 @@
       ],
       "bestEnabled": {
         "provider": "Mukuru (own rail)",
-        "productGuid": "194",
-        "title": "Remitly Zimbabwe USD",
-        "rate": 1,
+        "productGuid": "291",
+        "title": "Cash USD",
+        "rate": 0.990099,
         "banded": false,
         "enabled": true,
         "midRate": 1.0,
-        "deviationVsMid": 0.0
+        "deviationVsMid": -0.009901000000000049
       },
       "bestOverall": {
         "provider": "Mukuru (own rail)",
@@ -6155,12 +6769,183 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:mobile-wallet",
+      "key": "USD->ZW:USD:cash-collection:cash usd hello",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Cash USD hello",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "268",
+          "title": "Cash USD hello",
+          "rate": 0.960614,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.03938600000000003
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "268",
+        "title": "Cash USD hello",
+        "rate": 0.960614,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.03938600000000003
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZW:USD:cash-collection:cash usd take 2",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Cash USD Take 2",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "278",
+          "title": "Cash USD Take 2",
+          "rate": 0.95238,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.0,
+          "deviationVsMid": -0.047619999999999996
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "278",
+        "title": "Cash USD Take 2",
+        "rate": 0.95238,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": -0.047619999999999996
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZW:USD:cash-collection:cash usd zam",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Cash USD Zam",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "275",
+          "title": "Cash USD Zam",
+          "rate": 0.90909,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.09091000000000005
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "275",
+        "title": "Cash USD Zam",
+        "rate": 0.90909,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.09091000000000005
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZW:USD:cash-collection:remitly zimbabwe usd",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Remitly Zimbabwe USD",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "194",
+          "title": "Remitly Zimbabwe USD",
+          "rate": 1,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "194",
+        "title": "Remitly Zimbabwe USD",
+        "rate": 1,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZW:USD:cash-collection:remitly zimbabwe usd (inactive)",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Remitly Zimbabwe USD (Inactive)",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "195",
+          "title": "Remitly Zimbabwe USD (Inactive)",
+          "rate": 1,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "195",
+        "title": "Remitly Zimbabwe USD (Inactive)",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZW:USD:mobile-wallet:ecocash usd",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
+      "title": "Ecocash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6198,12 +6983,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:mukuru-payin",
+      "key": "USD->ZW:USD:mukuru-payin:mukuru payin usd",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-payin",
+      "title": "Mukuru Payin USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6231,23 +7017,14 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:mukuru-wallet-topup",
+      "key": "USD->ZW:USD:mukuru-wallet-topup:mukuru wallet usd",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet USD",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "247",
-          "title": "Send to Mukuru Wallet USD",
-          "rate": 1,
-          "banded": false,
-          "enabled": false,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "269",
@@ -6327,16 +7104,6 @@
           "enabled": true,
           "midRate": 1.0,
           "deviationVsMid": -0.09091000000000005
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "340",
-          "title": "Mukuru Wallet Zimbabwe",
-          "rate": 0.975609,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": -0.02439100000000005
         },
         {
           "provider": "Mukuru (own rail)",
@@ -6509,6 +7276,65 @@
         "midRate": 1.0,
         "deviationVsMid": 0.0
       },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZW:USD:mukuru-wallet-topup:mukuru wallet zimbabwe",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet Zimbabwe",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "340",
+          "title": "Mukuru Wallet Zimbabwe",
+          "rate": 0.975609,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.02439100000000005
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "340",
+        "title": "Mukuru Wallet Zimbabwe",
+        "rate": 0.975609,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.02439100000000005
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZW:USD:mukuru-wallet-topup:send to mukuru wallet usd",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "mukuru-wallet-topup",
+      "title": "Send to Mukuru Wallet USD",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "247",
+          "title": "Send to Mukuru Wallet USD",
+          "rate": 1,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": null,
       "bestOverall": {
         "provider": "Mukuru (own rail)",
         "productGuid": "247",
@@ -6519,16 +7345,17 @@
         "midRate": 1.0,
         "deviationVsMid": 0.0
       },
-      "noLiveCoverage": false,
+      "noLiveCoverage": true,
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:mukuru-wallet-withdrawal",
+      "key": "USD->ZW:USD:mukuru-wallet-withdrawal:mukuru wallet withdrawal usd",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-withdrawal",
+      "title": "Mukuru Wallet Withdrawal USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6566,12 +7393,13 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:USD:mukuru_groceries",
+      "key": "USD->ZW:USD:mukuru_groceries:goal nfi pack",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru_groceries",
+      "title": "GOAL NFI Pack",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6582,7 +7410,31 @@
           "enabled": true,
           "midRate": 1.0,
           "deviationVsMid": -0.047619999999999996
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "234",
+        "title": "GOAL NFI Pack",
+        "rate": 0.95238,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.047619999999999996
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "USD->ZW:USD:mukuru_groceries:usd mukuru groceries",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "mukuru_groceries",
+      "title": "USD Mukuru Groceries",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "235",
@@ -6604,16 +7456,7 @@
           "deviationVsMid": -0.029127000000000014
         }
       ],
-      "bestEnabled": {
-        "provider": "Mukuru (own rail)",
-        "productGuid": "234",
-        "title": "GOAL NFI Pack",
-        "rate": 0.95238,
-        "banded": false,
-        "enabled": true,
-        "midRate": 1.0,
-        "deviationVsMid": -0.047619999999999996
-      },
+      "bestEnabled": null,
       "bestOverall": {
         "provider": "Mukuru (own rail)",
         "productGuid": "433",
@@ -6624,16 +7467,17 @@
         "midRate": 1.0,
         "deviationVsMid": -0.029127000000000014
       },
-      "noLiveCoverage": false,
-      "soleCoverage": true
+      "noLiveCoverage": true,
+      "soleCoverage": false
     },
     {
-      "key": "USD->ZW:ZAR:cash-collection",
+      "key": "USD->ZW:ZAR:cash-collection:cash zar",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6661,12 +7505,47 @@
       "soleCoverage": false
     },
     {
-      "key": "USD->ZW:ZWG:bank-top-up",
+      "key": "USD->ZW:ZWG:bank-top-up:zig bank top-up zwg",
       "payInCurrency": "USD",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "bank-top-up",
+      "title": "ZiG Bank top-up ZWG",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "292",
+          "title": "ZiG Bank top-up ZWG",
+          "rate": 0.90909,
+          "banded": false,
+          "enabled": false,
+          "midRate": 26.6328,
+          "deviationVsMid": -0.9658657745336577
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "292",
+        "title": "ZiG Bank top-up ZWG",
+        "rate": 0.90909,
+        "banded": false,
+        "enabled": false,
+        "midRate": 26.6328,
+        "deviationVsMid": -0.9658657745336577
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "USD->ZW:ZWG:bank-top-up:zig bank top-up zwg hello",
+      "payInCurrency": "USD",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "ZWG",
+      "type": "bank-top-up",
+      "title": "ZiG Bank top-up ZWG hello",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6677,16 +7556,6 @@
           "enabled": true,
           "midRate": 26.6328,
           "deviationVsMid": -0.9637220645219429
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "292",
-          "title": "ZiG Bank top-up ZWG",
-          "rate": 0.90909,
-          "banded": false,
-          "enabled": false,
-          "midRate": 26.6328,
-          "deviationVsMid": -0.9658657745336577
         }
       ],
       "bestEnabled": {
@@ -6704,27 +7573,52 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->AA:USD:cash-collection",
+      "key": "ZAR->AA:USD:cash-collection:moneytrans",
       "payInCurrency": "ZAR",
       "payOutCountry": "AA",
       "payOutCountryName": "International",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "MoneyTrans",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "112",
-          "title": "Xpress Money",
+          "productGuid": "113",
+          "title": "MoneyTrans",
           "rate": 0.060501,
           "banded": false,
           "enabled": true,
           "midRate": 0.06154716904256178,
           "deviationVsMid": -0.016997841799000074
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "113",
+        "title": "MoneyTrans",
+        "rate": 0.060501,
+        "banded": false,
+        "enabled": true,
+        "midRate": 0.06154716904256178,
+        "deviationVsMid": -0.016997841799000074
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->AA:USD:cash-collection:xpress money",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "AA",
+      "payOutCountryName": "International",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Xpress Money",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "113",
-          "title": "MoneyTrans",
+          "productGuid": "112",
+          "title": "Xpress Money",
           "rate": 0.060501,
           "banded": false,
           "enabled": true,
@@ -6744,15 +7638,16 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->AA:ZAR:card-top-up",
+      "key": "ZAR->AA:ZAR:card-top-up:visa",
       "payInCurrency": "ZAR",
       "payOutCountry": "AA",
       "payOutCountryName": "International",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
+      "title": "VISA",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6780,12 +7675,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->AO:AOA:cash-collection",
+      "key": "ZAR->AO:AOA:cash-collection:cash aoa",
       "payInCurrency": "ZAR",
       "payOutCountry": "AO",
       "payOutCountryName": "Angola",
       "payOutCurrency": "AOA",
       "type": "cash-collection",
+      "title": "Cash AOA",
       "providers": [
         {
           "provider": "Moneytrans",
@@ -6813,12 +7709,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BD:BDT:bank-top-up",
+      "key": "ZAR->BD:BDT:bank-top-up:bank top-up bdt",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "bank-top-up",
+      "title": "Bank Top-up BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6846,12 +7743,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BD:BDT:cash-collection",
+      "key": "ZAR->BD:BDT:cash-collection:cash bdt",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "cash-collection",
+      "title": "Cash BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6879,12 +7777,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BD:BDT:mobile-wallet",
+      "key": "ZAR->BD:BDT:mobile-wallet:bkash wallet top-up bdt",
       "payInCurrency": "ZAR",
       "payOutCountry": "BD",
       "payOutCountryName": "Bangladesh",
       "payOutCurrency": "BDT",
       "type": "mobile-wallet",
+      "title": "bKash Wallet top-up BDT",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6912,12 +7811,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BW:BWP:cash-collection",
+      "key": "ZAR->BW:BWP:cash-collection:cash bwp",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "cash-collection",
+      "title": "Cash BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -6945,12 +7845,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BW:BWP:mobile-wallet",
+      "key": "ZAR->BW:BWP:mobile-wallet:moov top-up bwp",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mobile-wallet",
+      "title": "Moov top-up BWP",
       "providers": [
         {
           "provider": "Zeepay",
@@ -6961,7 +7862,31 @@
           "enabled": false,
           "midRate": 0.8789774011720182,
           "deviationVsMid": -0.18147497416808006
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Zeepay",
+        "productGuid": "185",
+        "title": "Moov top-up BWP",
+        "rate": 0.719465,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.8789774011720182,
+        "deviationVsMid": -0.18147497416808006
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->BW:BWP:mobile-wallet:orange top-up bwp",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "BW",
+      "payOutCountryName": "Botswana",
+      "payOutCurrency": "BWP",
+      "type": "mobile-wallet",
+      "title": "Orange top-up BWP",
+      "providers": [
         {
           "provider": "Thunes",
           "productGuid": "404",
@@ -6988,12 +7913,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->BW:BWP:mukuru-wallet-topup",
+      "key": "ZAR->BW:BWP:mukuru-wallet-topup:mukuru wallet bwp",
       "payInCurrency": "ZAR",
       "payOutCountry": "BW",
       "payOutCountryName": "Botswana",
       "payOutCurrency": "BWP",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet BWP",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7021,12 +7947,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->CD:USD:cash-collection",
+      "key": "ZAR->CD:USD:cash-collection:finca/mukuru",
       "payInCurrency": "ZAR",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "FINCA/Mukuru",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7054,23 +7981,14 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->CD:USD:mobile-wallet",
+      "key": "ZAR->CD:USD:mobile-wallet:airtel usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
+      "title": "Airtel USD",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "145",
-          "title": "Pepele Mobile",
-          "rate": 0.054904,
-          "banded": true,
-          "enabled": false,
-          "midRate": 0.06154716904256178,
-          "deviationVsMid": -0.10793622429600003
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "176",
@@ -7092,6 +8010,31 @@
         "midRate": 0.06154716904256178,
         "deviationVsMid": -0.10793622429600003
       },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->CD:USD:mobile-wallet:pepele mobile",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "CD",
+      "payOutCountryName": "DR Congo",
+      "payOutCurrency": "USD",
+      "type": "mobile-wallet",
+      "title": "Pepele Mobile",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "145",
+          "title": "Pepele Mobile",
+          "rate": 0.054904,
+          "banded": true,
+          "enabled": false,
+          "midRate": 0.06154716904256178,
+          "deviationVsMid": -0.10793622429600003
+        }
+      ],
+      "bestEnabled": null,
       "bestOverall": {
         "provider": "Mukuru (own rail)",
         "productGuid": "145",
@@ -7102,16 +8045,17 @@
         "midRate": 0.06154716904256178,
         "deviationVsMid": -0.10793622429600003
       },
-      "noLiveCoverage": false,
-      "soleCoverage": true
+      "noLiveCoverage": true,
+      "soleCoverage": false
     },
     {
-      "key": "ZAR->CG:XAF:cash-collection",
+      "key": "ZAR->CG:XAF:cash-collection:cash xaf",
       "payInCurrency": "ZAR",
       "payOutCountry": "CG",
       "payOutCountryName": "Congo",
       "payOutCurrency": "XAF",
       "type": "cash-collection",
+      "title": "Cash XAF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7139,12 +8083,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->CI:XOF:cash-collection",
+      "key": "ZAR->CI:XOF:cash-collection:cash xof",
       "payInCurrency": "ZAR",
       "payOutCountry": "CI",
       "payOutCountryName": "Cote d'Ivoire",
       "payOutCurrency": "XOF",
       "type": "cash-collection",
+      "title": "Cash XOF",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7172,23 +8117,14 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->CN:CNY:bank-top-up",
+      "key": "ZAR->CN:CNY:bank-top-up:alipay wallet top-up",
       "payInCurrency": "ZAR",
       "payOutCountry": "CN",
       "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "bank-top-up",
+      "title": "Alipay Wallet Top-up",
       "providers": [
-        {
-          "provider": "Geoswift",
-          "productGuid": "167",
-          "title": "Bank Top-up CNY",
-          "rate": 0.355338,
-          "banded": false,
-          "enabled": true,
-          "midRate": 0.41299393680373614,
-          "deviationVsMid": -0.13960480207034015
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "198",
@@ -7198,7 +8134,31 @@
           "enabled": true,
           "midRate": 0.41299393680373614,
           "deviationVsMid": -0.04400775697676476
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "198",
+        "title": "Alipay Wallet Top-up",
+        "rate": 0.394819,
+        "banded": true,
+        "enabled": true,
+        "midRate": 0.41299393680373614,
+        "deviationVsMid": -0.04400775697676476
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->CN:CNY:bank-top-up:bank top-up (non-resident)",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "CN",
+      "payOutCountryName": "China",
+      "payOutCurrency": "CNY",
+      "type": "bank-top-up",
+      "title": "Bank Top-up (Non-Resident)",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "482",
@@ -7222,15 +8182,50 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->CN:CNY:mobile-wallet",
+      "key": "ZAR->CN:CNY:bank-top-up:bank top-up cny",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "CN",
+      "payOutCountryName": "China",
+      "payOutCurrency": "CNY",
+      "type": "bank-top-up",
+      "title": "Bank Top-up CNY",
+      "providers": [
+        {
+          "provider": "Geoswift",
+          "productGuid": "167",
+          "title": "Bank Top-up CNY",
+          "rate": 0.355338,
+          "banded": false,
+          "enabled": true,
+          "midRate": 0.41299393680373614,
+          "deviationVsMid": -0.13960480207034015
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Geoswift",
+        "productGuid": "167",
+        "title": "Bank Top-up CNY",
+        "rate": 0.355338,
+        "banded": false,
+        "enabled": true,
+        "midRate": 0.41299393680373614,
+        "deviationVsMid": -0.13960480207034015
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->CN:CNY:mobile-wallet:wechatpay top-up cny",
       "payInCurrency": "ZAR",
       "payOutCountry": "CN",
       "payOutCountryName": "China",
       "payOutCurrency": "CNY",
       "type": "mobile-wallet",
+      "title": "WeChatPay Top-up CNY",
       "providers": [
         {
           "provider": "Thunes",
@@ -7258,12 +8253,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->DE:EUR:bank-top-up",
+      "key": "ZAR->DE:EUR:bank-top-up:bank top-up eur aza",
       "payInCurrency": "ZAR",
       "payOutCountry": "DE",
       "payOutCountryName": "Germany",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR AZA",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7291,12 +8287,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ET:ETB:cash-collection",
+      "key": "ZAR->ET:ETB:cash-collection:cash etb",
       "payInCurrency": "ZAR",
       "payOutCountry": "ET",
       "payOutCountryName": "Ethiopia",
       "payOutCurrency": "ETB",
       "type": "cash-collection",
+      "title": "Cash ETB",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7324,12 +8321,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->FR:EUR:bank-top-up",
+      "key": "ZAR->FR:EUR:bank-top-up:bank top-up eur aza",
       "payInCurrency": "ZAR",
       "payOutCountry": "FR",
       "payOutCountryName": "France",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR AZA",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7357,12 +8355,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->GB:GBP:bank-top-up",
+      "key": "ZAR->GB:GBP:bank-top-up:bank top-up gbp (aza)",
       "payInCurrency": "ZAR",
       "payOutCountry": "GB",
       "payOutCountryName": "United Kingdom",
       "payOutCurrency": "GBP",
       "type": "bank-top-up",
+      "title": "Bank Top-up GBP (AZA)",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7373,17 +8372,31 @@
           "enabled": false,
           "midRate": 0.04602183410440653,
           "deviationVsMid": -0.10438163097777477
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "492",
-          "title": "Bank Transfer GBP",
-          "rate": 0.041218,
-          "banded": false,
-          "enabled": true,
-          "midRate": 0.04602183410440653,
-          "deviationVsMid": -0.10438163097777477
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "199",
+        "title": "Bank Top-up GBP (AZA)",
+        "rate": 0.041218,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.04602183410440653,
+        "deviationVsMid": -0.10438163097777477
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->GB:GBP:bank-top-up:bank top-up gbp (thunes)",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
+      "payOutCurrency": "GBP",
+      "type": "bank-top-up",
+      "title": "Bank Top-up GBP (Thunes)",
+      "providers": [
         {
           "provider": "Thunes",
           "productGuid": "497",
@@ -7407,15 +8420,50 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->GB:USD:bill-payment",
+      "key": "ZAR->GB:GBP:bank-top-up:bank transfer gbp",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "GB",
+      "payOutCountryName": "United Kingdom",
+      "payOutCurrency": "GBP",
+      "type": "bank-top-up",
+      "title": "Bank Transfer GBP",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "492",
+          "title": "Bank Transfer GBP",
+          "rate": 0.041218,
+          "banded": false,
+          "enabled": true,
+          "midRate": 0.04602183410440653,
+          "deviationVsMid": -0.10438163097777477
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "492",
+        "title": "Bank Transfer GBP",
+        "rate": 0.041218,
+        "banded": false,
+        "enabled": true,
+        "midRate": 0.04602183410440653,
+        "deviationVsMid": -0.10438163097777477
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->GB:USD:bill-payment:dstv usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "GB",
       "payOutCountryName": "United Kingdom",
       "payOutCurrency": "USD",
       "type": "bill-payment",
+      "title": "DStv USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7443,12 +8491,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->GH:GHS:bank-top-up",
+      "key": "ZAR->GH:GHS:bank-top-up:bank top-up ghs",
       "payInCurrency": "ZAR",
       "payOutCountry": "GH",
       "payOutCountryName": "Ghana",
       "payOutCurrency": "GHS",
       "type": "bank-top-up",
+      "title": "Bank top-up GHS",
       "providers": [
         {
           "provider": "Chipper Cash",
@@ -7476,12 +8525,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->HR:EUR:bank-top-up",
+      "key": "ZAR->HR:EUR:bank-top-up:bank top-up eur aza",
       "payInCurrency": "ZAR",
       "payOutCountry": "HR",
       "payOutCountryName": "Croatia",
       "payOutCurrency": "EUR",
       "type": "bank-top-up",
+      "title": "Bank Top-up EUR AZA",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7509,12 +8559,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->KE:KES:bank-top-up",
+      "key": "ZAR->KE:KES:bank-top-up:bank top-up kes",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "bank-top-up",
+      "title": "Bank Top-up KES",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7525,7 +8576,31 @@
           "enabled": false,
           "midRate": 7.966463563060399,
           "deviationVsMid": -0.11069473375230368
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "67",
+        "title": "Bank Top-up KES",
+        "rate": 7.084618,
+        "banded": true,
+        "enabled": false,
+        "midRate": 7.966463563060399,
+        "deviationVsMid": -0.11069473375230368
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->KE:KES:bank-top-up:ksh to cba bank",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
+      "payOutCurrency": "KES",
+      "type": "bank-top-up",
+      "title": "KSH to CBA Bank",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "134",
@@ -7552,12 +8627,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->KE:KES:cash-collection",
+      "key": "ZAR->KE:KES:cash-collection:cash kes",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "cash-collection",
+      "title": "Cash KES",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7585,33 +8661,14 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->KE:KES:mobile-wallet",
+      "key": "ZAR->KE:KES:mobile-wallet:airtel ken",
       "payInCurrency": "ZAR",
       "payOutCountry": "KE",
       "payOutCountryName": "Kenya",
       "payOutCurrency": "KES",
       "type": "mobile-wallet",
+      "title": "Airtel KEN",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "85",
-          "title": "Mpesa KES",
-          "rate": 7.084618,
-          "banded": true,
-          "enabled": false,
-          "midRate": 7.966463563060399,
-          "deviationVsMid": -0.11069473375230368
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "132",
-          "title": "Mpesa",
-          "rate": 7.714365,
-          "banded": true,
-          "enabled": true,
-          "midRate": 7.966463563060399,
-          "deviationVsMid": -0.03164497785809907
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "177",
@@ -7621,6 +8678,40 @@
           "enabled": false,
           "midRate": 7.966463563060399,
           "deviationVsMid": -0.11069473375230368
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "177",
+        "title": "Airtel KEN",
+        "rate": 7.084618,
+        "banded": false,
+        "enabled": false,
+        "midRate": 7.966463563060399,
+        "deviationVsMid": -0.11069473375230368
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->KE:KES:mobile-wallet:mpesa",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
+      "payOutCurrency": "KES",
+      "type": "mobile-wallet",
+      "title": "Mpesa",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "132",
+          "title": "Mpesa",
+          "rate": 7.714365,
+          "banded": true,
+          "enabled": true,
+          "midRate": 7.966463563060399,
+          "deviationVsMid": -0.03164497785809907
         }
       ],
       "bestEnabled": {
@@ -7638,12 +8729,47 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->LS:LSL:bank-top-up",
+      "key": "ZAR->KE:KES:mobile-wallet:mpesa kes",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "KE",
+      "payOutCountryName": "Kenya",
+      "payOutCurrency": "KES",
+      "type": "mobile-wallet",
+      "title": "Mpesa KES",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "85",
+          "title": "Mpesa KES",
+          "rate": 7.084618,
+          "banded": true,
+          "enabled": false,
+          "midRate": 7.966463563060399,
+          "deviationVsMid": -0.11069473375230368
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "85",
+        "title": "Mpesa KES",
+        "rate": 7.084618,
+        "banded": true,
+        "enabled": false,
+        "midRate": 7.966463563060399,
+        "deviationVsMid": -0.11069473375230368
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->LS:LSL:bank-top-up:bank top-up lsl",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
       "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "bank-top-up",
+      "title": "Bank Top-up LSL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7671,12 +8797,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->LS:LSL:cash-collection",
+      "key": "ZAR->LS:LSL:cash-collection:cash lsl",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
       "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "cash-collection",
+      "title": "Cash LSL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7704,12 +8831,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->LS:LSL:mobile-wallet",
+      "key": "ZAR->LS:LSL:mobile-wallet:mpesa lsl",
       "payInCurrency": "ZAR",
       "payOutCountry": "LS",
       "payOutCountryName": "Lesotho",
       "payOutCurrency": "LSL",
       "type": "mobile-wallet",
+      "title": "Mpesa LSL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7737,12 +8865,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->MW:MWK:bank-top-up",
+      "key": "ZAR->MW:MWK:bank-top-up:bank top-up mwk",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "bank-top-up",
+      "title": "Bank Top-up MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7770,12 +8899,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->MW:MWK:cash-collection",
+      "key": "ZAR->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7803,27 +8933,52 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->MW:MWK:mobile-wallet",
+      "key": "ZAR->MW:MWK:mobile-wallet:airtel mwk",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mobile-wallet",
+      "title": "Airtel MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "115",
-          "title": "TNM Mpamba MWK",
+          "productGuid": "174",
+          "title": "Airtel MWK",
           "rate": 94.96909,
           "banded": true,
           "enabled": true,
           "midRate": 107.55240221370396,
           "deviationVsMid": -0.11699703544232544
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "174",
+        "title": "Airtel MWK",
+        "rate": 94.96909,
+        "banded": true,
+        "enabled": true,
+        "midRate": 107.55240221370396,
+        "deviationVsMid": -0.11699703544232544
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->MW:MWK:mobile-wallet:tnm mpamba mwk",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mobile-wallet",
+      "title": "TNM Mpamba MWK",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "174",
-          "title": "Airtel MWK",
+          "productGuid": "115",
+          "title": "TNM Mpamba MWK",
           "rate": 94.96909,
           "banded": true,
           "enabled": true,
@@ -7843,15 +8998,16 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->MW:MWK:mukuru-wallet-topup",
+      "key": "ZAR->MW:MWK:mukuru-wallet-topup:mukuru wallet mwk",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7879,27 +9035,18 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->MW:MWK:mukuru_groceries",
+      "key": "ZAR->MW:MWK:mukuru_groceries:k25,000 farmer's world groceries",
       "payInCurrency": "ZAR",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "mukuru_groceries",
+      "title": "K25,000 Farmer's world Groceries",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "179",
           "title": "K25,000 Farmer's world Groceries",
-          "rate": 104.466,
-          "banded": false,
-          "enabled": false,
-          "midRate": 107.55240221370396,
-          "deviationVsMid": -0.02869672968876472
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "180",
-          "title": "K25,000 Sana Groceries",
           "rate": 104.466,
           "banded": false,
           "enabled": false,
@@ -7922,12 +9069,47 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->MZ:MZN:cash-collection",
+      "key": "ZAR->MW:MWK:mukuru_groceries:k25,000 sana groceries",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "MW",
+      "payOutCountryName": "Malawi",
+      "payOutCurrency": "MWK",
+      "type": "mukuru_groceries",
+      "title": "K25,000 Sana Groceries",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "180",
+          "title": "K25,000 Sana Groceries",
+          "rate": 104.466,
+          "banded": false,
+          "enabled": false,
+          "midRate": 107.55240221370396,
+          "deviationVsMid": -0.02869672968876472
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "180",
+        "title": "K25,000 Sana Groceries",
+        "rate": 104.466,
+        "banded": false,
+        "enabled": false,
+        "midRate": 107.55240221370396,
+        "deviationVsMid": -0.02869672968876472
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->MZ:MZN:cash-collection:cash mzn",
       "payInCurrency": "ZAR",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
+      "title": "Cash MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7955,12 +9137,47 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->MZ:MZN:mobile-wallet",
+      "key": "ZAR->MZ:MZN:mobile-wallet:bci mzn",
       "payInCurrency": "ZAR",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "mobile-wallet",
+      "title": "BCI MZN",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "137",
+          "title": "BCI MZN",
+          "rate": 3.49686,
+          "banded": true,
+          "enabled": false,
+          "midRate": 3.9268565441966223,
+          "deviationVsMid": -0.10950146493945669
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "137",
+        "title": "BCI MZN",
+        "rate": 3.49686,
+        "banded": true,
+        "enabled": false,
+        "midRate": 3.9268565441966223,
+        "deviationVsMid": -0.10950146493945669
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->MZ:MZN:mobile-wallet:mkesh mzn",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
+      "payOutCurrency": "MZN",
+      "type": "mobile-wallet",
+      "title": "MKesh MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -7971,17 +9188,31 @@
           "enabled": true,
           "midRate": 3.9268565441966223,
           "deviationVsMid": -0.11752391232082515
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "137",
-          "title": "BCI MZN",
-          "rate": 3.49686,
-          "banded": true,
-          "enabled": false,
-          "midRate": 3.9268565441966223,
-          "deviationVsMid": -0.10950146493945669
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "94",
+        "title": "MKesh MZN",
+        "rate": 3.465357,
+        "banded": true,
+        "enabled": true,
+        "midRate": 3.9268565441966223,
+        "deviationVsMid": -0.11752391232082515
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->MZ:MZN:mobile-wallet:mpesa mozambique mzn (new moz)",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "MZ",
+      "payOutCountryName": "Mozambique",
+      "payOutCurrency": "MZN",
+      "type": "mobile-wallet",
+      "title": "Mpesa Mozambique MZN (new moz)",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "240",
@@ -8003,26 +9234,18 @@
         "midRate": 3.9268565441966223,
         "deviationVsMid": -0.11434019530460862
       },
-      "bestOverall": {
-        "provider": "Mukuru (own rail)",
-        "productGuid": "137",
-        "title": "BCI MZN",
-        "rate": 3.49686,
-        "banded": true,
-        "enabled": false,
-        "midRate": 3.9268565441966223,
-        "deviationVsMid": -0.10950146493945669
-      },
+      "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->NA:NAD:cash-collection",
+      "key": "ZAR->NA:NAD:cash-collection:cash nad",
       "payInCurrency": "ZAR",
       "payOutCountry": "NA",
       "payOutCountryName": "Namibia",
       "payOutCurrency": "NAD",
       "type": "cash-collection",
+      "title": "Cash NAD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8050,12 +9273,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->NG:NGN:bank-top-up",
+      "key": "ZAR->NG:NGN:bank-top-up:bank top-up ngn",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "bank-top-up",
+      "title": "Bank top-up NGN",
       "providers": [
         {
           "provider": "MFS",
@@ -8083,12 +9307,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->NG:NGN:cash-collection",
+      "key": "ZAR->NG:NGN:cash-collection:nigeria cash ngn",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "NGN",
       "type": "cash-collection",
+      "title": "Nigeria Cash NGN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8116,12 +9341,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->NG:USD:cash-collection",
+      "key": "ZAR->NG:USD:cash-collection:cash usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "NG",
       "payOutCountryName": "Nigeria",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Thunes",
@@ -8159,12 +9385,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->NZ:NZD:bank-top-up",
+      "key": "ZAR->NZ:NZD:bank-top-up:bank top-up nzd",
       "payInCurrency": "ZAR",
       "payOutCountry": "NZ",
       "payOutCountryName": "New Zealand",
       "payOutCurrency": "NZD",
       "type": "bank-top-up",
+      "title": "Bank top-up NZD",
       "providers": [
         {
           "provider": "TransFast",
@@ -8192,12 +9419,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->PH:PHP:bank-top-up",
+      "key": "ZAR->PH:PHP:bank-top-up:bank top-up php",
       "payInCurrency": "ZAR",
       "payOutCountry": "PH",
       "payOutCountryName": "Philippines",
       "payOutCurrency": "PHP",
       "type": "bank-top-up",
+      "title": "Bank top-up PHP",
       "providers": [
         {
           "provider": "TerraPay",
@@ -8225,12 +9453,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->PK:PKR:bank-top-up",
+      "key": "ZAR->PK:PKR:bank-top-up:bank top-up pkr",
       "payInCurrency": "ZAR",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "bank-top-up",
+      "title": "Bank Top-up PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8241,7 +9470,31 @@
           "enabled": false,
           "midRate": 17.074779564198035,
           "deviationVsMid": -0.10823451964633522
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "187",
+        "title": "Bank Top-up PKR",
+        "rate": 15.226699,
+        "banded": false,
+        "enabled": false,
+        "midRate": 17.074779564198035,
+        "deviationVsMid": -0.10823451964633522
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->PK:PKR:bank-top-up:bop bank top-up pkr",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "PK",
+      "payOutCountryName": "Pakistan",
+      "payOutCurrency": "PKR",
+      "type": "bank-top-up",
+      "title": "BOP Bank Top-up PKR",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "188",
@@ -8268,12 +9521,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->PK:PKR:cash-collection",
+      "key": "ZAR->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "ZAR",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8301,12 +9555,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->SZ:SZL:bank-top-up",
+      "key": "ZAR->SZ:SZL:bank-top-up:bank top-up szl",
       "payInCurrency": "ZAR",
       "payOutCountry": "SZ",
       "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "bank-top-up",
+      "title": "Bank Top-up SZL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8334,12 +9589,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->SZ:SZL:cash-collection",
+      "key": "ZAR->SZ:SZL:cash-collection:cash szl",
       "payInCurrency": "ZAR",
       "payOutCountry": "SZ",
       "payOutCountryName": "Eswatini",
       "payOutCurrency": "SZL",
       "type": "cash-collection",
+      "title": "Cash SZL",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8367,12 +9623,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->TZ:TZS:cash-collection",
+      "key": "ZAR->TZ:TZS:cash-collection:cash tzs",
       "payInCurrency": "ZAR",
       "payOutCountry": "TZ",
       "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "cash-collection",
+      "title": "Cash TZS",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8400,12 +9657,81 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->TZ:TZS:mobile-wallet",
+      "key": "ZAR->TZ:TZS:mobile-wallet:airtel tza",
       "payInCurrency": "ZAR",
       "payOutCountry": "TZ",
       "payOutCountryName": "Tanzania",
       "payOutCurrency": "TZS",
       "type": "mobile-wallet",
+      "title": "Airtel TZA",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "178",
+          "title": "Airtel TZA",
+          "rate": 145.158114,
+          "banded": false,
+          "enabled": true,
+          "midRate": 162.85267294123645,
+          "deviationVsMid": -0.10865378272066384
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "178",
+        "title": "Airtel TZA",
+        "rate": 145.158114,
+        "banded": false,
+        "enabled": true,
+        "midRate": 162.85267294123645,
+        "deviationVsMid": -0.10865378272066384
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->TZ:TZS:mobile-wallet:halopesa top-up tzs",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
+      "payOutCurrency": "TZS",
+      "type": "mobile-wallet",
+      "title": "HaloPesa Top-up TZS",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "212",
+          "title": "HaloPesa Top-up TZS",
+          "rate": 145.158114,
+          "banded": false,
+          "enabled": true,
+          "midRate": 162.85267294123645,
+          "deviationVsMid": -0.10865378272066384
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "212",
+        "title": "HaloPesa Top-up TZS",
+        "rate": 145.158114,
+        "banded": false,
+        "enabled": true,
+        "midRate": 162.85267294123645,
+        "deviationVsMid": -0.10865378272066384
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->TZ:TZS:mobile-wallet:mobile top-up",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
+      "payOutCurrency": "TZS",
+      "type": "mobile-wallet",
+      "title": "Mobile Top-Up",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8416,17 +9742,31 @@
           "enabled": true,
           "midRate": 162.85267294123645,
           "deviationVsMid": -0.10865378272066384
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "178",
-          "title": "Airtel TZA",
-          "rate": 145.158114,
-          "banded": false,
-          "enabled": true,
-          "midRate": 162.85267294123645,
-          "deviationVsMid": -0.10865378272066384
-        },
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "154",
+        "title": "Mobile Top-Up",
+        "rate": 145.158114,
+        "banded": false,
+        "enabled": true,
+        "midRate": 162.85267294123645,
+        "deviationVsMid": -0.10865378272066384
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->TZ:TZS:mobile-wallet:zanotel top-up tzs",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "TZ",
+      "payOutCountryName": "Tanzania",
+      "payOutCurrency": "TZS",
+      "type": "mobile-wallet",
+      "title": "Zanotel Top-up TZS",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "211",
@@ -8436,16 +9776,6 @@
           "enabled": true,
           "midRate": 162.85267294123645,
           "deviationVsMid": -0.019519157308418692
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "212",
-          "title": "HaloPesa Top-up TZS",
-          "rate": 145.158114,
-          "banded": false,
-          "enabled": true,
-          "midRate": 162.85267294123645,
-          "deviationVsMid": -0.10865378272066384
         }
       ],
       "bestEnabled": {
@@ -8460,15 +9790,16 @@
       },
       "bestOverall": null,
       "noLiveCoverage": false,
-      "soleCoverage": false
+      "soleCoverage": true
     },
     {
-      "key": "ZAR->UG:UGX:cash-collection",
+      "key": "ZAR->UG:UGX:cash-collection:cash ugx",
       "payInCurrency": "ZAR",
       "payOutCountry": "UG",
       "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "cash-collection",
+      "title": "Cash UGX",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8496,12 +9827,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->UG:UGX:mobile-wallet",
+      "key": "ZAR->UG:UGX:mobile-wallet:airtel ugx",
       "payInCurrency": "ZAR",
       "payOutCountry": "UG",
       "payOutCountryName": "Uganda",
       "payOutCurrency": "UGX",
       "type": "mobile-wallet",
+      "title": "Airtel UGX",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8529,12 +9861,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZA:ZAR:bank-top-up",
+      "key": "ZAR->ZA:ZAR:bank-top-up:bank top-up zar",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
+      "title": "Bank Top-up ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8582,12 +9915,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZA:ZAR:card-top-up",
+      "key": "ZAR->ZA:ZAR:card-top-up:mukuru card zar",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "card-top-up",
+      "title": "Mukuru Card ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8615,12 +9949,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZA:ZAR:cash-collection",
+      "key": "ZAR->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8631,16 +9966,6 @@
           "enabled": true,
           "midRate": 1.0,
           "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "197",
-          "title": "Remitly Cash ZAR",
-          "rate": 0.5,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": -0.5
         },
         {
           "provider": "Mukuru (own rail)",
@@ -8678,27 +10003,86 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZA:ZAR:mpay-non-integration",
+      "key": "ZAR->ZA:ZAR:cash-collection:remitly cash zar",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "cash-collection",
+      "title": "Remitly Cash ZAR",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "197",
+          "title": "Remitly Cash ZAR",
+          "rate": 0.5,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.5
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "197",
+        "title": "Remitly Cash ZAR",
+        "rate": 0.5,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.5
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->ZA:ZAR:mpay-non-integration:test imt rc",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "mpay-non-integration",
+      "title": "Test IMT RC",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "220",
-          "title": "The Acme TV Company RC",
+          "productGuid": "226",
+          "title": "Test IMT RC",
           "rate": 1,
           "banded": false,
           "enabled": false,
           "midRate": 1.0,
           "deviationVsMid": 0.0
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "226",
+        "title": "Test IMT RC",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZA:ZAR:mpay-non-integration:the acme tv company rc",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "mpay-non-integration",
+      "title": "The Acme TV Company RC",
+      "providers": [
         {
           "provider": "Mukuru (own rail)",
-          "productGuid": "226",
-          "title": "Test IMT RC",
+          "productGuid": "220",
+          "title": "The Acme TV Company RC",
           "rate": 1,
           "banded": false,
           "enabled": false,
@@ -8721,12 +10105,47 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZA:ZAR:mukuru-payin",
+      "key": "ZAR->ZA:ZAR:mukuru-payin:dw partner rc",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "mukuru-payin",
+      "title": "DW Partner RC",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "227",
+          "title": "DW Partner RC",
+          "rate": 1,
+          "banded": false,
+          "enabled": false,
+          "midRate": 1.0,
+          "deviationVsMid": 0.0
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "227",
+        "title": "DW Partner RC",
+        "rate": 1,
+        "banded": false,
+        "enabled": false,
+        "midRate": 1.0,
+        "deviationVsMid": 0.0
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZA:ZAR:mukuru-payin:mukuru payin zar",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZA",
+      "payOutCountryName": "South Africa",
+      "payOutCurrency": "ZAR",
+      "type": "mukuru-payin",
+      "title": "Mukuru Payin ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8735,16 +10154,6 @@
           "rate": 1,
           "banded": false,
           "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": 0.0
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "227",
-          "title": "DW Partner RC",
-          "rate": 1,
-          "banded": false,
-          "enabled": false,
           "midRate": 1.0,
           "deviationVsMid": 0.0
         },
@@ -8774,12 +10183,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZM:ZMW:bank-top-up",
+      "key": "ZAR->ZM:ZMW:bank-top-up:bank top-up zmw",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "bank-top-up",
+      "title": "Bank Top-up ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8807,12 +10217,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZM:ZMW:cash-collection",
+      "key": "ZAR->ZM:ZMW:cash-collection:cash zmw",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
+      "title": "Cash ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8840,12 +10251,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZM:ZMW:mobile-wallet",
+      "key": "ZAR->ZM:ZMW:mobile-wallet:airtel zmw",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mobile-wallet",
+      "title": "Airtel ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8856,7 +10268,31 @@
           "enabled": false,
           "midRate": 1.2146516605641622,
           "deviationVsMid": -0.16138755408535277
-        },
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "175",
+        "title": "Airtel ZMW",
+        "rate": 1.018622,
+        "banded": true,
+        "enabled": false,
+        "midRate": 1.2146516605641622,
+        "deviationVsMid": -0.16138755408535277
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZM:ZMW:mobile-wallet:mtn top-up zmw",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZM",
+      "payOutCountryName": "Zambia",
+      "payOutCurrency": "ZMW",
+      "type": "mobile-wallet",
+      "title": "MTN top-up ZMW",
+      "providers": [
         {
           "provider": "Zeepay",
           "productGuid": "183",
@@ -8883,12 +10319,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:RTG:card-top-up",
+      "key": "ZAR->ZW:RTG:card-top-up:mukuru-cabs card rtgs",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "card-top-up",
+      "title": "Mukuru-CABS Card RTGS",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8916,12 +10353,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:RTG:cash-collection",
+      "key": "ZAR->ZW:RTG:cash-collection:cash rtgs",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "cash-collection",
+      "title": "Cash RTGS",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8949,12 +10387,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:RTG:mobile-wallet",
+      "key": "ZAR->ZW:RTG:mobile-wallet:ecocash rtg",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "RTG",
       "type": "mobile-wallet",
+      "title": "Ecocash RTG",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -8982,12 +10421,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:bank-top-up",
+      "key": "ZAR->ZW:USD:bank-top-up:bank top-up usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "bank-top-up",
+      "title": "Bank Top-up USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9015,12 +10455,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:card-top-up",
+      "key": "ZAR->ZW:USD:card-top-up:store card usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "card-top-up",
+      "title": "Store Card USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9048,12 +10489,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:cash-collection",
+      "key": "ZAR->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9072,16 +10514,6 @@
           "rate": 0.057518,
           "banded": false,
           "enabled": true,
-          "midRate": 0.06154716904256178,
-          "deviationVsMid": -0.06546473388200007
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "277",
-          "title": "Cash USD Zam Zam",
-          "rate": 0.057518,
-          "banded": false,
-          "enabled": false,
           "midRate": 0.06154716904256178,
           "deviationVsMid": -0.06546473388200007
         },
@@ -9221,12 +10653,47 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:inter-africa",
+      "key": "ZAR->ZW:USD:cash-collection:cash usd zam zam",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "cash-collection",
+      "title": "Cash USD Zam Zam",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "277",
+          "title": "Cash USD Zam Zam",
+          "rate": 0.057518,
+          "banded": false,
+          "enabled": false,
+          "midRate": 0.06154716904256178,
+          "deviationVsMid": -0.06546473388200007
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "277",
+        "title": "Cash USD Zam Zam",
+        "rate": 0.057518,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.06154716904256178,
+        "deviationVsMid": -0.06546473388200007
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZW:USD:inter-africa:mukuru-cabs card ia us$ cash collection",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "inter-africa",
+      "title": "Mukuru-CABS Card IA US$ Cash Collection",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9237,16 +10704,6 @@
           "enabled": false,
           "midRate": 0.06154716904256178,
           "deviationVsMid": -0.11414284607800004
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "105",
-          "title": "US$ to Mukuru-CBZ Card",
-          "rate": 0.05436,
-          "banded": true,
-          "enabled": false,
-          "midRate": 0.06154716904256178,
-          "deviationVsMid": -0.11677497364000008
         }
       ],
       "bestEnabled": null,
@@ -9264,27 +10721,52 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:mobile-wallet",
+      "key": "ZAR->ZW:USD:inter-africa:us$ to mukuru-cbz card",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "inter-africa",
+      "title": "US$ to Mukuru-CBZ Card",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "105",
+          "title": "US$ to Mukuru-CBZ Card",
+          "rate": 0.05436,
+          "banded": true,
+          "enabled": false,
+          "midRate": 0.06154716904256178,
+          "deviationVsMid": -0.11677497364000008
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "105",
+        "title": "US$ to Mukuru-CBZ Card",
+        "rate": 0.05436,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06154716904256178,
+        "deviationVsMid": -0.11677497364000008
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZW:USD:mobile-wallet:ecocash usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mobile-wallet",
+      "title": "Ecocash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "80",
           "title": "Ecocash USD",
-          "rate": 0.054522,
-          "banded": true,
-          "enabled": false,
-          "midRate": 0.06154716904256178,
-          "deviationVsMid": -0.11414284607800004
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "86",
-          "title": "Telecash USD",
           "rate": 0.054522,
           "banded": true,
           "enabled": false,
@@ -9307,12 +10789,47 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:mpay-non-integration",
+      "key": "ZAR->ZW:USD:mobile-wallet:telecash usd",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "mobile-wallet",
+      "title": "Telecash USD",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "86",
+          "title": "Telecash USD",
+          "rate": 0.054522,
+          "banded": true,
+          "enabled": false,
+          "midRate": 0.06154716904256178,
+          "deviationVsMid": -0.11414284607800004
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "86",
+        "title": "Telecash USD",
+        "rate": 0.054522,
+        "banded": true,
+        "enabled": false,
+        "midRate": 0.06154716904256178,
+        "deviationVsMid": -0.11414284607800004
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZW:USD:mpay-non-integration:test rc",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mpay-non-integration",
+      "title": "Test RC",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9340,12 +10857,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:USD:mukuru-wallet-topup",
+      "key": "ZAR->ZW:USD:mukuru-wallet-topup:mukuru wallet usd",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru-wallet-topup",
+      "title": "Mukuru Wallet USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9373,23 +10891,14 @@
       "soleCoverage": true
     },
     {
-      "key": "ZAR->ZW:USD:mukuru_groceries",
+      "key": "ZAR->ZW:USD:mukuru_groceries:$10 kambudzi voucher",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "mukuru_groceries",
+      "title": "$10 Kambudzi Voucher",
       "providers": [
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "168",
-          "title": "$28 Mukuru Groceries",
-          "rate": 0.053772,
-          "banded": false,
-          "enabled": false,
-          "midRate": 0.06154716904256178,
-          "deviationVsMid": -0.12632862182800006
-        },
         {
           "provider": "Mukuru (own rail)",
           "productGuid": "237",
@@ -9416,12 +10925,81 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:ZAR:cash-collection",
+      "key": "ZAR->ZW:USD:mukuru_groceries:$28 mukuru groceries",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "USD",
+      "type": "mukuru_groceries",
+      "title": "$28 Mukuru Groceries",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "168",
+          "title": "$28 Mukuru Groceries",
+          "rate": 0.053772,
+          "banded": false,
+          "enabled": false,
+          "midRate": 0.06154716904256178,
+          "deviationVsMid": -0.12632862182800006
+        }
+      ],
+      "bestEnabled": null,
+      "bestOverall": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "168",
+        "title": "$28 Mukuru Groceries",
+        "rate": 0.053772,
+        "banded": false,
+        "enabled": false,
+        "midRate": 0.06154716904256178,
+        "deviationVsMid": -0.12632862182800006
+      },
+      "noLiveCoverage": true,
+      "soleCoverage": false
+    },
+    {
+      "key": "ZAR->ZW:ZAR:cash-collection:allen cash zar",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Allen Cash ZAR",
+      "providers": [
+        {
+          "provider": "Mukuru (own rail)",
+          "productGuid": "274",
+          "title": "Allen Cash ZAR",
+          "rate": 0.95238,
+          "banded": false,
+          "enabled": true,
+          "midRate": 1.0,
+          "deviationVsMid": -0.047619999999999996
+        }
+      ],
+      "bestEnabled": {
+        "provider": "Mukuru (own rail)",
+        "productGuid": "274",
+        "title": "Allen Cash ZAR",
+        "rate": 0.95238,
+        "banded": false,
+        "enabled": true,
+        "midRate": 1.0,
+        "deviationVsMid": -0.047619999999999996
+      },
+      "bestOverall": null,
+      "noLiveCoverage": false,
+      "soleCoverage": true
+    },
+    {
+      "key": "ZAR->ZW:ZAR:cash-collection:cash zar",
+      "payInCurrency": "ZAR",
+      "payOutCountry": "ZW",
+      "payOutCountryName": "Zimbabwe",
+      "payOutCurrency": "ZAR",
+      "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9442,16 +11020,6 @@
           "enabled": false,
           "midRate": 1.0,
           "deviationVsMid": -0.8
-        },
-        {
-          "provider": "Mukuru (own rail)",
-          "productGuid": "274",
-          "title": "Allen Cash ZAR",
-          "rate": 0.95238,
-          "banded": false,
-          "enabled": true,
-          "midRate": 1.0,
-          "deviationVsMid": -0.047619999999999996
         },
         {
           "provider": "Mukuru (own rail)",
@@ -9479,12 +11047,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZAR->ZW:ZIG:mobile-wallet",
+      "key": "ZAR->ZW:ZIG:mobile-wallet:hot airtime",
       "payInCurrency": "ZAR",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZIG",
       "type": "mobile-wallet",
+      "title": "Hot Airtime",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9512,12 +11081,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->CD:USD:cash-collection",
+      "key": "ZMW->CD:USD:cash-collection:cash usd",
       "payInCurrency": "ZMW",
       "payOutCountry": "CD",
       "payOutCountryName": "DR Congo",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9545,12 +11115,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->MW:MWK:cash-collection",
+      "key": "ZMW->MW:MWK:cash-collection:cash mwk",
       "payInCurrency": "ZMW",
       "payOutCountry": "MW",
       "payOutCountryName": "Malawi",
       "payOutCurrency": "MWK",
       "type": "cash-collection",
+      "title": "Cash MWK",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9578,12 +11149,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->MZ:MZN:cash-collection",
+      "key": "ZMW->MZ:MZN:cash-collection:cash mzn",
       "payInCurrency": "ZMW",
       "payOutCountry": "MZ",
       "payOutCountryName": "Mozambique",
       "payOutCurrency": "MZN",
       "type": "cash-collection",
+      "title": "Cash MZN",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9611,12 +11183,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->PK:PKR:cash-collection",
+      "key": "ZMW->PK:PKR:cash-collection:cash pkr",
       "payInCurrency": "ZMW",
       "payOutCountry": "PK",
       "payOutCountryName": "Pakistan",
       "payOutCurrency": "PKR",
       "type": "cash-collection",
+      "title": "Cash PKR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9644,12 +11217,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->ZA:ZAR:bank-top-up",
+      "key": "ZMW->ZA:ZAR:bank-top-up:paysoft bank topup zar",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "bank-top-up",
+      "title": "Paysoft Bank Topup ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9677,12 +11251,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->ZA:ZAR:cash-collection",
+      "key": "ZMW->ZA:ZAR:cash-collection:cash zar",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZA",
       "payOutCountryName": "South Africa",
       "payOutCurrency": "ZAR",
       "type": "cash-collection",
+      "title": "Cash ZAR",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9710,12 +11285,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->ZM:ZMW:abandoned-funds",
+      "key": "ZMW->ZM:ZMW:abandoned-funds:zambia abandoned funds",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "abandoned-funds",
+      "title": "Zambia Abandoned Funds",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9743,12 +11319,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->ZM:ZMW:cash-collection",
+      "key": "ZMW->ZM:ZMW:cash-collection:cash zmw",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "cash-collection",
+      "title": "Cash ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9786,12 +11363,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->ZM:ZMW:mukuru-payin",
+      "key": "ZMW->ZM:ZMW:mukuru-payin:mukuru payin zmw",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-payin",
+      "title": "Mukuru Payin ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9819,12 +11397,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->ZM:ZMW:mukuru-wallet-topup",
+      "key": "ZMW->ZM:ZMW:mukuru-wallet-topup:send to mukuru wallet zmw",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-topup",
+      "title": "Send to Mukuru Wallet ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9852,12 +11431,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->ZM:ZMW:mukuru-wallet-withdrawal",
+      "key": "ZMW->ZM:ZMW:mukuru-wallet-withdrawal:mukuru wallet withdrawal zmw",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "mukuru-wallet-withdrawal",
+      "title": "Mukuru Wallet Withdrawal ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9885,12 +11465,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZMW->ZM:ZMW:zuku",
+      "key": "ZMW->ZM:ZMW:zuku:zuku zmw",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZM",
       "payOutCountryName": "Zambia",
       "payOutCurrency": "ZMW",
       "type": "zuku",
+      "title": "Zuku ZMW",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9918,12 +11499,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZMW->ZW:USD:cash-collection",
+      "key": "ZMW->ZW:USD:cash-collection:cash usd",
       "payInCurrency": "ZMW",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "USD",
       "type": "cash-collection",
+      "title": "Cash USD",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -9970,12 +11552,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZWG->ZW:ZWG:bank-top-up",
+      "key": "ZWG->ZW:ZWG:bank-top-up:zig bank top-up zwg",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "bank-top-up",
+      "title": "ZiG Bank top-up ZWG",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -10003,12 +11586,13 @@
       "soleCoverage": true
     },
     {
-      "key": "ZWG->ZW:ZWG:cash-collection",
+      "key": "ZWG->ZW:ZWG:cash-collection:cash zwg",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "cash-collection",
+      "title": "Cash ZWG",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -10065,12 +11649,13 @@
       "soleCoverage": false
     },
     {
-      "key": "ZWG->ZW:ZWG:inter-africa",
+      "key": "ZWG->ZW:ZWG:inter-africa:zigswitch",
       "payInCurrency": "ZWG",
       "payOutCountry": "ZW",
       "payOutCountryName": "Zimbabwe",
       "payOutCurrency": "ZWG",
       "type": "inter-africa",
+      "title": "ZiGSwitch",
       "providers": [
         {
           "provider": "Mukuru (own rail)",
@@ -10099,17 +11684,11 @@
     }
   ],
   "partners": {
-    "Thunes": {
-      "corridorsServed": 15,
-      "corridorsWon": 7,
-      "soleCoverageCorridors": 4,
-      "verdict": "keep-competitive"
-    },
     "Geoswift": {
       "corridorsServed": 1,
-      "corridorsWon": 0,
-      "soleCoverageCorridors": 0,
-      "verdict": "switch-off-candidate"
+      "corridorsWon": 1,
+      "soleCoverageCorridors": 1,
+      "verdict": "keep-competitive"
     },
     "Zeepay": {
       "corridorsServed": 1,
@@ -10117,10 +11696,16 @@
       "soleCoverageCorridors": 0,
       "verdict": "switch-off-candidate"
     },
+    "Thunes": {
+      "corridorsServed": 15,
+      "corridorsWon": 8,
+      "soleCoverageCorridors": 6,
+      "verdict": "keep-competitive"
+    },
     "Tilt Pay": {
       "corridorsServed": 7,
-      "corridorsWon": 2,
-      "soleCoverageCorridors": 0,
+      "corridorsWon": 4,
+      "soleCoverageCorridors": 1,
       "verdict": "keep-competitive"
     },
     "Moneytrans": {
