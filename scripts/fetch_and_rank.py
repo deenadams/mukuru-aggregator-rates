@@ -148,6 +148,44 @@ def build_snapshot(items, mid_rates):
         else:
             s["verdict"] = "not-live"
 
+    # Coverage matrix: country x payout-type x partner -> enabled / disabled / not-live.
+    # Deliberately coarser than the corridor-level (title-based) grouping above — asking
+    # "should we integrate Partner X for Ghana mobile-wallet" is meaningful; asking it at
+    # the per-network-product level ("...for the Airtel-specific product") mostly isn't,
+    # since not every partner is expected to offer every named network product.
+    all_partners = sorted(partner_stats.keys())
+    presence = {}  # (country, type, partner) -> {'enabled':bool, 'disabled':bool}
+    all_countries, relevant_types = set(), set()
+    for c in corridor_list:
+        all_countries.add(c["payOutCountryName"])
+        for p in c["providers"]:
+            if p["provider"] == "Mukuru (own rail)":
+                continue
+            relevant_types.add(c["type"])
+            k = (c["payOutCountryName"], c["type"], p["provider"])
+            st = presence.setdefault(k, {"enabled": False, "disabled": False})
+            st["enabled" if p["enabled"] else "disabled"] = True
+
+    # Every type an external partner touches ANYWHERE is listed for every country, even
+    # countries with zero corridors of that type — a total gap (e.g. no mobile-wallet
+    # product from any partner) is itself a finding. Mukuru-internal-only types (e.g.
+    # mukuru_groceries, abandoned-funds) are excluded — no partner will ever serve those,
+    # so they'd just be a wall of meaningless "not-live" noise.
+    coverage = {}
+    for country in sorted(all_countries):
+        coverage[country] = {}
+        for typ in sorted(relevant_types):
+            row = {}
+            for partner in all_partners:
+                st = presence.get((country, typ, partner))
+                if st and st["enabled"]:
+                    row[partner] = "enabled"
+                elif st and st["disabled"]:
+                    row[partner] = "disabled"
+                else:
+                    row[partner] = "not-live"
+            coverage[country][typ] = row
+
     api_url = os.environ.get("TAURUS_API_URL", "")
     environment = "staging" if "api-uct" in api_url else ("production" if api_url else "unknown")
 
@@ -157,6 +195,8 @@ def build_snapshot(items, mid_rates):
         "totalCorridors": len(corridor_list),
         "corridors": sorted(corridor_list, key=lambda c: c["key"]),
         "partners": partner_stats,
+        "allPartners": all_partners,
+        "coverage": coverage,
     }
 
 def update_history(snapshot):
