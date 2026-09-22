@@ -57,10 +57,19 @@ def cross_mid_rate(rates, pay_in_ccy, pay_out_ccy):
     return rates[pay_out_ccy] / rates[pay_in_ccy]
 
 def corridor_key(item):
+    # Title is part of the key on purpose: in mobile-wallet especially, "same country/
+    # currency/type" does NOT mean "same product" — e.g. Tanzania ZAR mobile-wallet
+    # covers Airtel, Zantel and Halotel as separate named products, which are not
+    # substitutes for each other (a recipient is on one specific network, not a choice
+    # of any). Grouping only by type wrongly ranked these against each other. Titles are
+    # lowercased/trimmed only (no word-stripping) so casing quirks like "MTN Top-up" vs
+    # "MTN top-up" still merge, but genuinely different product names never do — under-
+    # merging is the safe direction for a switch-on/off recommendation tool.
     pay_in = item["payIn"]["currencyCode"]
     pay_out_country = item["payOut"]["countryCode"] or item["payOut"]["countryName"]
     pay_out_ccy = item["payOut"]["currencyCode"]
-    return f"{pay_in}->{pay_out_country}:{pay_out_ccy}:{item['type']}"
+    title = item["title"].strip().lower()
+    return f"{pay_in}->{pay_out_country}:{pay_out_ccy}:{item['type']}:{title}"
 
 def provider_name(item):
     if item.get("payOutPartner"):
@@ -79,6 +88,7 @@ def build_snapshot(items, mid_rates):
             "payOutCountryName": it["payOut"]["countryName"] or it["payOut"]["countryCode"] or "Unknown",
             "payOutCurrency": it["payOut"]["currencyCode"],
             "type": it["type"],
+            "title": it["title"],
             "providers": [],
         })
         mid = cross_mid_rate(mid_rates, it["payIn"]["currencyCode"], it["payOut"]["currencyCode"])
