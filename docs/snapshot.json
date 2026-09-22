@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:35:58.013830+00:00",
+  "generatedAt": "2026-09-22T13:22:07.326389+00:00",
   "environment": "staging",
   "totalCorridors": 282,
   "corridors": [
@@ -11737,6 +11737,2084 @@
       "corridorsWon": 1,
       "soleCoverageCorridors": 1,
       "verdict": "keep-competitive"
+    }
+  },
+  "allPartners": [
+    "Chipper Cash",
+    "Geoswift",
+    "MFS",
+    "Moneytrans",
+    "TerraPay",
+    "Thunes",
+    "Tilt Pay",
+    "TransFast",
+    "Zeepay"
+  ],
+  "coverage": {
+    "Angola": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "enabled",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Australia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Austria": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Bangladesh": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Belgium": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Benin": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Bolivia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Botswana": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "disabled"
+      }
+    },
+    "Burkina Faso": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Cameroon": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Chad": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "China": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "enabled",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Colombia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Congo": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Costa Rica": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Cote d'Ivoire": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Croatia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "DR Congo": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Dominican Rep": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Ecuador": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "El Salvador": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Eswatini": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "disabled",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Ethiopia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Finland": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "France": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Germany": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Ghana": {
+      "bank-top-up": {
+        "Chipper Cash": "enabled",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Guatemala": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Guinea": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Honduras": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "International": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Ireland": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Italy": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Kenya": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "enabled",
+        "Zeepay": "not-live"
+      }
+    },
+    "Lesotho": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Malawi": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Mali": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Mozambique": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Namibia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Netherlands": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "New Zealand": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "disabled",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Nicaragua": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Niger": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Nigeria": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "enabled",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "disabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "disabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Pakistan": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Panama": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Peru": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Philippines": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "enabled",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Poland": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Senegal": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Slovakia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "South Africa": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Tanzania": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "enabled",
+        "Zeepay": "not-live"
+      }
+    },
+    "Togo": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Uganda": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "United Kingdom": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "United States": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "disabled",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
+    },
+    "Zambia": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "enabled",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "enabled",
+        "Tilt Pay": "enabled",
+        "TransFast": "not-live",
+        "Zeepay": "enabled"
+      }
+    },
+    "Zimbabwe": {
+      "bank-top-up": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "cash-collection": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      },
+      "mobile-wallet": {
+        "Chipper Cash": "not-live",
+        "Geoswift": "not-live",
+        "MFS": "not-live",
+        "Moneytrans": "not-live",
+        "TerraPay": "not-live",
+        "Thunes": "not-live",
+        "Tilt Pay": "not-live",
+        "TransFast": "not-live",
+        "Zeepay": "not-live"
+      }
     }
   }
 }
