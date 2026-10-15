@@ -148,43 +148,45 @@ def build_snapshot(items, mid_rates):
         else:
             s["verdict"] = "not-live"
 
-    # Coverage matrix: country x payout-type x partner -> enabled / disabled / not-live.
-    # Deliberately coarser than the corridor-level (title-based) grouping above — asking
-    # "should we integrate Partner X for Ghana mobile-wallet" is meaningful; asking it at
-    # the per-network-product level ("...for the Airtel-specific product") mostly isn't,
-    # since not every partner is expected to offer every named network product.
+    # Coverage matrix: one row per actual product (country x type x title), each carrying
+    # every partner's status. This must match the per-corridor cards' granularity, not be
+    # coarser — collapsing to type alone was the bug (e.g. Zambia MTN-Thunes and Airtel-
+    # Thunes are genuinely different products with different rates; showing one combined
+    # "mobile-wallet: Enabled" cell for Thunes hides that distinction entirely). A country/
+    # type with zero products at all still gets one placeholder row (title=None) so a total
+    # gap, like no mobile-wallet product existing for anyone, stays visible.
     all_partners = sorted(partner_stats.keys())
-    presence = {}  # (country, type, partner) -> {'enabled':bool, 'disabled':bool}
     all_countries, relevant_types = set(), set()
+    by_country_type = {}
     for c in corridor_list:
         all_countries.add(c["payOutCountryName"])
-        for p in c["providers"]:
-            if p["provider"] == "Mukuru (own rail)":
-                continue
+        has_partner = any(p["provider"] != "Mukuru (own rail)" for p in c["providers"])
+        if has_partner:
             relevant_types.add(c["type"])
-            k = (c["payOutCountryName"], c["type"], p["provider"])
-            st = presence.setdefault(k, {"enabled": False, "disabled": False})
-            st["enabled" if p["enabled"] else "disabled"] = True
+        by_country_type.setdefault((c["payOutCountryName"], c["type"]), []).append(c)
 
-    # Every type an external partner touches ANYWHERE is listed for every country, even
-    # countries with zero corridors of that type — a total gap (e.g. no mobile-wallet
-    # product from any partner) is itself a finding. Mukuru-internal-only types (e.g.
-    # mukuru_groceries, abandoned-funds) are excluded — no partner will ever serve those,
-    # so they'd just be a wall of meaningless "not-live" noise.
     coverage = {}
     for country in sorted(all_countries):
-        coverage[country] = {}
+        coverage[country] = []
         for typ in sorted(relevant_types):
-            row = {}
-            for partner in all_partners:
-                st = presence.get((country, typ, partner))
-                if st and st["enabled"]:
-                    row[partner] = "enabled"
-                elif st and st["disabled"]:
-                    row[partner] = "disabled"
-                else:
-                    row[partner] = "not-live"
-            coverage[country][typ] = row
+            corridors_here = by_country_type.get((country, typ), [])
+            if not corridors_here:
+                coverage[country].append({
+                    "type": typ, "title": None,
+                    "partners": {p: "not-live" for p in all_partners},
+                })
+                continue
+            for c in corridors_here:
+                row = {}
+                for partner in all_partners:
+                    entries = [p for p in c["providers"] if p["provider"] == partner]
+                    if any(p["enabled"] for p in entries):
+                        row[partner] = "enabled"
+                    elif entries:
+                        row[partner] = "disabled"
+                    else:
+                        row[partner] = "not-live"
+                coverage[country].append({"type": typ, "title": c["title"], "partners": row})
 
     api_url = os.environ.get("TAURUS_API_URL", "")
     environment = "staging" if "api-uct" in api_url else ("production" if api_url else "unknown")
