@@ -12027,6 +12027,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "BWP->BW:BWP:cash-collection:send cash bwp paid by wallet|Mukuru (own rail)": [
@@ -12147,6 +12152,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -12271,6 +12281,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "BWP->BW:BWP:mukuru-wallet-topup:send to mukuru wallet bwp|Mukuru (own rail)": [
@@ -12391,6 +12406,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -12515,6 +12535,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": false
     }
   ],
   "BWP->CD:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -12636,6 +12661,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.069037,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.071665,
       "enabled": true
     }
   ],
@@ -12759,6 +12789,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.910114,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.91032,
+      "enabled": false
     }
   ],
   "BWP->MZ:MZN:cash-collection:cash mzn|Mukuru (own rail)": [
@@ -12880,6 +12915,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.075614,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.077797,
       "enabled": true
     }
   ],
@@ -13003,6 +13043,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.067548,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.070513,
+      "enabled": false
     }
   ],
   "BWP->US:USD:bank-top-up:bank top-up usd|Thunes": [
@@ -13124,6 +13169,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 47.598529,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 47.46136,
       "enabled": false
     }
   ],
@@ -13247,6 +13297,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.065413,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.064881,
+      "enabled": true
     }
   ],
   "BWP->ZA:ZAR:cash-collection:cash zar|Mukuru (own rail)": [
@@ -13368,6 +13423,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.064899,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.064366,
       "enabled": true
     }
   ],
@@ -13491,6 +13551,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.048318,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.054455,
+      "enabled": true
     }
   ],
   "BWP->ZW:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -13612,6 +13677,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.069037,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.071665,
       "enabled": false
     }
   ],
@@ -13735,6 +13805,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->AU:AUD:bank-top-up:bank top-up aud|Mukuru (own rail)": [
@@ -13856,6 +13931,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.007729,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.019396,
       "enabled": true
     }
   ],
@@ -13979,6 +14059,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.076109,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.076139,
+      "enabled": true
     }
   ],
   "GBP->BD:BDT:cash-collection:cash bdt|Mukuru (own rail)": [
@@ -14100,6 +14185,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.08308,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.08311,
       "enabled": true
     }
   ],
@@ -14223,6 +14313,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.076109,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.076139,
+      "enabled": true
     }
   ],
   "GBP->BE:EUR:bank-top-up:bank top-up eur|Mukuru (own rail)": [
@@ -14344,6 +14439,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
       "enabled": true
     }
   ],
@@ -14467,6 +14567,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
+      "enabled": false
     }
   ],
   "GBP->BJ:XOF:cash-collection:cash xof|Mukuru (own rail)": [
@@ -14588,6 +14693,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
       "enabled": false
     }
   ],
@@ -14711,6 +14821,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->BW:BWP:cash-collection:cash bwp|Mukuru (own rail)": [
@@ -14832,6 +14947,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.096187,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.096161,
       "enabled": false
     }
   ],
@@ -14955,6 +15075,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.062081,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.062054,
+      "enabled": true
     }
   ],
   "GBP->CD:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -15076,6 +15201,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
       "enabled": true
     }
   ],
@@ -15199,6 +15329,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
+      "enabled": false
     }
   ],
   "GBP->CD:XAF:cash-collection:cash xaf|Mukuru (own rail)": [
@@ -15320,6 +15455,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.058794,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058459,
       "enabled": false
     }
   ],
@@ -15443,6 +15583,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
+      "enabled": false
     }
   ],
   "GBP->CM:XAF:cash-collection:cash xaf|Mukuru (own rail)": [
@@ -15564,6 +15709,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.058794,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058459,
       "enabled": false
     }
   ],
@@ -15687,6 +15837,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.191074,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.193733,
+      "enabled": true
     }
   ],
   "GBP->CR:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -15808,6 +15963,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": false
     }
   ],
@@ -15931,6 +16091,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->DO:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -16052,6 +16217,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": false
     }
   ],
@@ -16175,6 +16345,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->ET:ETB:cash-collection:cash etb|Mukuru (own rail)": [
@@ -16296,6 +16471,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.006711,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.0077,
       "enabled": true
     }
   ],
@@ -16419,6 +16599,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->FR:EUR:bank-top-up:bank top-up eur|Mukuru (own rail)": [
@@ -16541,6 +16726,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->GB:GBP:bank-top-up:bank top-up gbp|Mukuru (own rail)": [
@@ -16661,6 +16851,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.021527,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.021527,
       "enabled": true
     }
@@ -16785,6 +16980,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.058794,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058459,
+      "enabled": false
     }
   ],
   "GBP->GT:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -16906,6 +17106,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": false
     }
   ],
@@ -17029,6 +17234,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->IE:EUR:bank-top-up:bank top-up eur|Mukuru (own rail)": [
@@ -17150,6 +17360,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
       "enabled": true
     }
   ],
@@ -17273,6 +17488,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->KE:KES:bank-top-up:gbp to kes bank topup|Mukuru (own rail)": [
@@ -17394,6 +17614,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.033095,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.035991,
       "enabled": true
     }
   ],
@@ -17517,6 +17742,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.033095,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.035991,
+      "enabled": true
     }
   ],
   "GBP->KE:KES:mobile-wallet:cba mpesa|Mukuru (own rail)": [
@@ -17638,6 +17868,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.033095,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.035991,
       "enabled": true
     }
   ],
@@ -17761,6 +17996,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.033095,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.035991,
+      "enabled": true
     }
   ],
   "GBP->ML:XOF:cash-collection:cash xof|Mukuru (own rail)": [
@@ -17882,6 +18122,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
       "enabled": false
     }
   ],
@@ -18005,6 +18250,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.054757,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058268,
+      "enabled": false
     }
   ],
   "GBP->MW:MWK:cash-collection:cash mwk|Mukuru (own rail)": [
@@ -18126,6 +18376,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.054757,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058268,
       "enabled": true
     }
   ],
@@ -18249,6 +18504,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.078818,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.082239,
+      "enabled": false
     }
   ],
   "GBP->MW:MWK:mobile-wallet:tnm mpamba mwk|Mukuru (own rail)": [
@@ -18370,6 +18630,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.006569,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.010258,
       "enabled": true
     }
   ],
@@ -18493,6 +18758,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.028468,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.030734,
+      "enabled": true
     }
   ],
   "GBP->MZ:MZN:mobile-wallet:mkesh mzn|Mukuru (own rail)": [
@@ -18614,6 +18884,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.028468,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.030734,
       "enabled": true
     }
   ],
@@ -18737,6 +19012,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.026701,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.026121,
+      "enabled": true
     }
   ],
   "GBP->NE:XOF:cash-collection:cash xof|Mukuru (own rail)": [
@@ -18858,6 +19138,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
       "enabled": false
     }
   ],
@@ -18981,6 +19266,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.023926,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.021555,
+      "enabled": true
     }
   ],
   "GBP->NG:NGN:cash-collection:cash ngn|Mukuru (own rail)": [
@@ -19102,6 +19392,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.023926,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.021555,
       "enabled": true
     }
   ],
@@ -19225,6 +19520,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->NL:EUR:bank-top-up:bank top-up eur|Mukuru (own rail)": [
@@ -19346,6 +19646,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
       "enabled": true
     }
   ],
@@ -19469,6 +19774,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.049275,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.04999,
+      "enabled": true
     }
   ],
   "GBP->PA:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -19590,6 +19900,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": false
     }
   ],
@@ -19713,6 +20028,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->PH:PHP:bank-top-up:bank top-up php|Mukuru (own rail)": [
@@ -19834,6 +20154,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.010495,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.015797,
       "enabled": true
     }
   ],
@@ -19957,6 +20282,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.010495,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.015797,
+      "enabled": true
     }
   ],
   "GBP->PH:PHP:mobile-wallet:gcash php|Mukuru (own rail)": [
@@ -20078,6 +20408,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.234624,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.238725,
       "enabled": true
     }
   ],
@@ -20201,6 +20536,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.07443,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.077346,
+      "enabled": true
     }
   ],
   "GBP->PK:PKR:cash-collection:cash pkr|Mukuru (own rail)": [
@@ -20322,6 +20662,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.011539,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.008352,
       "enabled": true
     }
   ],
@@ -20445,6 +20790,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.011539,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.008352,
+      "enabled": true
     }
   ],
   "GBP->PL:PLN:bank-top-up:bank top-up pln|Mukuru (own rail)": [
@@ -20566,6 +20916,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.085288,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.085937,
       "enabled": true
     }
   ],
@@ -20689,6 +21044,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.051955,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.051661,
+      "enabled": true
     }
   ],
   "GBP->SN:XOF:cash-collection:cash xof|Mukuru (own rail)": [
@@ -20810,6 +21170,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
       "enabled": false
     }
   ],
@@ -20933,6 +21298,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.031836,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.031492,
+      "enabled": true
     }
   ],
   "GBP->SV:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -21054,6 +21424,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": false
     }
   ],
@@ -21177,6 +21552,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.058794,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.058459,
+      "enabled": false
     }
   ],
   "GBP->TG:XOF:cash-collection:cash xof|Mukuru (own rail)": [
@@ -21298,6 +21678,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.136224,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.136629,
       "enabled": false
     }
   ],
@@ -21421,6 +21806,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.980192,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.980249,
+      "enabled": true
     }
   ],
   "GBP->TZ:TZS:mobile-wallet:tigo pesa tzs|Mukuru (own rail)": [
@@ -21542,6 +21932,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.008677,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.00575,
       "enabled": true
     }
   ],
@@ -21665,6 +22060,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.040506,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.039931,
+      "enabled": true
     }
   ],
   "GBP->ZA:ZAR:bank-top-up:paysoft bank topup zar|Mukuru (own rail)": [
@@ -21786,6 +22186,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.040506,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.039931,
       "enabled": true
     }
   ],
@@ -21909,6 +22314,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.077142,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.076589,
+      "enabled": false
     }
   ],
   "GBP->ZM:ZMW:bank-top-up:bank top-up zmw|Mukuru (own rail)": [
@@ -22030,6 +22440,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.141162,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.146675,
       "enabled": false
     }
   ],
@@ -22153,6 +22568,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.11873,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.124387,
+      "enabled": true
     }
   ],
   "GBP->ZW:USD:bank-top-up:bank top-up usd|Mukuru (own rail)": [
@@ -22274,6 +22694,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.003577,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.00636,
       "enabled": true
     }
   ],
@@ -22397,6 +22822,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
+      "enabled": false
     }
   ],
   "GBP->ZW:USD:bill-payment:harare water|Mukuru (own rail)": [
@@ -22518,6 +22948,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
       "enabled": false
     }
   ],
@@ -22641,6 +23076,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
+      "enabled": false
     }
   ],
   "GBP->ZW:USD:bill-payment:tel one|Mukuru (own rail)": [
@@ -22762,6 +23202,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
       "enabled": true
     }
   ],
@@ -22885,6 +23330,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.041177,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043856,
+      "enabled": false
     }
   ],
   "GBP->ZW:USD:bill-payment:zol payments|Mukuru (own rail)": [
@@ -23006,6 +23456,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.016352,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.013513,
       "enabled": false
     }
   ],
@@ -23129,6 +23584,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.022739,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.025469,
+      "enabled": true
     }
   ],
   "GBP->ZW:USD:mobile-wallet:ecocash usd|Mukuru (own rail)": [
@@ -23250,6 +23710,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
       "enabled": true
     }
   ],
@@ -23373,6 +23838,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.013251,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.016007,
+      "enabled": false
     }
   ],
   "GBP->ZW:ZAR:cash-collection:cash zar|Mukuru (own rail)": [
@@ -23494,6 +23964,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.014423,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.013832,
       "enabled": true
     }
   ],
@@ -23617,6 +24092,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.049061,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.050321,
+      "enabled": true
     }
   ],
   "MWK->MW:MWK:cash-collection:cash mwk|Mukuru (own rail)": [
@@ -23737,6 +24217,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.033817,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.033817,
       "enabled": false
     }
@@ -23861,6 +24346,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "MWK->MW:MWK:mukuru-payin:mukuru payin mwk|Mukuru (own rail)": [
@@ -23981,6 +24471,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -24105,6 +24600,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "MWK->MW:MWK:mukuru-wallet-withdrawal:mukuru wallet cash withdrawal mwk|Mukuru (own rail)": [
@@ -24225,6 +24725,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -24349,6 +24854,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "MWK->PK:PKR:cash-collection:cash pkr|Mukuru (own rail)": [
@@ -24470,6 +24980,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.085538,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.085021,
       "enabled": true
     }
   ],
@@ -24593,6 +25108,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.089386,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.085444,
+      "enabled": true
     }
   ],
   "SZL->SZ:SZL:cash-collection:cash szl|Mukuru (own rail)": [
@@ -24713,6 +25233,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.5,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.5,
       "enabled": true
     }
@@ -24837,6 +25362,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.032006,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.036095,
+      "enabled": true
     }
   ],
   "USD->AO:AOA:mobile-wallet:afrimoney top-up aoa|Thunes": [
@@ -24958,6 +25488,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.977427,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.977448,
       "enabled": true
     }
   ],
@@ -25081,6 +25616,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.039234,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.036515,
+      "enabled": true
     }
   ],
   "USD->BW:BWP:mobile-wallet:moov top-up bwp|Zeepay": [
@@ -25202,6 +25742,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.204872,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.202621,
       "enabled": false
     }
   ],
@@ -25325,6 +25870,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 2.741181,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 2.75177,
+      "enabled": true
     }
   ],
   "USD->BW:BWP:mukuru-wallet-topup:mukuru wallet botswana|Mukuru (own rail)": [
@@ -25446,6 +25996,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.047809,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.045114,
       "enabled": true
     }
   ],
@@ -25569,6 +26124,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.031662,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.028921,
+      "enabled": true
     }
   ],
   "USD->CD:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -25689,6 +26249,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -25813,6 +26378,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.678921,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.678342,
+      "enabled": true
     }
   ],
   "USD->ET:ETB:cash-collection:cash etb|Thunes": [
@@ -25934,6 +26504,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.677617,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.677036,
       "enabled": false
     }
   ],
@@ -26057,6 +26632,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.677617,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.677036,
+      "enabled": true
     }
   ],
   "USD->GB:USD:bill-payment:dstv usd|Mukuru (own rail)": [
@@ -26177,6 +26757,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -26301,6 +26886,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.009867,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.008,
+      "enabled": true
     }
   ],
   "USD->KE:KES:mobile-wallet:m-pesa top-up kes|TransFast": [
@@ -26422,6 +27012,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.004434,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.004635,
       "enabled": true
     }
   ],
@@ -26545,6 +27140,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.021515,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.018189,
+      "enabled": true
     }
   ],
   "USD->LS:LSL:mobile-wallet:mpesa lesotho lsl|Mukuru (own rail)": [
@@ -26666,6 +27266,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.016709,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.013367,
       "enabled": true
     }
   ],
@@ -26789,6 +27394,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.024861,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.023915,
+      "enabled": true
     }
   ],
   "USD->MW:MWK:cash-collection:cash mwk|Mukuru (own rail)": [
@@ -26910,6 +27520,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.096236,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.097071,
       "enabled": false
     }
   ],
@@ -27033,6 +27648,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.000136,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.001059,
+      "enabled": true
     }
   ],
   "USD->MW:MWK:mobile-wallet:airtel mwk|Mukuru (own rail)": [
@@ -27154,6 +27774,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.004989,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.005908,
       "enabled": true
     }
   ],
@@ -27277,6 +27902,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.024861,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.023915,
+      "enabled": true
     }
   ],
   "USD->MW:MWK:mukuru-wallet-topup:mukuru wallet malawi|Mukuru (own rail)": [
@@ -27398,6 +28028,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.003126,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.004046,
       "enabled": true
     }
   ],
@@ -27521,6 +28156,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.0532,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.054074,
+      "enabled": true
     }
   ],
   "USD->MZ:MZN:cash-collection:cash mzn|Mukuru (own rail)": [
@@ -27642,6 +28282,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.027709,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027261,
       "enabled": true
     }
   ],
@@ -27765,6 +28410,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.021543,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.021091,
+      "enabled": true
     }
   ],
   "USD->MZ:MZN:mobile-wallet:mpesa mozambique mzn (new moz)|Mukuru (own rail)": [
@@ -27886,6 +28536,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.022934,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.022483,
       "enabled": true
     }
   ],
@@ -28009,6 +28664,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.960824,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.960806,
+      "enabled": false
     }
   ],
   "USD->NG:NGN:bank-top-up:bank top-up ngn|MFS": [
@@ -28130,6 +28790,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.916081,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.916041,
       "enabled": true
     }
   ],
@@ -28253,6 +28918,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.090379,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090705,
+      "enabled": false
     }
   ],
   "USD->SZ:SZL:cash-collection:cash szl|Mukuru (own rail)": [
@@ -28374,6 +29044,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.052848,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.049629,
       "enabled": true
     }
   ],
@@ -28497,6 +29172,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.614804,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.613495,
+      "enabled": false
     }
   ],
   "USD->TZ:TZS:mobile-wallet:tigo top-up tzs|TransFast": [
@@ -28618,6 +29298,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.025691,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.025579,
       "enabled": true
     }
   ],
@@ -28741,6 +29426,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.097187,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.093357,
+      "enabled": true
     }
   ],
   "USD->UG:UGX:mobile-wallet:airtel top-up ugx|Thunes": [
@@ -28862,6 +29552,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.98701,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.986955,
       "enabled": true
     }
   ],
@@ -28985,6 +29680,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.076422,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.072504,
+      "enabled": false
     }
   ],
   "USD->ZA:ZAR:bank-top-up:bank top-up zar|Mukuru (own rail)": [
@@ -29106,6 +29806,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.000984,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.004389,
       "enabled": false
     }
   ],
@@ -29229,6 +29934,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.00375,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.000361,
+      "enabled": true
     }
   ],
   "USD->ZA:ZAR:cash-collection:cash zar|Mukuru (own rail)": [
@@ -29350,6 +30060,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.021522,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.018193,
       "enabled": false
     }
   ],
@@ -29473,6 +30188,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.000984,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.004389,
+      "enabled": true
     }
   ],
   "USD->ZM:ZMW:bank-top-up:bank top-up zmw|Tilt Pay": [
@@ -29594,6 +30314,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.075636,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.078997,
       "enabled": true
     }
   ],
@@ -29717,6 +30442,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.113195,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.116419,
+      "enabled": true
     }
   ],
   "USD->ZM:ZMW:mobile-wallet:airtel top-up zmw|Tilt Pay": [
@@ -29838,6 +30568,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.032438,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.028684,
       "enabled": true
     }
   ],
@@ -29961,6 +30696,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 1.61236,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 1.602862,
+      "enabled": true
     }
   ],
   "USD->ZM:ZMW:mobile-wallet:airtel zmw|Mukuru (own rail)": [
@@ -30082,6 +30822,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.539037,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.540713,
       "enabled": true
     }
   ],
@@ -30205,6 +30950,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.047341,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.050805,
+      "enabled": false
     }
   ],
   "USD->ZM:ZMW:mobile-wallet:mtn top-up zmw|Thunes": [
@@ -30326,6 +31076,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.124563,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.120474,
       "enabled": true
     }
   ],
@@ -30449,6 +31204,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.032438,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.028684,
+      "enabled": true
     }
   ],
   "USD->ZM:ZMW:mobile-wallet:zamtel top-up zmw|Tilt Pay": [
@@ -30570,6 +31330,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.032438,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.028684,
       "enabled": true
     }
   ],
@@ -30693,6 +31458,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.082615,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.085951,
+      "enabled": true
     }
   ],
   "USD->ZW:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -30813,6 +31583,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.029127,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.029127,
       "enabled": true
     }
@@ -30937,6 +31712,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.039386,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.039386,
+      "enabled": true
     }
   ],
   "USD->ZW:USD:cash-collection:cash usd take 2|Mukuru (own rail)": [
@@ -31057,6 +31837,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": false
     }
@@ -31181,6 +31966,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.09091,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.09091,
+      "enabled": true
     }
   ],
   "USD->ZW:USD:cash-collection:remitly zimbabwe usd|Mukuru (own rail)": [
@@ -31301,6 +32091,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -31425,6 +32220,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": false
     }
   ],
   "USD->ZW:USD:mobile-wallet:ecocash usd|Mukuru (own rail)": [
@@ -31545,6 +32345,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -31669,6 +32474,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": false
     }
   ],
   "USD->ZW:USD:mukuru-wallet-topup:mukuru wallet usd|Mukuru (own rail)": [
@@ -31789,6 +32599,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.033817,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.033817,
       "enabled": false
     }
@@ -31913,6 +32728,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.024391,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.024391,
+      "enabled": true
     }
   ],
   "USD->ZW:USD:mukuru-wallet-topup:send to mukuru wallet usd|Mukuru (own rail)": [
@@ -32033,6 +32853,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -32157,6 +32982,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.004976,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.004976,
+      "enabled": false
     }
   ],
   "USD->ZW:USD:mukuru_groceries:goal nfi pack|Mukuru (own rail)": [
@@ -32277,6 +33107,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -32401,6 +33236,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.029127,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.029127,
+      "enabled": false
     }
   ],
   "USD->ZW:ZAR:cash-collection:cash zar|Mukuru (own rail)": [
@@ -32522,6 +33362,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.020905,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.017574,
       "enabled": false
     }
   ],
@@ -32645,6 +33490,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.965826,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.965836,
+      "enabled": false
     }
   ],
   "USD->ZW:ZWG:bank-top-up:zig bank top-up zwg hello|Mukuru (own rail)": [
@@ -32766,6 +33616,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.96368,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.96369,
       "enabled": true
     }
   ],
@@ -32889,6 +33744,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.00309,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.00031,
+      "enabled": true
     }
   ],
   "ZAR->AA:USD:cash-collection:xpress money|Mukuru (own rail)": [
@@ -33011,6 +33871,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.00309,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.00031,
+      "enabled": true
     }
   ],
   "ZAR->AA:ZAR:card-top-up:visa|Mukuru (own rail)": [
@@ -33131,6 +33996,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.09091,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.09091,
       "enabled": true
     }
@@ -33255,6 +34125,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.414668,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.417211,
+      "enabled": true
     }
   ],
   "ZAR->BD:BDT:bank-top-up:bank top-up bdt|Mukuru (own rail)": [
@@ -33376,6 +34251,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.092367,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092941,
       "enabled": true
     }
   ],
@@ -33499,6 +34379,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.06692,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.067509,
+      "enabled": true
     }
   ],
   "ZAR->BD:BDT:mobile-wallet:bkash wallet top-up bdt|Mukuru (own rail)": [
@@ -33620,6 +34505,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.092367,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092941,
       "enabled": true
     }
   ],
@@ -33743,6 +34633,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.111558,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.112064,
+      "enabled": true
     }
   ],
   "ZAR->BW:BWP:mobile-wallet:moov top-up bwp|Zeepay": [
@@ -33864,6 +34759,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.144673,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.14516,
       "enabled": false
     }
   ],
@@ -33987,6 +34887,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 2.405579,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 2.40364,
+      "enabled": true
     }
   ],
   "ZAR->BW:BWP:mukuru-wallet-topup:mukuru wallet bwp|Mukuru (own rail)": [
@@ -34108,6 +35013,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.060302,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.060837,
       "enabled": true
     }
   ],
@@ -34231,6 +35141,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.089706,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092792,
+      "enabled": true
     }
   ],
   "ZAR->CD:USD:mobile-wallet:airtel usd|Mukuru (own rail)": [
@@ -34352,6 +35267,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.089706,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092792,
       "enabled": true
     }
   ],
@@ -34475,6 +35395,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.089706,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092792,
+      "enabled": false
     }
   ],
   "ZAR->CG:XAF:cash-collection:cash xaf|Mukuru (own rail)": [
@@ -34595,6 +35520,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.998449,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.998449,
       "enabled": true
     }
@@ -34719,6 +35649,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.107049,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.107267,
+      "enabled": true
     }
   ],
   "ZAR->CN:CNY:bank-top-up:alipay wallet top-up|Mukuru (own rail)": [
@@ -34840,6 +35775,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.023932,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.026732,
       "enabled": true
     }
   ],
@@ -34963,6 +35903,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.011682,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.014517,
+      "enabled": true
     }
   ],
   "ZAR->CN:CNY:bank-top-up:bank top-up cny|Geoswift": [
@@ -35084,6 +36029,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.121537,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.124057,
       "enabled": true
     }
   ],
@@ -35207,6 +36157,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 6.712971,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 6.690846,
+      "enabled": true
     }
   ],
   "ZAR->DE:EUR:bank-top-up:bank top-up eur aza|Mukuru (own rail)": [
@@ -35328,6 +36283,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.126252,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.126504,
       "enabled": true
     }
   ],
@@ -35451,6 +36411,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.706258,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.706727,
+      "enabled": true
     }
   ],
   "ZAR->FR:EUR:bank-top-up:bank top-up eur aza|Mukuru (own rail)": [
@@ -35573,6 +36538,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.126252,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.126504,
+      "enabled": true
     }
   ],
   "ZAR->GB:GBP:bank-top-up:bank top-up gbp (aza)|Mukuru (own rail)": [
@@ -35694,6 +36664,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.096251,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.096792,
       "enabled": false
     }
   ],
@@ -36031,6 +37006,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.00309,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.00031,
+      "enabled": false
     }
   ],
   "ZAR->GH:GHS:bank-top-up:bank top-up ghs|Chipper Cash": [
@@ -36152,6 +37132,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.018837,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.02032,
       "enabled": true
     }
   ],
@@ -36275,6 +37260,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.519435,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.519573,
+      "enabled": true
     }
   ],
   "ZAR->KE:KES:bank-top-up:bank top-up kes|Mukuru (own rail)": [
@@ -36396,6 +37386,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.094539,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.097792,
       "enabled": false
     }
   ],
@@ -36519,6 +37514,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.087999,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.091275,
+      "enabled": true
     }
   ],
   "ZAR->KE:KES:cash-collection:cash kes|Mukuru (own rail)": [
@@ -36640,6 +37640,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.021123,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.02464,
       "enabled": false
     }
   ],
@@ -36763,6 +37768,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.094539,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.097792,
+      "enabled": false
     }
   ],
   "ZAR->KE:KES:mobile-wallet:mpesa|Mukuru (own rail)": [
@@ -36884,6 +37894,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.014053,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.017595,
       "enabled": true
     }
   ],
@@ -37007,6 +38022,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.094539,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.097792,
+      "enabled": false
     }
   ],
   "ZAR->LS:LSL:bank-top-up:bank top-up lsl|Mukuru (own rail)": [
@@ -37128,6 +38148,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.029121,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.029124,
       "enabled": false
     }
   ],
@@ -37251,6 +38276,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.090904,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090907,
+      "enabled": true
     }
   ],
   "ZAR->LS:LSL:mobile-wallet:mpesa lsl|Mukuru (own rail)": [
@@ -37372,6 +38402,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.090904,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090907,
       "enabled": true
     }
   ],
@@ -37495,6 +38530,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.094543,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.098446,
+      "enabled": true
     }
   ],
   "ZAR->MW:MWK:cash-collection:cash mwk|Mukuru (own rail)": [
@@ -37616,6 +38656,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.086236,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090175,
       "enabled": false
     }
   ],
@@ -37739,6 +38784,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.094543,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.098446,
+      "enabled": true
     }
   ],
   "ZAR->MW:MWK:mobile-wallet:tnm mpamba mwk|Mukuru (own rail)": [
@@ -37860,6 +38910,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.094543,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.098446,
       "enabled": true
     }
   ],
@@ -37983,6 +39038,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.067017,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.071038,
+      "enabled": true
     }
   ],
   "ZAR->MW:MWK:mukuru_groceries:k25,000 farmer's world groceries|Mukuru (own rail)": [
@@ -38104,6 +39164,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.003998,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.008291,
       "enabled": false
     }
   ],
@@ -38227,6 +39292,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.003998,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.008291,
+      "enabled": false
     }
   ],
   "ZAR->MZ:MZN:cash-collection:cash mzn|Mukuru (own rail)": [
@@ -38348,6 +39418,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.090781,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.093446,
       "enabled": true
     }
   ],
@@ -38471,6 +39546,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.090781,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.093446,
+      "enabled": false
     }
   ],
   "ZAR->MZ:MZN:mobile-wallet:mkesh mzn|Mukuru (own rail)": [
@@ -38592,6 +39672,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.098973,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.101613,
       "enabled": true
     }
   ],
@@ -38715,6 +39800,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.095722,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.098372,
+      "enabled": true
     }
   ],
   "ZAR->NA:NAD:cash-collection:cash nad|Mukuru (own rail)": [
@@ -38836,6 +39926,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.090904,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090907,
       "enabled": true
     }
   ],
@@ -38959,6 +40054,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.917699,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.917938,
+      "enabled": true
     }
   ],
   "ZAR->NG:NGN:cash-collection:nigeria cash ngn|Mukuru (own rail)": [
@@ -39080,6 +40180,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.061432,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.064167,
       "enabled": true
     }
   ],
@@ -39203,6 +40308,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 46.494787,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 46.333763,
+      "enabled": false
     }
   ],
   "ZAR->NG:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -39325,6 +40435,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.088115,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.091206,
+      "enabled": true
     }
   ],
   "ZAR->NZ:NZD:bank-top-up:bank top-up nzd|TransFast": [
@@ -39446,6 +40561,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.197776,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.19886,
       "enabled": false
     }
   ],
@@ -39691,6 +40811,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.088228,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.091645,
+      "enabled": false
     }
   ],
   "ZAR->PK:PKR:bank-top-up:bop bank top-up pkr|Mukuru (own rail)": [
@@ -39812,6 +40937,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.001909,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.001845,
       "enabled": true
     }
   ],
@@ -39935,6 +41065,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.089173,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092587,
+      "enabled": true
     }
   ],
   "ZAR->SZ:SZL:bank-top-up:bank top-up szl|Mukuru (own rail)": [
@@ -40056,6 +41191,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.029121,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.029124,
       "enabled": false
     }
   ],
@@ -40179,6 +41319,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.090904,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.090907,
+      "enabled": false
     }
   ],
   "ZAR->TZ:TZS:cash-collection:cash tzs|Mukuru (own rail)": [
@@ -40300,6 +41445,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.085792,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.088991,
       "enabled": true
     }
   ],
@@ -40423,6 +41573,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.085792,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.088991,
+      "enabled": true
     }
   ],
   "ZAR->TZ:TZS:mobile-wallet:halopesa top-up tzs|Mukuru (own rail)": [
@@ -40544,6 +41699,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.085792,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.088991,
       "enabled": true
     }
   ],
@@ -40667,6 +41827,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.085792,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.088991,
+      "enabled": true
     }
   ],
   "ZAR->TZ:TZS:mobile-wallet:zanotel top-up tzs|Mukuru (own rail)": [
@@ -40788,6 +41953,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.005629,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.00211,
       "enabled": true
     }
   ],
@@ -40911,6 +42081,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.097603,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.096847,
+      "enabled": true
     }
   ],
   "ZAR->UG:UGX:mobile-wallet:airtel ugx|Mukuru (own rail)": [
@@ -41033,6 +42208,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.155028,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.15432,
+      "enabled": true
     }
   ],
   "ZAR->ZA:ZAR:bank-top-up:bank top-up zar|Mukuru (own rail)": [
@@ -41153,6 +42333,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.09091,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.09091,
       "enabled": true
     }
@@ -41277,6 +42462,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "ZAR->ZA:ZAR:cash-collection:cash zar|Mukuru (own rail)": [
@@ -41397,6 +42587,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -41521,6 +42716,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.5,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.5,
+      "enabled": true
     }
   ],
   "ZAR->ZA:ZAR:mpay-non-integration:test imt rc|Mukuru (own rail)": [
@@ -41641,6 +42841,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -41765,6 +42970,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": false
     }
   ],
   "ZAR->ZA:ZAR:mukuru-payin:dw partner rc|Mukuru (own rail)": [
@@ -41885,6 +43095,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -42009,6 +43224,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.04762,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.04762,
+      "enabled": false
     }
   ],
   "ZAR->ZM:ZMW:bank-top-up:bank top-up zmw|Mukuru (own rail)": [
@@ -42130,6 +43350,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.15441,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.160341,
       "enabled": true
     }
   ],
@@ -42253,6 +43478,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.186601,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.192306,
+      "enabled": false
     }
   ],
   "ZAR->ZM:ZMW:mobile-wallet:airtel zmw|Mukuru (own rail)": [
@@ -42374,6 +43604,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.15441,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.160341,
       "enabled": false
     }
   ],
@@ -42497,6 +43732,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.127262,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.119356,
+      "enabled": false
     }
   ],
   "ZAR->ZW:USD:bank-top-up:bank top-up usd|Mukuru (own rail)": [
@@ -42618,6 +43858,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.098726,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.101781,
       "enabled": false
     }
   ],
@@ -42741,6 +43986,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.089706,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.092792,
+      "enabled": false
     }
   ],
   "ZAR->ZW:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -42862,6 +44112,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.09604,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.099104,
       "enabled": false
     }
   ],
@@ -42985,6 +44240,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.046367,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.0496,
+      "enabled": false
     }
   ],
   "ZAR->ZW:USD:inter-africa:mukuru-cabs card ia us$ cash collection|Mukuru (own rail)": [
@@ -43106,6 +44366,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.09604,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.099104,
       "enabled": false
     }
   ],
@@ -43229,6 +44494,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.098726,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.101781,
+      "enabled": false
     }
   ],
   "ZAR->ZW:USD:mobile-wallet:ecocash usd|Mukuru (own rail)": [
@@ -43350,6 +44620,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.09604,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.099104,
       "enabled": false
     }
   ],
@@ -43473,6 +44748,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.09604,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.099104,
+      "enabled": false
     }
   ],
   "ZAR->ZW:USD:mpay-non-integration:test rc|Mukuru (own rail)": [
@@ -43594,6 +44874,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": 0.00309,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.00031,
       "enabled": false
     }
   ],
@@ -43717,6 +45002,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.040133,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.043387,
+      "enabled": true
     }
   ],
   "ZAR->ZW:USD:mukuru_groceries:$10 kambudzi voucher|Mukuru (own rail)": [
@@ -43838,6 +45128,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.088115,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.091206,
       "enabled": false
     }
   ],
@@ -43961,6 +45256,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.108475,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.111497,
+      "enabled": false
     }
   ],
   "ZAR->ZW:ZAR:cash-collection:allen cash zar|Mukuru (own rail)": [
@@ -44081,6 +45381,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -44205,6 +45510,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.09091,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.09091,
+      "enabled": true
     }
   ],
   "ZMW->CD:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -44326,6 +45636,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.031058,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027522,
       "enabled": true
     }
   ],
@@ -44449,6 +45764,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.036735,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.034112,
+      "enabled": true
     }
   ],
   "ZMW->MZ:MZN:cash-collection:cash mzn|Mukuru (own rail)": [
@@ -44570,6 +45890,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.030114,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.026126,
       "enabled": false
     }
   ],
@@ -44693,6 +46018,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.030487,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027298,
+      "enabled": false
     }
   ],
   "ZMW->ZA:ZAR:bank-top-up:paysoft bank topup zar|Mukuru (own rail)": [
@@ -44814,6 +46144,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.034509,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027689,
       "enabled": false
     }
   ],
@@ -44937,6 +46272,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.034509,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027689,
+      "enabled": true
     }
   ],
   "ZMW->ZM:ZMW:abandoned-funds:zambia abandoned funds|Mukuru (own rail)": [
@@ -45057,6 +46397,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": true
     }
@@ -45181,6 +46526,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.04762,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.04762,
+      "enabled": true
     }
   ],
   "ZMW->ZM:ZMW:mukuru-payin:mukuru payin zmw|Mukuru (own rail)": [
@@ -45301,6 +46651,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -45425,6 +46780,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "ZMW->ZM:ZMW:mukuru-wallet-withdrawal:mukuru wallet withdrawal zmw|Mukuru (own rail)": [
@@ -45545,6 +46905,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": 0.0,
+      "enabled": false
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": 0.0,
       "enabled": false
     }
@@ -45669,6 +47034,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 0.0,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 0.0,
+      "enabled": true
     }
   ],
   "ZMW->ZW:USD:cash-collection:cash usd|Mukuru (own rail)": [
@@ -45791,6 +47161,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.031058,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027522,
+      "enabled": false
     }
   ],
   "ZWG->ZW:ZWG:bank-top-up:zig bank top-up zwg|Mukuru (own rail)": [
@@ -45911,6 +47286,11 @@
     },
     {
       "date": "2026-10-15",
+      "deviationVsMid": -0.04762,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
       "deviationVsMid": -0.04762,
       "enabled": true
     }
@@ -46035,6 +47415,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.029127,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.029127,
+      "enabled": false
     }
   ],
   "ZWG->ZW:ZWG:inter-africa:zigswitch|Mukuru (own rail)": [
@@ -46157,6 +47542,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.04762,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.04762,
+      "enabled": true
     }
   ],
   "USD->KE:KES:cash-collection:cash kes|Mukuru (own rail)": [
@@ -46269,6 +47659,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.027672,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.027869,
+      "enabled": false
     }
   ],
   "ZAR->PH:PHP:mobile-wallet:mobile wallet php|TerraPay": [
@@ -46301,6 +47696,11 @@
       "date": "2026-10-15",
       "deviationVsMid": -0.985508,
       "enabled": false
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.985594,
+      "enabled": false
     }
   ],
   "ZAR->GB:GBP:bank-top-up:bank transfer: account number and sort code|Thunes": [
@@ -46318,6 +47718,11 @@
       "date": "2026-10-15",
       "deviationVsMid": 67.07004,
       "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": 67.029268,
+      "enabled": true
     }
   ],
   "ZAR->GB:GBP:bank-top-up:bank transfer: iban|Mukuru (own rail)": [
@@ -46334,6 +47739,11 @@
     {
       "date": "2026-10-15",
       "deviationVsMid": -0.096251,
+      "enabled": true
+    },
+    {
+      "date": "2026-10-16",
+      "deviationVsMid": -0.096792,
       "enabled": true
     }
   ]
